@@ -388,8 +388,16 @@
       svg.appendChild(r);
     });
 
+    // OpenAlex only reports per-year citation counts for roughly the last 15 years, so
+    // for a long career the curve's endpoint falls short of the lifetime total. Say so
+    // rather than leaving the reader to spot the discrepancy against the headline.
+    var shortfall = S.total_citations - lastPt.cumulative;
     document.getElementById('growthSub').textContent =
-      'Cumulative, ' + G[0].year + '–' + G[lastIdx].year + (partial ? ' (* year to date)' : '');
+      'Cumulative, ' + G[0].year + '–' + G[lastIdx].year + (partial ? ' (* year to date)' : '') +
+      (shortfall > 0
+        ? ' · excludes ' + shortfall.toLocaleString() +
+          ' citations from before ' + G[0].year + ', which OpenAlex does not break down by year'
+        : '');
     document.getElementById('growthDesc').textContent =
       'Cumulative citations rising from ' + G[0].cumulative + ' in ' + G[0].year +
       ' to ' + lastPt.cumulative + ' in ' + lastPt.year + '.';
