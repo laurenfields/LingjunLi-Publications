@@ -1,0 +1,255 @@
+{
+    "name":  "Lingjun Li",
+    "orcid":  "0000-0003-0056-3869",
+    "affiliation":  "University of Wisconsin–Madison",
+    "tagline":  "Mass spectrometry, neuropeptides, and analytical chemistry",
+    "generated_utc":  "2026-07-22T18:12:29Z",
+    "current_year":  2026,
+    "total_papers":  475,
+    "total_citations":  17270,
+    "h_index":  67,
+    "i10_index":  343,
+    "first_author":  12,
+    "co_first_author":  0,
+    "last_author":  332,
+    "kpi_authorship":  "last",
+    "preprints":  20,
+    "open_access":  340,
+    "excluded_count":  140,
+    "curated":  true,
+    "curation_note":  "This list was assembled automatically and cross-referenced against Lingjun Li\u0027s CV. OpenAlex merges several researchers named Lingjun Li under this ORCID, so 140 works returned for it were attributed to someone else and excluded; each exclusion is recorded with its reason. Six ambiguous cases were resolved by hand. Prof. Li has not personally reviewed this page, and shared first authorships are not shown because no bibliographic database records them.",
+    "citation_growth":  [
+                            {
+                                "year":  2012,
+                                "received":  458,
+                                "cumulative":  458
+                            },
+                            {
+                                "year":  2013,
+                                "received":  368,
+                                "cumulative":  826
+                            },
+                            {
+                                "year":  2014,
+                                "received":  572,
+                                "cumulative":  1398
+                            },
+                            {
+                                "year":  2015,
+                                "received":  649,
+                                "cumulative":  2047
+                            },
+                            {
+                                "year":  2016,
+                                "received":  470,
+                                "cumulative":  2517
+                            },
+                            {
+                                "year":  2017,
+                                "received":  458,
+                                "cumulative":  2975
+                            },
+                            {
+                                "year":  2018,
+                                "received":  837,
+                                "cumulative":  3812
+                            },
+                            {
+                                "year":  2019,
+                                "received":  992,
+                                "cumulative":  4804
+                            },
+                            {
+                                "year":  2020,
+                                "received":  1175,
+                                "cumulative":  5979
+                            },
+                            {
+                                "year":  2021,
+                                "received":  1590,
+                                "cumulative":  7569
+                            },
+                            {
+                                "year":  2022,
+                                "received":  1371,
+                                "cumulative":  8940
+                            },
+                            {
+                                "year":  2023,
+                                "received":  1373,
+                                "cumulative":  10313
+                            },
+                            {
+                                "year":  2024,
+                                "received":  1628,
+                                "cumulative":  11941
+                            },
+                            {
+                                "year":  2025,
+                                "received":  1914,
+                                "cumulative":  13855
+                            },
+                            {
+                                "year":  2026,
+                                "received":  1006,
+                                "cumulative":  14861
+                            }
+                        ],
+    "papers_by_year":  [
+                           {
+                               "year":  1996,
+                               "papers":  1,
+                               "citations":  27
+                           },
+                           {
+                               "year":  1997,
+                               "papers":  2,
+                               "citations":  116
+                           },
+                           {
+                               "year":  1998,
+                               "papers":  2,
+                               "citations":  154
+                           },
+                           {
+                               "year":  1999,
+                               "papers":  6,
+                               "citations":  368
+                           },
+                           {
+                               "year":  2000,
+                               "papers":  3,
+                               "citations":  334
+                           },
+                           {
+                               "year":  2001,
+                               "papers":  2,
+                               "citations":  245
+                           },
+                           {
+                               "year":  2002,
+                               "papers":  1,
+                               "citations":  99
+                           },
+                           {
+                               "year":  2003,
+                               "papers":  3,
+                               "citations":  221
+                           },
+                           {
+                               "year":  2004,
+                               "papers":  1,
+                               "citations":  85
+                           },
+                           {
+                               "year":  2005,
+                               "papers":  9,
+                               "citations":  541
+                           },
+                           {
+                               "year":  2006,
+                               "papers":  11,
+                               "citations":  621
+                           },
+                           {
+                               "year":  2007,
+                               "papers":  7,
+                               "citations":  419
+                           },
+                           {
+                               "year":  2008,
+                               "papers":  12,
+                               "citations":  808
+                           },
+                           {
+                               "year":  2009,
+                               "papers":  18,
+                               "citations":  960
+                           },
+                           {
+                               "year":  2010,
+                               "papers":  6,
+                               "citations":  327
+                           },
+                           {
+                               "year":  2011,
+                               "papers":  9,
+                               "citations":  346
+                           },
+                           {
+                               "year":  2012,
+                               "papers":  17,
+                               "citations":  464
+                           },
+                           {
+                               "year":  2013,
+                               "papers":  17,
+                               "citations":  660
+                           },
+                           {
+                               "year":  2014,
+                               "papers":  24,
+                               "citations":  1007
+                           },
+                           {
+                               "year":  2015,
+                               "papers":  15,
+                               "citations":  730
+                           },
+                           {
+                               "year":  2016,
+                               "papers":  16,
+                               "citations":  450
+                           },
+                           {
+                               "year":  2017,
+                               "papers":  23,
+                               "citations":  2490
+                           },
+                           {
+                               "year":  2018,
+                               "papers":  26,
+                               "citations":  1172
+                           },
+                           {
+                               "year":  2019,
+                               "papers":  34,
+                               "citations":  1151
+                           },
+                           {
+                               "year":  2020,
+                               "papers":  29,
+                               "citations":  627
+                           },
+                           {
+                               "year":  2021,
+                               "papers":  38,
+                               "citations":  897
+                           },
+                           {
+                               "year":  2022,
+                               "papers":  30,
+                               "citations":  457
+                           },
+                           {
+                               "year":  2023,
+                               "papers":  31,
+                               "citations":  642
+                           },
+                           {
+                               "year":  2024,
+                               "papers":  32,
+                               "citations":  687
+                           },
+                           {
+                               "year":  2025,
+                               "papers":  33,
+                               "citations":  160
+                           },
+                           {
+                               "year":  2026,
+                               "papers":  17,
+                               "citations":  5
+                           }
+                       ]
+}

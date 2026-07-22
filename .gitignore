@@ -1,0 +1,20 @@
+# Scratch
+.tmp/
+*.log
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Note: data/*.json and index.html are generated but ARE committed on purpose -
+# GitHub Pages serves them directly, with no build step.
+
+# Prof. Li's CV is the input that makes this work, but it is her personal document -
+# keep it out of the public repo. Anyone rebuilding needs their own copy alongside.
+LLi_CV.pdf
+*_CV.pdf

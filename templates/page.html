@@ -1,0 +1,866 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__TITLE__</title>
+<meta name="description" content="__DESCRIPTION__">
+<style>
+  /* Palette roles. Dark values are stepped for the dark surface, not flipped. */
+  :root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --axis: #c3c2b7;
+    --series: #2a78d6;
+    --series-soft: rgba(42, 120, 214, 0.14);
+    --border: rgba(11, 11, 11, 0.10);
+    --success: #006300;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --surface-1: #1a1a19;
+      --page: #0d0d0d;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --axis: #383835;
+      --series: #3987e5;
+      --series-soft: rgba(57, 135, 229, 0.20);
+      --border: rgba(255, 255, 255, 0.10);
+      --success: #0ca30c;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --page: #0d0d0d;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --axis: #383835;
+    --series: #3987e5;
+    --series-soft: rgba(57, 135, 229, 0.20);
+    --border: rgba(255, 255, 255, 0.10);
+    --success: #0ca30c;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 48px 24px 72px; }
+  /* Titles in this field carry unbreakable tokens - peptide sequences like
+     VPNDWSKFQGSWamide, reagent names, "Electron-Transfer/Higher-Energy" - that
+     overflow narrow screens because there is nowhere to wrap. */
+  .pub .t, .pub .a, .pub .v, h1, .affil { overflow-wrap: anywhere; }
+  body { overflow-wrap: break-word; }
+  a { color: var(--series); }
+  a:hover { text-decoration: none; }
+
+  /* ---- Header ---- */
+  header { margin-bottom: 40px; }
+  h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.15; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .affil { color: var(--text-secondary); margin: 0 0 4px; font-size: 17px; }
+  .tagline { color: var(--muted); margin: 0 0 14px; font-size: 15px; }
+  .orcid { font-size: 14px; color: var(--text-secondary); text-decoration: none;
+           display: inline-flex; align-items: center; gap: 6px; }
+  .orcid .dot { width: 8px; height: 8px; border-radius: 50%; background: #a6ce39; flex: none; }
+
+  /* ---- KPI row ---- */
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+          gap: 1px; background: var(--border); border: 1px solid var(--border);
+          border-radius: 10px; overflow: hidden; margin-bottom: 44px; }
+  .kpi { background: var(--surface-1); padding: 18px 20px; }
+  .kpi .v { font-size: 30px; font-weight: 650; letter-spacing: -0.02em; display: block; }
+  .kpi .l { font-size: 13px; color: var(--muted); }
+  .kpi.hero .v { font-size: 44px; color: var(--series); }
+
+  /* ---- Charts ---- */
+  .charts { display: grid; grid-template-columns: 1fr; gap: 28px; margin-bottom: 48px; }
+  @media (min-width: 760px) { .charts { grid-template-columns: 1fr 1fr; } }
+  /* min-width:0 is required: a grid item defaults to min-width:auto, which refuses to
+     shrink below its content and defeats the overflow-x on .tablewrap inside it. */
+  .card { background: var(--surface-1); border: 1px solid var(--border);
+          border-radius: 10px; padding: 20px; min-width: 0; }
+  .card h2 { font-size: 15px; margin: 0 0 2px; font-weight: 600; }
+  .card .sub { font-size: 13px; color: var(--muted); margin: 0 0 16px; }
+  .chart { width: 100%; height: auto; display: block; overflow: visible; touch-action: none; }
+  .chart text { font-family: inherit; }
+  .tick { font-size: 11px; fill: var(--muted); font-variant-numeric: tabular-nums; }
+  .gridline { stroke: var(--grid); stroke-width: 1; }
+  .baseline { stroke: var(--axis); stroke-width: 1; }
+  .dlabel { font-size: 11px; fill: var(--text-secondary); font-variant-numeric: tabular-nums; font-weight: 600; }
+
+  details.table-view { margin-top: 14px; }
+  details.table-view summary { font-size: 12px; color: var(--muted); cursor: pointer; }
+  /* Wide tables scroll inside their own box; the page body must never scroll
+     sideways. The collaborator table has long names and overflows on narrow screens. */
+  .tablewrap { overflow-x: auto; margin-top: 10px; max-width: 100%; }
+  /* min-width keeps columns legible while the wrapper scrolls, instead of the table
+     crushing itself to fit and wrapping every cell to one character per line. */
+  details.table-view table { width: 100%; min-width: 260px; border-collapse: collapse; font-size: 12px; }
+  details.table-view td:first-child { min-width: 120px; }
+  details.table-view th, details.table-view td {
+    text-align: right; padding: 4px 6px; border-bottom: 1px solid var(--border);
+    font-variant-numeric: tabular-nums; }
+  details.table-view th:first-child, details.table-view td:first-child { text-align: left; }
+  details.table-view th { color: var(--muted); font-weight: 600; }
+
+  /* ---- Collaborator network ---- */
+  .netcard { margin-bottom: 48px; }
+  .net { cursor: grab; }
+  .net.dragging { cursor: grabbing; }
+  .net .link { stroke: var(--axis); stroke-linecap: round; }
+  .net .node { cursor: pointer; }
+  .net .nlabel { font-size: 10.5px; fill: var(--text-secondary); paint-order: stroke;
+                 stroke: var(--surface-1); stroke-width: 3px; stroke-linejoin: round; }
+  .net .nlabel.big { font-size: 12px; font-weight: 650; fill: var(--text-primary); }
+  .net .faded { opacity: .13; }
+  .nethint { font-size: 12px; color: var(--muted); margin: 10px 0 0; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 0 0 14px; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px;
+                 font-size: 12.5px; color: var(--text-secondary); }
+  .legend i { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+
+  .tip { position: fixed; pointer-events: none; z-index: 20; background: var(--surface-1);
+         border: 1px solid var(--border); border-radius: 7px; padding: 7px 10px;
+         font-size: 12px; color: var(--text-primary); box-shadow: 0 3px 14px rgba(0,0,0,.14);
+         opacity: 0; transition: opacity .1s; white-space: nowrap; }
+  .tip.on { opacity: 1; }
+  .tip b { font-variant-numeric: tabular-nums; }
+
+  /* ---- Publication list ---- */
+  .filterbar { display: flex; align-items: center; gap: 12px; margin: 0 0 8px; }
+  .filterbar input { flex: 1; min-width: 0; font: inherit; font-size: 14px;
+    padding: 9px 12px; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--surface-1); color: var(--text-primary); }
+  .filterbar input:focus { outline: 2px solid var(--series); outline-offset: -1px; }
+  .fcount { font-size: 12.5px; color: var(--muted); white-space: nowrap;
+    font-variant-numeric: tabular-nums; }
+  .nomatch { color: var(--muted); font-size: 14px; padding: 24px 0; }
+
+  h2.section { font-size: 20px; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .section-sub { color: var(--muted); font-size: 14px; margin: 0 0 20px; }
+  .yr { font-size: 13px; font-weight: 650; color: var(--muted); letter-spacing: .06em;
+        margin: 30px 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+  .pub { padding: 14px 0; border-bottom: 1px solid var(--border); display: flex; gap: 18px; }
+  .pub:last-child { border-bottom: none; }
+  .pub .cite { flex: none; width: 52px; text-align: right; padding-top: 2px; }
+  .pub .cite .n { font-size: 18px; font-weight: 650; font-variant-numeric: tabular-nums;
+                  display: block; line-height: 1.2; }
+  .pub .cite .u { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .pub .cite.zero .n { color: var(--muted); font-weight: 500; }
+  .pub .body { flex: 1; min-width: 0; }
+  .pub .t { font-size: 15.5px; font-weight: 560; margin: 0 0 5px; line-height: 1.4; }
+  .pub .t a { color: inherit; text-decoration: none; }
+  .pub .t a:hover { color: var(--series); }
+  .pub .a { font-size: 13px; color: var(--text-secondary); margin: 0 0 4px; }
+  .pub .a .me { font-weight: 680; color: var(--text-primary); }
+  .pub .v { font-size: 13px; color: var(--muted); font-style: italic; }
+  .badge { display: inline-block; font-size: 10px; font-weight: 650; text-transform: uppercase;
+           letter-spacing: .05em; padding: 2px 6px; border-radius: 4px; vertical-align: 1.5px;
+           margin-left: 7px; font-style: normal; }
+  .badge.pre { background: var(--series-soft); color: var(--series); }
+  .badge.oa { background: transparent; color: var(--success); border: 1px solid currentColor; }
+  .badge.first { background: transparent; color: var(--muted); border: 1px solid var(--border); }
+
+  footer { margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--border);
+           font-size: 13px; color: var(--muted); }
+  footer p { margin: 0 0 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1 id="name"></h1>
+    <p class="affil" id="affil"></p>
+    <p class="tagline" id="tagline"></p>
+    <a class="orcid" id="orcidLink" href="#" target="_blank" rel="noopener">
+      <span class="dot"></span><span id="orcidText"></span>
+    </a>
+  </header>
+
+  <section class="kpis" id="kpis" aria-label="Summary metrics"></section>
+
+  <section class="charts">
+    <div class="card">
+      <h2>Citations over time</h2>
+      <p class="sub" id="growthSub"></p>
+      <svg class="chart" id="growthChart" role="img" aria-labelledby="growthDesc">
+        <desc id="growthDesc"></desc>
+      </svg>
+      <details class="table-view">
+        <summary>Show data table</summary>
+        <div class="tablewrap"><table id="growthTable"></table></div>
+      </details>
+    </div>
+
+    <div class="card">
+      <h2>Publications per year</h2>
+      <p class="sub" id="pubsSub"></p>
+      <svg class="chart" id="pubsChart" role="img" aria-labelledby="pubsDesc">
+        <desc id="pubsDesc"></desc>
+      </svg>
+      <details class="table-view">
+        <summary>Show data table</summary>
+        <div class="tablewrap"><table id="pubsTable"></table></div>
+      </details>
+    </div>
+  </section>
+
+  <section class="card netcard">
+    <h2>Collaborator network</h2>
+    <p class="sub" id="netSub"></p>
+    <div id="netLegend" class="legend"></div>
+    <svg class="chart net" id="netChart" role="img" aria-labelledby="netDesc">
+      <desc id="netDesc"></desc>
+    </svg>
+    <p class="nethint">Hover a bubble to trace who someone works with · drag to rearrange</p>
+    <details class="table-view">
+      <summary>Show data table</summary>
+      <div class="tablewrap"><table id="netTable"></table></div>
+    </details>
+  </section>
+
+  <section>
+    <h2 class="section">Publications</h2>
+    <p class="section-sub" id="listSub"></p>
+    <div id="filterBar" class="filterbar" hidden>
+      <input type="search" id="pubFilter" placeholder="Filter by title, author, or journal…"
+             autocomplete="off" aria-label="Filter publications">
+      <span id="filterCount" class="fcount"></span>
+    </div>
+    <div id="pubList"></div>
+    <p id="noMatch" class="nomatch" hidden>No publications match that filter.</p>
+  </section>
+
+  <footer id="footer"></footer>
+</div>
+
+<div class="tip" id="tip"></div>
+
+<script id="pubdata" type="application/json">__PUBLICATIONS__</script>
+<script id="sumdata" type="application/json">__SUMMARY__</script>
+<script id="netdata" type="application/json">__NETWORK__</script>
+<script>
+(function () {
+  "use strict";
+  var PUBS = JSON.parse(document.getElementById('pubdata').textContent);
+  var S    = JSON.parse(document.getElementById('sumdata').textContent);
+  // Note: do NOT name this after a build placeholder token - Build-Site.ps1 replaces
+  // those globally across the file, identifiers included.
+  var netEl   = document.getElementById('netdata');
+  var NETDATA = netEl ? JSON.parse(netEl.textContent) : null;
+  var SVGNS = 'http://www.w3.org/2000/svg';
+  var tip = document.getElementById('tip');
+
+  function el(tag, attrs, text) {
+    var n = document.createElementNS(SVGNS, tag);
+    for (var k in attrs) n.setAttribute(k, attrs[k]);
+    if (text !== undefined) n.textContent = text;
+    return n;
+  }
+  function showTip(evt, html) {
+    tip.innerHTML = html;
+    tip.classList.add('on');
+    var pad = 14, r = tip.getBoundingClientRect();
+    var x = evt.clientX + pad, y = evt.clientY - r.height - pad;
+    if (x + r.width > window.innerWidth - 8) x = evt.clientX - r.width - pad;
+    if (y < 8) y = evt.clientY + pad;
+    tip.style.left = x + 'px';
+    tip.style.top = y + 'px';
+  }
+  function hideTip() { tip.classList.remove('on'); }
+
+  // ---- Header ----------------------------------------------------------
+  document.getElementById('name').textContent = S.name;
+  document.getElementById('affil').textContent = S.affiliation;
+  document.getElementById('tagline').textContent = S.tagline;
+  document.getElementById('orcidText').textContent = 'ORCID ' + S.orcid;
+  document.getElementById('orcidLink').href = 'https://orcid.org/' + S.orcid;
+  document.title = S.name + ' — Publications';
+
+  // ---- KPI row ---------------------------------------------------------
+  // A PI is last author on their lab's work, so leading with "first-author" would
+  // understate them; an early-career researcher is the reverse.
+  var authorKpi = (S.kpi_authorship === 'last')
+    ? { v: S.last_author, l: 'Senior author' }
+    : { v: S.first_author, l: 'First-author' };
+  var kpis = [
+    { v: S.total_citations, l: 'Citations', hero: true },
+    { v: S.total_papers,    l: 'Publications' },
+    { v: S.h_index,         l: 'h-index' },
+    authorKpi
+  ];
+  var kroot = document.getElementById('kpis');
+  kpis.forEach(function (k) {
+    var d = document.createElement('div');
+    d.className = 'kpi' + (k.hero ? ' hero' : '');
+    d.innerHTML = '<span class="v"></span><span class="l"></span>';
+    d.querySelector('.v').textContent = k.v;
+    d.querySelector('.l').textContent = k.l;
+    kroot.appendChild(d);
+  });
+
+  // ---- Chart 1: cumulative citations (area, single series) --------------
+  // The current year is partial, so its segment is dashed and its point hollow -
+  // a solid line to a partial total reads as a decline.
+  var G = S.citation_growth;
+  (function drawGrowth() {
+    if (!G.length) return;
+    var svg = document.getElementById('growthChart');
+    var W = 420, H = 230, m = { t: 18, r: 16, b: 30, l: 42 };
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    var iw = W - m.l - m.r, ih = H - m.t - m.b;
+    var max = Math.max.apply(null, G.map(function (d) { return d.cumulative; }));
+    var top = Math.ceil(max / 50) * 50 || 50;
+    var X = function (i) { return m.l + (G.length === 1 ? iw / 2 : i * iw / (G.length - 1)); };
+    var Y = function (v) { return m.t + ih - (v / top) * ih; };
+
+    for (var t = 0; t <= top; t += top / 4) {
+      svg.appendChild(el('line', { x1: m.l, x2: m.l + iw, y1: Y(t), y2: Y(t),
+        class: t === 0 ? 'baseline' : 'gridline' }));
+      svg.appendChild(el('text', { x: m.l - 8, y: Y(t) + 4, class: 'tick', 'text-anchor': 'end' }, t));
+    }
+
+    var lastIdx = G.length - 1;
+    var partial = G[lastIdx].year >= S.current_year;
+    var pts = G.map(function (d, i) { return X(i) + ',' + Y(d.cumulative); });
+
+    // Area fill under the whole series.
+    svg.appendChild(el('polygon', {
+      points: X(0) + ',' + Y(0) + ' ' + pts.join(' ') + ' ' + X(lastIdx) + ',' + Y(0),
+      fill: 'var(--series-soft)'
+    }));
+
+    // Solid line through complete years; dashed for the partial final segment.
+    var solidEnd = partial ? lastIdx - 1 : lastIdx;
+    if (solidEnd > 0) {
+      svg.appendChild(el('polyline', { points: pts.slice(0, solidEnd + 1).join(' '),
+        fill: 'none', stroke: 'var(--series)', 'stroke-width': 2,
+        'stroke-linejoin': 'round', 'stroke-linecap': 'round' }));
+    }
+    if (partial && lastIdx > 0) {
+      svg.appendChild(el('polyline', { points: pts.slice(solidEnd).join(' '),
+        fill: 'none', stroke: 'var(--series)', 'stroke-width': 2,
+        'stroke-dasharray': '4 3', 'stroke-linecap': 'round' }));
+    }
+
+    G.forEach(function (d, i) {
+      var hollow = partial && i === lastIdx;
+      svg.appendChild(el('circle', { cx: X(i), cy: Y(d.cumulative), r: 4.5,
+        fill: hollow ? 'var(--surface-1)' : 'var(--series)',
+        stroke: hollow ? 'var(--series)' : 'var(--surface-1)', 'stroke-width': 2 }));
+      svg.appendChild(el('text', { x: X(i), y: H - 10, class: 'tick', 'text-anchor': 'middle' },
+        d.year + (hollow ? '*' : '')));
+    });
+
+    // Direct-label the endpoint only - a number on every point is noise.
+    var lastPt = G[lastIdx];
+    svg.appendChild(el('text', { x: X(lastIdx), y: Y(lastPt.cumulative) - 12,
+      class: 'dlabel', 'text-anchor': 'end' }, lastPt.cumulative));
+
+    // Hover: invisible full-height bands, wider than the marks.
+    G.forEach(function (d, i) {
+      var bw = iw / G.length;
+      var r = el('rect', { x: X(i) - bw / 2, y: m.t, width: bw, height: ih,
+        fill: 'transparent', style: 'cursor:crosshair' });
+      r.addEventListener('mousemove', function (e) {
+        showTip(e, '<b>' + d.year + (d.year >= S.current_year ? ' (to date)' : '') + '</b><br>' +
+          '<b>' + d.cumulative + '</b> total · <b>+' + d.received + '</b> this year');
+      });
+      r.addEventListener('mouseleave', hideTip);
+      svg.appendChild(r);
+    });
+
+    document.getElementById('growthSub').textContent =
+      'Cumulative, ' + G[0].year + '–' + G[lastIdx].year + (partial ? ' (* year to date)' : '');
+    document.getElementById('growthDesc').textContent =
+      'Cumulative citations rising from ' + G[0].cumulative + ' in ' + G[0].year +
+      ' to ' + lastPt.cumulative + ' in ' + lastPt.year + '.';
+
+    var rows = '<tr><th>Year</th><th>Received</th><th>Cumulative</th></tr>';
+    G.forEach(function (d) {
+      rows += '<tr><td>' + d.year + (d.year >= S.current_year ? ' (to date)' : '') +
+        '</td><td>' + d.received + '</td><td>' + d.cumulative + '</td></tr>';
+    });
+    document.getElementById('growthTable').innerHTML = rows;
+  })();
+
+  // ---- Chart 2: publications per year (bars, single series) -------------
+  (function drawPubs() {
+    var P = S.papers_by_year;
+    if (!P.length) return;
+    var svg = document.getElementById('pubsChart');
+    var W = 420, H = 230, m = { t: 18, r: 16, b: 30, l: 42 };
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    var iw = W - m.l - m.r, ih = H - m.t - m.b;
+    var max = Math.max.apply(null, P.map(function (d) { return d.papers; }));
+    var top = Math.max(max, 2);
+    var Y = function (v) { return m.t + ih - (v / top) * ih; };
+    var slot = iw / P.length;
+    var bw = Math.min(slot - 8, 46);   // the 2px+ surface gap between adjacent bars
+
+    for (var t = 0; t <= top; t++) {
+      if (top > 6 && t % 2) continue;
+      svg.appendChild(el('line', { x1: m.l, x2: m.l + iw, y1: Y(t), y2: Y(t),
+        class: t === 0 ? 'baseline' : 'gridline' }));
+      svg.appendChild(el('text', { x: m.l - 8, y: Y(t) + 4, class: 'tick', 'text-anchor': 'end' }, t));
+    }
+
+    P.forEach(function (d, i) {
+      var cx = m.l + slot * i + slot / 2;
+      var h = ih - (Y(d.papers) - m.t);
+      // 4px rounded data-end, anchored square to the baseline.
+      var g = el('g', {});
+      g.appendChild(el('rect', { x: cx - bw / 2, y: Y(d.papers), width: bw,
+        height: Math.max(h, 1), rx: 4, fill: 'var(--series)' }));
+      if (h > 6) {
+        g.appendChild(el('rect', { x: cx - bw / 2, y: Y(d.papers) + 4, width: bw,
+          height: Math.max(h - 4, 1), fill: 'var(--series)' }));
+      }
+      g.setAttribute('style', 'cursor:pointer');
+      g.addEventListener('mousemove', function (e) {
+        showTip(e, '<b>' + d.year + '</b><br><b>' + d.papers + '</b> publication' +
+          (d.papers === 1 ? '' : 's') + ' · <b>' + d.citations + '</b> citations');
+      });
+      g.addEventListener('mouseleave', hideTip);
+      svg.appendChild(g);
+
+      svg.appendChild(el('text', { x: cx, y: Y(d.papers) - 6, class: 'dlabel',
+        'text-anchor': 'middle' }, d.papers));
+      svg.appendChild(el('text', { x: cx, y: H - 10, class: 'tick', 'text-anchor': 'middle' }, d.year));
+    });
+
+    document.getElementById('pubsSub').textContent =
+      S.total_papers + ' publications, ' + P[0].year + '–' + P[P.length - 1].year;
+    document.getElementById('pubsDesc').textContent =
+      'Publications per year, peaking at ' + max + '.';
+
+    var rows = '<tr><th>Year</th><th>Papers</th><th>Citations</th></tr>';
+    P.forEach(function (d) {
+      rows += '<tr><td>' + d.year + '</td><td>' + d.papers + '</td><td>' + d.citations + '</td></tr>';
+    });
+    document.getElementById('pubsTable').innerHTML = rows;
+  })();
+
+  // ---- Collaborator network --------------------------------------------
+  // A small force simulation, run to completion before the first paint. Initial
+  // positions are seeded from each node's index on a circle rather than from
+  // Math.random(), so the layout is identical on every load - a network that
+  // rearranged itself each visit would be unreadable for anyone returning to it.
+  (function drawNetwork() {
+    var NET = NETDATA;
+    if (!NET || !NET.nodes || !NET.nodes.length) return;
+
+    var svg = document.getElementById('netChart');
+    var W = 760, H = 560, CX = W / 2, CY = H / 2;
+    var selfX = CX, selfY = CY, selfR = 21;
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+
+    // Palette slots 1-4 plus a neutral for everything folded into "Other".
+    var isDark = matchMedia('(prefers-color-scheme: dark)').matches &&
+                 document.documentElement.getAttribute('data-theme') !== 'light' ||
+                 document.documentElement.getAttribute('data-theme') === 'dark';
+    var SLOTS = isDark
+      ? ['#898781', '#3987e5', '#008300', '#d55181', '#c98500']
+      : ['#898781', '#2a78d6', '#008300', '#e87ba4', '#eda100'];
+    function slotColor(s) { return SLOTS[s] || SLOTS[0]; }
+
+    var maxPapers = Math.max.apply(null, NET.nodes.map(function (n) { return n.papers; }));
+    function radius(p) { return 5 + 15 * Math.sqrt(p / maxPapers); }
+
+    // Build the simulation graph: collaborators only. The author is pinned at the
+    // centre and drawn without spokes - they share every paper here by definition,
+    // so 57 identical edges would add ink and no information.
+    var byId = {};
+    var nodes = NET.nodes.map(function (n, i) {
+      var ang = (i / NET.nodes.length) * Math.PI * 2;
+      var ring = 90 + (i % 7) * 26;
+      var o = {
+        id: n.id, name: n.name, papers: n.papers, citations: n.citations,
+        cluster: n.cluster, slot: n.color_slot, advisor: n.is_advisor,
+        first_year: n.first_year, last_year: n.last_year,
+        r: radius(n.papers),
+        x: CX + Math.cos(ang) * ring, y: CY + Math.sin(ang) * ring,
+        vx: 0, vy: 0, fixed: false
+      };
+      byId[n.id] = o;
+      return o;
+    });
+    var links = NET.links.map(function (l) {
+      return { s: byId[l.source], t: byId[l.target], w: l.weight };
+    }).filter(function (l) { return l.s && l.t; });
+
+    // Adjacency, for the hover highlight.
+    var nbrs = {};
+    nodes.forEach(function (n) { nbrs[n.id] = {}; });
+    links.forEach(function (l) { nbrs[l.s.id][l.t.id] = true; nbrs[l.t.id][l.s.id] = true; });
+
+    function tick(alpha) {
+      // Repulsion - O(n^2) is fine at this size and avoids a quadtree.
+      for (var i = 0; i < nodes.length; i++) {
+        for (var j = i + 1; j < nodes.length; j++) {
+          var a = nodes[i], b = nodes[j];
+          var dx = b.x - a.x, dy = b.y - a.y;
+          var d2 = dx * dx + dy * dy || 0.01;
+          var d = Math.sqrt(d2);
+          var minD = a.r + b.r + 9;
+          // Strong short-range push keeps bubbles from overlapping; the softer
+          // long-range term spreads clusters apart.
+          var f = (2600 / d2) * alpha;
+          if (d < minD) f += ((minD - d) / d) * 0.75 * alpha;
+          var ux = dx / d, uy = dy / d;
+          a.vx -= ux * f; a.vy -= uy * f;
+          b.vx += ux * f; b.vy += uy * f;
+        }
+      }
+      // Springs, shorter and stiffer for pairs who publish together often.
+      links.forEach(function (l) {
+        var dx = l.t.x - l.s.x, dy = l.t.y - l.s.y;
+        var d = Math.sqrt(dx * dx + dy * dy) || 0.01;
+        var rest = 96 - Math.min(l.w, 5) * 11;
+        var f = ((d - rest) / d) * 0.055 * Math.min(l.w, 4) * alpha;
+        l.s.vx += dx * f; l.s.vy += dy * f;
+        l.t.vx -= dx * f; l.t.vy -= dy * f;
+      });
+      // Gravity toward the author at the centre.
+      nodes.forEach(function (n) {
+        n.vx += (selfX - n.x) * 0.010 * alpha;
+        n.vy += (selfY - n.y) * 0.010 * alpha;
+        if (!n.fixed) {
+          n.vx *= 0.82; n.vy *= 0.82;
+          n.x += n.vx; n.y += n.vy;
+        }
+      });
+    }
+    for (var s = 0; s < 500; s++) { tick(Math.max(0.05, 1 - s / 500)); }
+
+    // Fit the settled layout to the frame. Clamping node positions during the
+    // simulation instead would flatten clusters against the edges; scaling once at
+    // the end preserves the shape the forces found and still fills the canvas.
+    (function fitToFrame() {
+      var pad = 30;
+      var minX = selfX - selfR, maxX = selfX + selfR;
+      var minY = selfY - selfR, maxY = selfY + selfR;
+      nodes.forEach(function (n) {
+        minX = Math.min(minX, n.x - n.r); maxX = Math.max(maxX, n.x + n.r);
+        minY = Math.min(minY, n.y - n.r); maxY = Math.max(maxY, n.y + n.r);
+      });
+      var bw = Math.max(maxX - minX, 1), bh = Math.max(maxY - minY, 1);
+      // Cap the zoom so a sparse network doesn't get blown up into absurd bubbles.
+      var k = Math.min((W - pad * 2) / bw, (H - pad * 2) / bh, 1.5);
+      var ox = (W - bw * k) / 2 - minX * k;
+      var oy = (H - bh * k) / 2 - minY * k;
+      nodes.forEach(function (n) { n.x = n.x * k + ox; n.y = n.y * k + oy; });
+      selfX = selfX * k + ox; selfY = selfY * k + oy;
+    })();
+
+    // ---- Render ----
+    var gLinks = el('g', {}), gNodes = el('g', {}), gLabels = el('g', {});
+    svg.appendChild(gLinks); svg.appendChild(gNodes); svg.appendChild(gLabels);
+
+    var linkEls = links.map(function (l) {
+      var e = el('line', { class: 'link', 'stroke-width': Math.min(0.6 + l.w * 0.55, 3),
+        'stroke-opacity': 0.5 });
+      gLinks.appendChild(e);
+      return e;
+    });
+
+    // The author: a pinned ring at the centre, visually distinct from collaborators.
+    var self = el('g', {});
+    self.appendChild(el('circle', { cx: selfX, cy: selfY, r: selfR, fill: 'var(--surface-1)',
+      stroke: 'var(--text-primary)', 'stroke-width': 2 }));
+    self.appendChild(el('text', { x: selfX, y: selfY + 4, 'text-anchor': 'middle',
+      class: 'nlabel big' }, S.name.split(' ')[0]));
+
+    var nodeEls = nodes.map(function (n) {
+      var g = el('g', { class: 'node' });
+      var c = el('circle', { r: n.r, fill: slotColor(n.slot), 'fill-opacity': 0.85,
+        stroke: 'var(--surface-1)', 'stroke-width': 2 });
+      // The advisor appears on nearly every paper; a ring marks that without
+      // letting the node's size swamp the rest of the layout.
+      if (n.advisor) { c.setAttribute('stroke', 'var(--text-primary)'); c.setAttribute('stroke-width', 2.5); }
+      g.appendChild(c);
+      gNodes.appendChild(g);
+      n.el = g; n.circle = c;
+      return g;
+    });
+
+    // Label only the people big enough to read - a name on all 57 is noise.
+    var labelled = nodes.filter(function (n) { return n.papers >= 3; });
+    var labelEls = labelled.map(function (n) {
+      var t = el('text', { class: 'nlabel', 'text-anchor': 'middle' },
+        n.name.length > 18 ? n.name.split(' ').slice(-1)[0] : n.name);
+      gLabels.appendChild(t);
+      n.label = t;
+      return t;
+    });
+
+    function position() {
+      links.forEach(function (l, i) {
+        linkEls[i].setAttribute('x1', l.s.x); linkEls[i].setAttribute('y1', l.s.y);
+        linkEls[i].setAttribute('x2', l.t.x); linkEls[i].setAttribute('y2', l.t.y);
+      });
+      nodes.forEach(function (n) { n.el.setAttribute('transform', 'translate(' + n.x + ',' + n.y + ')'); });
+
+      // Place labels most-prolific-first, hiding any that would collide with one
+      // already placed or with the author's node. An unreadable pile of overlapping
+      // names is worse than showing fewer of them.
+      var placed = [{ x: selfX - 30, y: selfY - 8, w: 60, h: 16 }];
+      labelled.forEach(function (n) {
+        var text = n.label.textContent;
+        var w = text.length * 5.8, h = 13;
+        var x = n.x - w / 2, y = n.y - n.r - 14;
+        var hit = placed.some(function (p) {
+          return x < p.x + p.w && x + w > p.x && y < p.y + p.h && y + h > p.y;
+        });
+        n.label.style.display = hit ? 'none' : '';
+        if (!hit) {
+          placed.push({ x: x, y: y, w: w, h: h });
+          n.label.setAttribute('x', n.x);
+          n.label.setAttribute('y', n.y - n.r - 5);
+        }
+      });
+    }
+    svg.appendChild(self);
+    position();
+
+    // ---- Hover: isolate a person and the people they publish with ----
+    function highlight(n) {
+      nodes.forEach(function (o) {
+        var on = !n || o.id === n.id || nbrs[n.id][o.id];
+        o.el.classList.toggle('faded', !on);
+        if (o.label) o.label.classList.toggle('faded', !on);
+      });
+      links.forEach(function (l, i) {
+        var on = !n || l.s.id === n.id || l.t.id === n.id;
+        linkEls[i].classList.toggle('faded', !on);
+      });
+    }
+    nodes.forEach(function (n) {
+      n.el.addEventListener('mouseenter', function () { highlight(n); });
+      n.el.addEventListener('mousemove', function (e) {
+        var shared = Object.keys(nbrs[n.id]).length;
+        showTip(e,
+          '<b>' + n.name + '</b>' + (n.advisor ? ' · advisor' : '') + '<br>' +
+          '<b>' + n.papers + '</b> paper' + (n.papers === 1 ? '' : 's') + ' with you · ' +
+          '<b>' + n.citations + '</b> citations<br>' +
+          n.first_year + (n.last_year !== n.first_year ? '–' + n.last_year : '') +
+          ' · connects to <b>' + shared + '</b> others');
+      });
+      n.el.addEventListener('mouseleave', function () { highlight(null); hideTip(); });
+    });
+
+    // ---- Drag ----
+    var drag = null;
+    function svgPoint(evt) {
+      var r = svg.getBoundingClientRect();
+      return { x: (evt.clientX - r.left) / r.width * W, y: (evt.clientY - r.top) / r.height * H };
+    }
+    nodes.forEach(function (n) {
+      n.el.addEventListener('pointerdown', function (e) {
+        drag = n; n.fixed = true; svg.classList.add('dragging');
+        svg.setPointerCapture(e.pointerId); e.preventDefault();
+      });
+    });
+    svg.addEventListener('pointermove', function (e) {
+      if (!drag) return;
+      var p = svgPoint(e);
+      drag.x = p.x; drag.y = p.y;
+      for (var k = 0; k < 6; k++) { tick(0.22); }
+      position();
+    });
+    svg.addEventListener('pointerup', function () {
+      if (drag) { drag.fixed = false; drag = null; }
+      svg.classList.remove('dragging');
+    });
+
+    // ---- Legend, caption, table ----
+    var legend = document.getElementById('netLegend');
+    NET.clusters.forEach(function (c) {
+      if (!c.color_slot) return;             // "Other" gets one combined entry below
+      var sp = document.createElement('span');
+      sp.innerHTML = '<i></i>' + c.name + ' (' + c.size + ')';
+      sp.querySelector('i').style.background = slotColor(c.color_slot);
+      legend.appendChild(sp);
+    });
+    var otherCount = NET.clusters.filter(function (c) { return !c.color_slot; })
+      .reduce(function (a, c) { return a + c.size; }, 0);
+    if (otherCount) {
+      var sp2 = document.createElement('span');
+      sp2.innerHTML = '<i></i>Other groups (' + otherCount + ')';
+      sp2.querySelector('i').style.background = SLOTS[0];
+      legend.appendChild(sp2);
+    }
+
+    // State the cutoff when there is one - a graph that quietly omits 1,400 people
+    // while implying completeness is a lie by omission.
+    var scope = (NET.min_shared > 1)
+      ? NET.node_count + ' of ' + NET.total_people + ' co-authors (those with ' +
+        NET.min_shared + '+ shared papers)'
+      : NET.node_count + ' co-authors';
+    document.getElementById('netSub').textContent =
+      scope + ' across ' + S.total_papers +
+      ' papers · bubble size is papers shared · grouped by research area';
+    document.getElementById('netDesc').textContent =
+      'Network of ' + NET.node_count + ' co-authors, grouped into research clusters, ' +
+      'with ' + NET.clusters[0].top + ' the most frequent collaborator.';
+
+    var rows = '<tr><th>Collaborator</th><th>Papers</th><th>Citations</th><th>Group</th></tr>';
+    NET.nodes.forEach(function (n) {
+      var cl = NET.clusters.filter(function (c) { return c.key === n.cluster; })[0];
+      rows += '<tr><td>' + esc(n.name) + '</td><td>' + n.papers + '</td><td>' +
+        n.citations + '</td><td>' + esc(cl ? cl.name : '—') + '</td></tr>';
+    });
+    document.getElementById('netTable').innerHTML = rows;
+  })();
+
+  // ---- Publication list ------------------------------------------------
+  var surname = S.name.split(' ').pop();
+  var meRe = new RegExp('^' + S.name.split(' ')[0] + '\\b.*\\b' + surname + '$', 'i');
+
+  function authorHtml(list) {
+    var shown = list.slice(0, 10).map(function (a) {
+      var safe = a.replace(/[<>&]/g, function (c) {
+        return { '<': '&lt;', '>': '&gt;', '&': '&amp;' }[c];
+      });
+      return meRe.test(a) ? '<span class="me">' + safe + '</span>' : safe;
+    });
+    var extra = list.length - shown.length;
+    return shown.join(', ') + (extra > 0 ? ', <span style="color:var(--muted)">+' + extra + ' more</span>' : '');
+  }
+  function esc(s) {
+    return String(s).replace(/[<>&]/g, function (c) {
+      return { '<': '&lt;', '>': '&gt;', '&': '&amp;' }[c];
+    });
+  }
+
+  var list = document.getElementById('pubList');
+  var currentYear = null;
+  var yearGroups = [];          // { header, items[] } - so filtering can hide empty years
+  var entries = [];             // { el, haystack } for the filter
+  PUBS.forEach(function (p) {
+    if (p.year !== currentYear) {
+      currentYear = p.year;
+      var hy = document.createElement('div');
+      hy.className = 'yr';
+      hy.textContent = currentYear;
+      list.appendChild(hy);
+      yearGroups.push({ header: hy, items: [] });
+    }
+    var d = document.createElement('article');
+    d.className = 'pub';
+    var badges = '';
+    if (p.is_preprint) badges += '<span class="badge pre">Preprint</span>';
+    // Co-first is shown as its own badge - it is a first authorship, but flattening it
+    // into "First author" would overstate the sole-first papers.
+    if (p.is_co_first)            badges += '<span class="badge first">Co-first author</span>';
+    else if (p.position === 'first') badges += '<span class="badge first">First author</span>';
+    if (p.open_access && !p.is_preprint) badges += '<span class="badge oa">Open access</span>';
+    var titleHtml = p.url
+      ? '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.title) + '</a>'
+      : esc(p.title);
+    d.innerHTML =
+      '<div class="cite' + (p.citations === 0 ? ' zero' : '') + '">' +
+        '<span class="n">' + p.citations + '</span>' +
+        '<span class="u">cite' + (p.citations === 1 ? '' : 's') + '</span>' +
+      '</div>' +
+      '<div class="body">' +
+        '<p class="t">' + titleHtml + '</p>' +
+        '<p class="a">' + authorHtml(p.authors) + '</p>' +
+        '<p class="v">' + esc(p.venue) + badges + '</p>' +
+      '</div>';
+    list.appendChild(d);
+    var g = yearGroups[yearGroups.length - 1];
+    g.items.push(d);
+    entries.push({
+      el: d, group: g,
+      hay: (p.title + ' ' + p.authors.join(' ') + ' ' + p.venue + ' ' + p.year).toLowerCase()
+    });
+  });
+
+  document.getElementById('listSub').textContent =
+    S.total_papers + ' works · ' + S.preprints + ' preprints · ' +
+    S.open_access + ' open access · sorted newest first';
+
+  // ---- Filter (only worth showing once the list is too long to scan) ----
+  if (PUBS.length > 40) {
+    var bar = document.getElementById('filterBar');
+    var input = document.getElementById('pubFilter');
+    var count = document.getElementById('filterCount');
+    var none = document.getElementById('noMatch');
+    bar.hidden = false;
+    count.textContent = PUBS.length + ' shown';
+
+    var applyFilter = function () {
+      // Every space-separated term must appear somewhere in the entry, so
+      // "li 2019 proteomics" narrows instead of widening.
+      var terms = input.value.toLowerCase().split(/\s+/).filter(Boolean);
+      var shown = 0;
+      entries.forEach(function (e) {
+        var ok = terms.every(function (t) { return e.hay.indexOf(t) !== -1; });
+        e.el.hidden = !ok;
+        if (ok) shown++;
+      });
+      yearGroups.forEach(function (g) {
+        g.header.hidden = !g.items.some(function (it) { return !it.hidden; });
+      });
+      count.textContent = shown === PUBS.length
+        ? PUBS.length + ' shown'
+        : shown + ' of ' + PUBS.length;
+      none.hidden = shown !== 0;
+    };
+
+    // Debounced: filtering 657 entries on every keystroke is visible jank.
+    var timer = null;
+    input.addEventListener('input', function () {
+      clearTimeout(timer);
+      timer = setTimeout(applyFilter, 90);
+    });
+  }
+
+  // ---- Footer ----------------------------------------------------------
+  var gen = new Date(S.generated_utc);
+  document.getElementById('footer').innerHTML =
+    '<p>Publication metadata and citation counts from ' +
+    '<a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>, ' +
+    'matched to <a href="https://orcid.org/' + S.orcid + '" target="_blank" rel="noopener">ORCID ' +
+    S.orcid + '</a>.</p>' +
+    '<p>Citation counts are as reported by OpenAlex and will differ from Google Scholar, ' +
+    'which indexes more sources. ' + S.excluded_count + ' works returned under this ORCID were ' +
+    'excluded as misattributions or duplicate deposits.</p>' +
+    (S.curation_note ? '<p>' + S.curation_note + '</p>' :
+     S.curated === false
+      ? '<p><strong>This page is generated automatically from the ORCID record and has ' +
+        'not been checked by hand.</strong> OpenAlex can merge researchers who share a ' +
+        'name into one profile, and shared first authorship is recorded nowhere in the ' +
+        'data, so both may be wrong here. Corrections belong in <code>config/profile.json</code>.</p>'
+      : '') +
+    (S.co_first_author
+      ? '<p>The first-author count includes ' + S.co_first_author + ' shared first authorship' +
+        (S.co_first_author === 1 ? '' : 's') + ', badged individually above. Shared first ' +
+        'authorship is declared in the paper itself and is not recorded by any bibliographic ' +
+        'database, so it is maintained by hand.</p>'
+      : '') +
+    '<p>Last updated ' + gen.toLocaleDateString(undefined,
+      { year: 'numeric', month: 'long', day: 'numeric' }) + '.</p>';
+})();
+</script>
+</body>
+</html>

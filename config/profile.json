@@ -1,0 +1,38 @@
+{
+  "name": "Lingjun Li",
+  "orcid": "0000-0003-0056-3869",
+  "affiliation": "University of Wisconsin–Madison",
+  "tagline": "Mass spectrometry, neuropeptides, and analytical chemistry",
+
+  "_comment_curated": "The publication list was cross-referenced against her own CV (LLi_CV.pdf) by Crossref-CV.ps1, and the six works that could not be resolved automatically were decided by hand - see review-decisions.json. Lingjun Li has not personally reviewed the result, which the footer note says plainly.",
+  "curated": true,
+  "curation_note": "This list was assembled automatically and cross-referenced against Lingjun Li's CV. OpenAlex merges several researchers named Lingjun Li under this ORCID, so 140 works returned for it were attributed to someone else and excluded; each exclusion is recorded with its reason. Six ambiguous cases were resolved by hand. Prof. Li has not personally reviewed this page, and shared first authorships are not shown because no bibliographic database records them.",
+
+  "_comment_home": "Institutions that identify her rather than an impostor. Wisconsin is her faculty appointment; Illinois is her PhD (1995-2000, per her CV), so Illinois-affiliated papers from that era are genuinely hers.",
+  "home_institutions": ["Wisconsin", "Illinois"],
+
+  "_comment_types":"657 works come back for this ORCID, including supplementary-material stubs, dataset deposits and conference abstracts that are indexing artifacts rather than publications. Keeping articles, book chapters and preprints leaves 613. Remove this field to include everything.",
+  "include_types": ["article", "review", "book", "book-chapter", "preprint"],
+
+  "_comment_exclusions": "EMPTY AND UNVERIFIED. OpenAlex lists four distinct researchers named Lingjun Li - at UW-Madison, the Chinese Academy of Sciences, the University of Hong Kong, and Zhengzhou University of Light Industry. ORCID-keyed queries should keep them apart, but at 613 papers nobody has checked one by one. If a paper appears that is not hers, add its OpenAlex ID here with a reason.",
+  "excluded_works": [],
+
+  "_comment_preprints": "bioRxiv and similar are shown with a Preprint badge. Some may be earlier versions of journal papers also listed; deduplicating them requires a human who knows the work.",
+  "preprint_venues": ["bioRxiv", "bioRxiv (Cold Spring Harbor Laboratory)", "arXiv", "ChemRxiv", "Research Square"],
+
+  "_comment_network": "1,550 people have co-authored with her. A force layout is unreadable and slow past a few hundred nodes, so the web shows those with 5+ shared papers (167 people). The page states the cutoff. Lower it for a denser graph, raise it for a sparser one. No 'advisor' is set - she is the centre of her own network.",
+  "network_min_shared": 5,
+
+  "_comment_kpi": "She is a PI, so she is senior (last) author on her lab's papers rather than first author. Showing a first-author count would badly understate her. Set to 'first' for an early-career researcher.",
+  "kpi_authorship": "last",
+
+  "_comment_cluster_keys": "Keys are whichever member name label propagation converged on, printed by Build-Network.ps1 on every run. A new paper bridging two groups can rename a key; the script warns when a key here matches nothing, meaning the machine-generated name is showing instead.",
+  "cluster_labels": {
+    "Yatao Shi":              "Li lab — proteomics & imaging",
+    "Christopher B. Lietz":   "Early Li lab — DiLeu & crustacean neuropeptides",
+    "Rebecca W. Garden":      "Sweedler lab — Aplysia & single-cell MS"
+  },
+
+  "_comment_co_first": "EMPTY AND UNVERIFIED. Shared first authorship is declared only in the paper itself and appears in no bibliographic API, so it cannot be derived. Any co-first authorships are currently shown as middle-author positions.",
+  "co_first_author_works": []
+}

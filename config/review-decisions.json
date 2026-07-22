@@ -1,0 +1,39 @@
+{
+  "_comment": "Human decisions on works the automated cross-reference could not resolve. These override the heuristics on every re-run, so a paper is never re-litigated. Decided by Lauren Fields on 2026-07-22 against Lingjun Li's CV.",
+  "_reviewer": "Lauren Fields",
+  "_reviewed_utc": "2026-07-22",
+
+  "decisions": [
+    {
+      "id": "W4327935673",
+      "decision": "keep",
+      "note": "Cancer-derived OGA stalk mutation / PDLIM7 / p53 (Research Square 2023). Distinct preprint with no journal version in the list; co-authors Matthew Worth and Junfeng Huang are UW-Madison. Confirmed hers."
+    },
+    {
+      "id": "W3118375653",
+      "decision": "keep",
+      "note": "Protocol of 4-plex N,N-Dimethyl Leucine isobaric labeling (Research Square 2019). DiLeu is her lab's own reagent; a standalone protocols deposit, not a duplicate of the three DiLeu method papers. Confirmed hers."
+    },
+    {
+      "id": "W4286853205",
+      "decision": "keep",
+      "note": "MALDI-MSI of Medicago truncatula root nodules (JoVE 2014, with Erin Gemperline). A JoVE video article is a peer-reviewed publication in its own right, separate from the Plant Journal and Anal. Chem. Medicago papers. Confirmed hers."
+    },
+
+    {
+      "id": "W3004917448",
+      "decision": "drop",
+      "note": "DUPLICATE. A J-GLOBAL index record (Japanese title) of 'Fragmentation of peptides with N-terminal dimethylation and imine/methylol addition', JASMS 2006, which is already in the list."
+    },
+    {
+      "id": "W4403284236",
+      "decision": "drop",
+      "note": "DUPLICATE. A UNC Libraries deposit of 'NEAT1 repression by MED12 creates chemosensitivity in p53 wild-type breast cancer cells', FEBS Journal 2024, already in the list."
+    },
+    {
+      "id": "W7164741432",
+      "decision": "drop",
+      "note": "DUPLICATE. A Figshare deposit of 'Neuropeptide Diversity Encoded in Newly Sequenced Crustacean Genomes', ACS Chemical Neuroscience 2026, already in the list. The same deposit is excluded from Lauren Fields' page for the same reason."
+    }
+  ]
+}
