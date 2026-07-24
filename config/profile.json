@@ -21,6 +21,21 @@
   "preprint_venues": ["bioRxiv", "bioRxiv (Cold Spring Harbor Laboratory)", "arXiv", "ChemRxiv", "Research Square"],
 
   "_comment_network": "1,550 people have co-authored with her. A force layout is unreadable and slow past a few hundred nodes, so the web shows those with 5+ shared papers (167 people). The page states the cutoff. Lower it for a denser graph, raise it for a sparser one. No 'advisor' is set - she is the centre of her own network.",
+  "_comment_theme": "Matches the Li Lab website (lilabs.org): deep aubergine hero band, serif (Georgia) headings, Arial body. The accent is the documented violet from the data-viz palette - on brand with her aubergine and still a validated chart hue. network_slots lead with that violet, then documented green and orange (three well-separated validated hues for her three research clusters); index 0 is her muted purple-grey for the 'Other' group.",
+  "theme": {
+    "series_light": "#4a3aa7",
+    "series_dark": "#9085e9",
+    "series_soft_light": "rgba(74, 58, 167, 0.13)",
+    "series_soft_dark": "rgba(144, 133, 233, 0.20)",
+    "brand_deep_light": "#27223e",
+    "brand_deep_dark": "#171424",
+    "heading_font": "Georgia, 'Times New Roman', 'Book Antiqua', serif",
+    "body_font": "Arial, Helvetica, system-ui, sans-serif",
+    "header_band": true,
+    "network_slots_light": ["#8b869e", "#4a3aa7", "#008300", "#eb6834", "#eda100"],
+    "network_slots_dark": ["#8b869e", "#9085e9", "#008300", "#d95926", "#c98500"]
+  },
+
   "network_min_shared": 5,
 
   "_comment_kpi": "She is a PI, so she is senior (last) author on her lab's papers rather than first author. Showing a first-author count would badly understate her. Set to 'first' for an early-career researcher.",

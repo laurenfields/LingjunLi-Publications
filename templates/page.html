@@ -61,7 +61,12 @@
     line-height: 1.55;
     -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 48px 24px 72px; }
+  /* .pagehead is a full-bleed band; .pagehead-inner re-centres to the content column.
+     With no theme the band is transparent, so this is identical to a plain header. A
+     branded theme fills it with an accent colour and flips the text to light. The class
+     is deliberately NOT "hero" - that name is already the KPI-card modifier .kpi.hero. */
+  .pagehead-inner { max-width: 960px; margin: 0 auto; padding: 48px 24px 40px; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 24px 72px; }
   /* Titles in this field carry unbreakable tokens - peptide sequences like
      VPNDWSKFQGSWamide, reagent names, "Electron-Transfer/Higher-Energy" - that
      overflow narrow screens because there is nowhere to wrap. */
@@ -71,7 +76,7 @@
   a:hover { text-decoration: none; }
 
   /* ---- Header ---- */
-  header { margin-bottom: 40px; }
+  header { margin-bottom: 0; }
   h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.15; margin: 0 0 8px; letter-spacing: -0.02em; }
   .affil { color: var(--text-secondary); margin: 0 0 4px; font-size: 17px; }
   .tagline { color: var(--muted); margin: 0 0 14px; font-size: 15px; }
@@ -182,18 +187,22 @@
            font-size: 13px; color: var(--muted); }
   footer p { margin: 0 0 6px; }
 </style>
+__THEME_STYLE__
 </head>
 <body>
+<div class="pagehead">
+  <div class="pagehead-inner">
+    <header>
+      <h1 id="name"></h1>
+      <p class="affil" id="affil"></p>
+      <p class="tagline" id="tagline"></p>
+      <a class="orcid" id="orcidLink" href="#" target="_blank" rel="noopener">
+        <span class="dot"></span><span id="orcidText"></span>
+      </a>
+    </header>
+  </div>
+</div>
 <div class="wrap">
-
-  <header>
-    <h1 id="name"></h1>
-    <p class="affil" id="affil"></p>
-    <p class="tagline" id="tagline"></p>
-    <a class="orcid" id="orcidLink" href="#" target="_blank" rel="noopener">
-      <span class="dot"></span><span id="orcidText"></span>
-    </a>
-  </header>
 
   <section class="kpis" id="kpis" aria-label="Summary metrics"></section>
 
@@ -485,9 +494,13 @@
     var isDark = matchMedia('(prefers-color-scheme: dark)').matches &&
                  document.documentElement.getAttribute('data-theme') !== 'light' ||
                  document.documentElement.getAttribute('data-theme') === 'dark';
-    var SLOTS = isDark
+    // A branded theme supplies its own slot colours; both variants stay within the
+    // documented, CVD-validated categorical hues (index 0 is the neutral "Other").
+    var themeSlots = (S.theme && S.theme.network_slots_light)
+      ? (isDark ? S.theme.network_slots_dark : S.theme.network_slots_light) : null;
+    var SLOTS = themeSlots || (isDark
       ? ['#898781', '#3987e5', '#008300', '#d55181', '#c98500']
-      : ['#898781', '#2a78d6', '#008300', '#e87ba4', '#eda100'];
+      : ['#898781', '#2a78d6', '#008300', '#e87ba4', '#eda100']);
     function slotColor(s) { return SLOTS[s] || SLOTS[0]; }
 
     var maxPapers = Math.max.apply(null, NET.nodes.map(function (n) { return n.papers; }));

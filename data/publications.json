@@ -42,6 +42,39 @@
         "openalex_id":  "https://openalex.org/W7126044546"
     },
     {
+        "title":  "Quantitative Neuropeptidomics Reveals Thermal Acclimation-Induced Remodeling of Peptidergic Signaling in the American Lobster Homarus americanus",
+        "year":  2026,
+        "date":  "2026-03-10",
+        "venue":  "bioRxiv (Cold Spring Harbor Laboratory)",
+        "doi":  "https://doi.org/10.64898/2026.03.07.710231",
+        "url":  "https://doi.org/10.64898/2026.03.07.710231",
+        "authors":  [
+                        "Vu Ngoc Huong Tran",
+                        "Sonal Kedia",
+                        "Gaoyuan Lu",
+                        "Kendra G. Selby",
+                        "Thao Duong",
+                        "Zachary Del Mundo",
+                        "Eve Marder",
+                        "Lingjun Li"
+                    ],
+        "author_count":  8,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  1,
+        "by_year":  [
+                        {
+                            "year":  2026,
+                            "count":  1
+                        }
+                    ],
+        "is_preprint":  true,
+        "open_access":  true,
+        "type":  "preprint",
+        "openalex_id":  "https://openalex.org/W7134925877"
+    },
+    {
         "title":  "Efficient Preparation of Homogenous Antibody Conjugates via Glycosite‐Specific Transglycosylation Enabled by Readily Available Glycosyl Donors",
         "year":  2026,
         "date":  "2026-01-04",
@@ -110,39 +143,6 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W7117997399"
-    },
-    {
-        "title":  "Quantitative Neuropeptidomics Reveals Thermal Acclimation-Induced Remodeling of Peptidergic Signaling in the American Lobster Homarus americanus",
-        "year":  2026,
-        "date":  "2026-03-10",
-        "venue":  "bioRxiv (Cold Spring Harbor Laboratory)",
-        "doi":  "https://doi.org/10.64898/2026.03.07.710231",
-        "url":  "https://doi.org/10.64898/2026.03.07.710231",
-        "authors":  [
-                        "Vu Ngoc Huong Tran",
-                        "Sonal Kedia",
-                        "Gaoyuan Lu",
-                        "Kendra G. Selby",
-                        "Thao Duong",
-                        "Zachary Del Mundo",
-                        "Eve Marder",
-                        "Lingjun Li"
-                    ],
-        "author_count":  8,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  1,
-        "by_year":  [
-                        {
-                            "year":  2026,
-                            "count":  1
-                        }
-                    ],
-        "is_preprint":  true,
-        "open_access":  true,
-        "type":  "preprint",
-        "openalex_id":  "https://openalex.org/W7134925877"
     },
     {
         "title":  "High-throughput simultaneous quantification of glycopeptides and phosphopeptides enabled by 12-plex DiLeu isobaric tags and dual-functional Titanium(IV)-IMAC material",
@@ -303,6 +303,34 @@
         "openalex_id":  "https://openalex.org/W7151423960"
     },
     {
+        "title":  "Neuropeptide Diversity Encoded in Newly Sequenced Crustacean Genomes Reveals Signaling Roles during Feeding",
+        "year":  2026,
+        "date":  "2026-06-11",
+        "venue":  "ACS Chemical Neuroscience",
+        "doi":  "https://doi.org/10.1021/acschemneuro.6c00123",
+        "url":  "https://doi.org/10.1021/acschemneuro.6c00123",
+        "authors":  [
+                        "Lauren Fields",
+                        "Vu Ngoc Huong Tran",
+                        "Thao Duong",
+                        "Tina C. Dang",
+                        "Kendra G. Selby",
+                        "Lingjun Li"
+                    ],
+        "author_count":  6,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  0,
+        "by_year":  [
+
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W7164369298"
+    },
+    {
         "title":  "Spatially resolved lipid compartmentalization in human pancreatic islets revealed by high-resolution ultra-low-flow-rate desorption electrospray ionization mass spectrometry imaging",
         "year":  2026,
         "date":  "2026-05-22",
@@ -332,59 +360,6 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W7161985605"
-    },
-    {
-        "title":  "Decoding stereospecific metabolic regulation of protein modifications",
-        "year":  2026,
-        "date":  "2026-05-20",
-        "venue":  "Nature Chemistry",
-        "doi":  "https://doi.org/10.1038/s41557-026-02157-y",
-        "url":  "https://doi.org/10.1038/s41557-026-02157-y",
-        "authors":  [
-                        "Shuling Xu",
-                        "Lingjun Li",
-                        "Zhijun Zhu"
-                    ],
-        "author_count":  3,
-        "position":  "middle",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  0,
-        "by_year":  [
-
-                    ],
-        "is_preprint":  false,
-        "open_access":  false,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W7161761517"
-    },
-    {
-        "title":  "Neuropeptide Diversity Encoded in Newly Sequenced Crustacean Genomes Reveals Signaling Roles during Feeding",
-        "year":  2026,
-        "date":  "2026-06-11",
-        "venue":  "ACS Chemical Neuroscience",
-        "doi":  "https://doi.org/10.1021/acschemneuro.6c00123",
-        "url":  "https://doi.org/10.1021/acschemneuro.6c00123",
-        "authors":  [
-                        "Lauren Fields",
-                        "Vu Ngoc Huong Tran",
-                        "Thao Duong",
-                        "Tina C. Dang",
-                        "Kendra G. Selby",
-                        "Lingjun Li"
-                    ],
-        "author_count":  6,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  0,
-        "by_year":  [
-
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W7164369298"
     },
     {
         "title":  "Mass Spectrometric Analysis of Neuropeptides in Microdialysis Samples",
@@ -500,6 +475,31 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W7160093323"
+    },
+    {
+        "title":  "Decoding stereospecific metabolic regulation of protein modifications",
+        "year":  2026,
+        "date":  "2026-05-20",
+        "venue":  "Nature Chemistry",
+        "doi":  "https://doi.org/10.1038/s41557-026-02157-y",
+        "url":  "https://doi.org/10.1038/s41557-026-02157-y",
+        "authors":  [
+                        "Shuling Xu",
+                        "Lingjun Li",
+                        "Zhijun Zhu"
+                    ],
+        "author_count":  3,
+        "position":  "middle",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  0,
+        "by_year":  [
+
+                    ],
+        "is_preprint":  false,
+        "open_access":  false,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W7161761517"
     },
     {
         "title":  "Bridging genomes and peptidomes: hybrid sequencing reveals conserved bioactive peptides in crustaceans",
@@ -704,6 +704,44 @@
         "openalex_id":  "https://openalex.org/W4410845564"
     },
     {
+        "title":  "Proteome-Wide Investigation of Proline Hydroxylation in Pancreatic Ductal Adenocarcinoma Using DiLeu Isobaric Labeling Strategy",
+        "year":  2025,
+        "date":  "2025-04-09",
+        "venue":  "Molecular \u0026 Cellular Proteomics",
+        "doi":  "https://doi.org/10.1016/j.mcpro.2025.100969",
+        "url":  "https://doi.org/10.1016/j.mcpro.2025.100969",
+        "authors":  [
+                        "Feixuan Wu",
+                        "Dylan Nicholas Tabang",
+                        "Danqing Wang",
+                        "Jon S. Odorico",
+                        "Lingjun Li"
+                    ],
+        "author_count":  5,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  7,
+        "by_year":  [
+                        {
+                            "year":  2023,
+                            "count":  1
+                        },
+                        {
+                            "year":  2025,
+                            "count":  2
+                        },
+                        {
+                            "year":  2026,
+                            "count":  4
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4409290622"
+    },
+    {
         "title":  "Development of Potent and Selective RIPK1 Degraders Targeting Its Nonenzymatic Function for Cancer Treatment",
         "year":  2025,
         "date":  "2025-07-16",
@@ -743,44 +781,6 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4412464727"
-    },
-    {
-        "title":  "Proteome-Wide Investigation of Proline Hydroxylation in Pancreatic Ductal Adenocarcinoma Using DiLeu Isobaric Labeling Strategy",
-        "year":  2025,
-        "date":  "2025-04-09",
-        "venue":  "Molecular \u0026 Cellular Proteomics",
-        "doi":  "https://doi.org/10.1016/j.mcpro.2025.100969",
-        "url":  "https://doi.org/10.1016/j.mcpro.2025.100969",
-        "authors":  [
-                        "Feixuan Wu",
-                        "Dylan Nicholas Tabang",
-                        "Danqing Wang",
-                        "Jon S. Odorico",
-                        "Lingjun Li"
-                    ],
-        "author_count":  5,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  7,
-        "by_year":  [
-                        {
-                            "year":  2023,
-                            "count":  1
-                        },
-                        {
-                            "year":  2025,
-                            "count":  2
-                        },
-                        {
-                            "year":  2026,
-                            "count":  4
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4409290622"
     },
     {
         "title":  "Recent advances in chemical proteomics for protein profiling and targeted degradation",
@@ -831,7 +831,7 @@
         "position":  "last",
         "is_co_first":  false,
         "leads":  false,
-        "citations":  5,
+        "citations":  6,
         "by_year":  [
                         {
                             "year":  2025,
@@ -839,13 +839,56 @@
                         },
                         {
                             "year":  2026,
-                            "count":  4
+                            "count":  5
                         }
                     ],
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4413112222"
+    },
+    {
+        "title":  "CARM1-Mediated MAP2K4 Methylation Potentiates the Oncogenic Functions of MAP2K4 and Constitutes a Targetable Dependency in Triple-Negative Breast Cancer",
+        "year":  2025,
+        "date":  "2025-05-29",
+        "venue":  "Cancer Research",
+        "doi":  "https://doi.org/10.1158/0008-5472.can-24-3476",
+        "url":  "https://doi.org/10.1158/0008-5472.can-24-3476",
+        "authors":  [
+                        "Eui‐Jun Kim",
+                        "Yidan Wang",
+                        "Yulin Chen",
+                        "M Ma",
+                        "Peng Liu",
+                        "Megan S. Bacabac",
+                        "Jingjing Zhou",
+                        "Christopher J. Fry",
+                        "Jordan R. Hoffman",
+                        "Menggang Yu",
+                        "Lingjun Li",
+                        "Aussie Suzuki",
+                        "Shulin Li",
+                        "Wei Xu"
+                    ],
+        "author_count":  14,
+        "position":  "middle",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  4,
+        "by_year":  [
+                        {
+                            "year":  2025,
+                            "count":  1
+                        },
+                        {
+                            "year":  2026,
+                            "count":  3
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4410855808"
     },
     {
         "title":  "Single-cell mass spectrometry imaging: emerging advancements and future insights",
@@ -912,49 +955,6 @@
         "openalex_id":  "https://openalex.org/W4412835683"
     },
     {
-        "title":  "CARM1-Mediated MAP2K4 Methylation Potentiates the Oncogenic Functions of MAP2K4 and Constitutes a Targetable Dependency in Triple-Negative Breast Cancer",
-        "year":  2025,
-        "date":  "2025-05-29",
-        "venue":  "Cancer Research",
-        "doi":  "https://doi.org/10.1158/0008-5472.can-24-3476",
-        "url":  "https://doi.org/10.1158/0008-5472.can-24-3476",
-        "authors":  [
-                        "Eui‐Jun Kim",
-                        "Yidan Wang",
-                        "Yulin Chen",
-                        "M Ma",
-                        "Peng Liu",
-                        "Megan S. Bacabac",
-                        "Jingjing Zhou",
-                        "Christopher J. Fry",
-                        "Jordan R. Hoffman",
-                        "Menggang Yu",
-                        "Lingjun Li",
-                        "Aussie Suzuki",
-                        "Shulin Li",
-                        "Wei Xu"
-                    ],
-        "author_count":  14,
-        "position":  "middle",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  4,
-        "by_year":  [
-                        {
-                            "year":  2025,
-                            "count":  1
-                        },
-                        {
-                            "year":  2026,
-                            "count":  3
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4410855808"
-    },
-    {
         "title":  "Direct transfer of multicellular tumor spheroids grown in agarose microarrays for high-throughput mass spectrometry imaging analysis",
         "year":  2025,
         "date":  "2025-03-29",
@@ -1019,39 +1019,6 @@
         "openalex_id":  "https://openalex.org/W4408007777"
     },
     {
-        "title":  "Quantitative neuropeptide analysis by mass spectrometry: advancing methodologies for biological discovery",
-        "year":  2025,
-        "date":  "2025-01-01",
-        "venue":  "RSC Chemical Biology",
-        "doi":  "https://doi.org/10.1039/d5cb00082c",
-        "url":  "https://doi.org/10.1039/d5cb00082c",
-        "authors":  [
-                        "Angel Erbey Ibarra",
-                        "Wenxin Wu",
-                        "Haoran Zhang",
-                        "Lingjun Li"
-                    ],
-        "author_count":  4,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  3,
-        "by_year":  [
-                        {
-                            "year":  2025,
-                            "count":  1
-                        },
-                        {
-                            "year":  2026,
-                            "count":  2
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4411251057"
-    },
-    {
         "title":  "On-Tissue Chemical Derivatization for Mass Spectrometry Imaging of Fatty Acids with Enhanced Detection Sensitivity",
         "year":  2025,
         "date":  "2025-03-03",
@@ -1087,6 +1054,166 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4408108656"
+    },
+    {
+        "title":  "Quantitative neuropeptide analysis by mass spectrometry: advancing methodologies for biological discovery",
+        "year":  2025,
+        "date":  "2025-01-01",
+        "venue":  "RSC Chemical Biology",
+        "doi":  "https://doi.org/10.1039/d5cb00082c",
+        "url":  "https://doi.org/10.1039/d5cb00082c",
+        "authors":  [
+                        "Angel Erbey Ibarra",
+                        "Wenxin Wu",
+                        "Haoran Zhang",
+                        "Lingjun Li"
+                    ],
+        "author_count":  4,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  3,
+        "by_year":  [
+                        {
+                            "year":  2025,
+                            "count":  1
+                        },
+                        {
+                            "year":  2026,
+                            "count":  2
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4411251057"
+    },
+    {
+        "title":  "Boosting Quantification of N-Glycans by an Enhanced Isobaric Multiplex Reagents for Carbonyl-Containing Compound (SUGAR) Tagging Strategy",
+        "year":  2025,
+        "date":  "2025-08-11",
+        "venue":  "Journal of the American Society for Mass Spectrometry",
+        "doi":  "https://doi.org/10.1021/jasms.5c00153",
+        "url":  "https://doi.org/10.1021/jasms.5c00153",
+        "authors":  [
+                        "Jingwei Zhang",
+                        "Zicong Wang",
+                        "Yuan Liu",
+                        "Henrik Zetterberg",
+                        "Lingjun Li"
+                    ],
+        "author_count":  5,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  2,
+        "by_year":  [
+                        {
+                            "year":  2025,
+                            "count":  1
+                        },
+                        {
+                            "year":  2026,
+                            "count":  1
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4413108727"
+    },
+    {
+        "title":  "Overexpression of ATase1 and ATase2 disrupts the secretome and causes a progeria phenotype",
+        "year":  2025,
+        "date":  "2025-08-29",
+        "venue":  "Life Science Alliance",
+        "doi":  "https://doi.org/10.26508/lsa.202503378",
+        "url":  "https://doi.org/10.26508/lsa.202503378",
+        "authors":  [
+                        "T. S. Cheng",
+                        "Feixuan Wu",
+                        "Md. Ezazul Haque",
+                        "Abigail Thiel",
+                        "Danqing Wang",
+                        "Jeffrey Helgager",
+                        "Lingjun Li",
+                        "Luigi Puglielli"
+                    ],
+        "author_count":  8,
+        "position":  "middle",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  2,
+        "by_year":  [
+                        {
+                            "year":  2026,
+                            "count":  2
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4414090099"
+    },
+    {
+        "title":  "Unlocking the Neuropeptidome using a Novel Endogenous Peptidomics Framework",
+        "year":  2025,
+        "date":  "2025-06-15",
+        "venue":  "bioRxiv (Cold Spring Harbor Laboratory)",
+        "doi":  "https://doi.org/10.1101/2025.06.12.659356",
+        "url":  "https://doi.org/10.1101/2025.06.12.659356",
+        "authors":  [
+                        "Lauren Fields",
+                        "Wenxin Wu",
+                        "Tina C. Dang",
+                        "Angel Erbey Ibarra",
+                        "Mitchell Gray",
+                        "Lingjun Li"
+                    ],
+        "author_count":  6,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  2,
+        "by_year":  [
+                        {
+                            "year":  2026,
+                            "count":  2
+                        }
+                    ],
+        "is_preprint":  true,
+        "open_access":  true,
+        "type":  "preprint",
+        "openalex_id":  "https://openalex.org/W4411325590"
+    },
+    {
+        "title":  "Multiplexed Data-Independent Acquisition-Based Proteomics Enabled by TMTpro Complementary Ions",
+        "year":  2025,
+        "date":  "2025-11-26",
+        "venue":  "Analytical Chemistry",
+        "doi":  "https://doi.org/10.1021/acs.analchem.5c03563",
+        "url":  "https://doi.org/10.1021/acs.analchem.5c03563",
+        "authors":  [
+                        "Zicong Wang",
+                        "Peng-Kai Liu",
+                        "Haiyan Lu",
+                        "Lingjun Li"
+                    ],
+        "author_count":  4,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  2,
+        "by_year":  [
+                        {
+                            "year":  2026,
+                            "count":  2
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4416723660"
     },
     {
         "title":  "Global spinal cord peptidome profiling in response to osteoarthritis in rats",
@@ -1159,131 +1286,37 @@
         "openalex_id":  "https://openalex.org/W4411744649"
     },
     {
-        "title":  "Boosting Quantification of N-Glycans by an Enhanced Isobaric Multiplex Reagents for Carbonyl-Containing Compound (SUGAR) Tagging Strategy",
+        "title":  "13-Plex DeAla Isobaric Reagents for High-Throughput Proteome Quantification",
         "year":  2025,
-        "date":  "2025-08-11",
-        "venue":  "Journal of the American Society for Mass Spectrometry",
-        "doi":  "https://doi.org/10.1021/jasms.5c00153",
-        "url":  "https://doi.org/10.1021/jasms.5c00153",
+        "date":  "2025-10-06",
+        "venue":  "Analytical Chemistry",
+        "doi":  "https://doi.org/10.1021/acs.analchem.5c03910",
+        "url":  "https://doi.org/10.1021/acs.analchem.5c03910",
         "authors":  [
-                        "Jingwei Zhang",
+                        "Peng-Kai Liu",
+                        "Ting‐Jia Gu",
+                        "Shuling Xu",
+                        "Alexander Nassar",
                         "Zicong Wang",
-                        "Yuan Liu",
-                        "Henrik Zetterberg",
+                        "Hung-Yu Chiang",
+                        "Danqing Wang",
                         "Lingjun Li"
                     ],
-        "author_count":  5,
+        "author_count":  8,
         "position":  "last",
         "is_co_first":  false,
         "leads":  false,
-        "citations":  2,
+        "citations":  1,
         "by_year":  [
                         {
                             "year":  2025,
                             "count":  1
-                        },
-                        {
-                            "year":  2026,
-                            "count":  1
                         }
                     ],
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
-        "openalex_id":  "https://openalex.org/W4413108727"
-    },
-    {
-        "title":  "Multiplexed Data-Independent Acquisition-Based Proteomics Enabled by TMTpro Complementary Ions",
-        "year":  2025,
-        "date":  "2025-11-26",
-        "venue":  "Analytical Chemistry",
-        "doi":  "https://doi.org/10.1021/acs.analchem.5c03563",
-        "url":  "https://doi.org/10.1021/acs.analchem.5c03563",
-        "authors":  [
-                        "Zicong Wang",
-                        "Peng-Kai Liu",
-                        "Haiyan Lu",
-                        "Lingjun Li"
-                    ],
-        "author_count":  4,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  2,
-        "by_year":  [
-                        {
-                            "year":  2026,
-                            "count":  2
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4416723660"
-    },
-    {
-        "title":  "Overexpression of ATase1 and ATase2 disrupts the secretome and causes a progeria phenotype",
-        "year":  2025,
-        "date":  "2025-08-29",
-        "venue":  "Life Science Alliance",
-        "doi":  "https://doi.org/10.26508/lsa.202503378",
-        "url":  "https://doi.org/10.26508/lsa.202503378",
-        "authors":  [
-                        "T. S. Cheng",
-                        "Feixuan Wu",
-                        "Md. Ezazul Haque",
-                        "Abigail Thiel",
-                        "Danqing Wang",
-                        "Jeffrey Helgager",
-                        "Lingjun Li",
-                        "Luigi Puglielli"
-                    ],
-        "author_count":  8,
-        "position":  "middle",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  2,
-        "by_year":  [
-                        {
-                            "year":  2026,
-                            "count":  2
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4414090099"
-    },
-    {
-        "title":  "Unlocking the Neuropeptidome using a Novel Endogenous Peptidomics Framework",
-        "year":  2025,
-        "date":  "2025-06-15",
-        "venue":  "bioRxiv (Cold Spring Harbor Laboratory)",
-        "doi":  "https://doi.org/10.1101/2025.06.12.659356",
-        "url":  "https://doi.org/10.1101/2025.06.12.659356",
-        "authors":  [
-                        "Lauren Fields",
-                        "Wenxin Wu",
-                        "Tina C. Dang",
-                        "Angel Erbey Ibarra",
-                        "Mitchell Gray",
-                        "Lingjun Li"
-                    ],
-        "author_count":  6,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  2,
-        "by_year":  [
-                        {
-                            "year":  2026,
-                            "count":  2
-                        }
-                    ],
-        "is_preprint":  true,
-        "open_access":  true,
-        "type":  "preprint",
-        "openalex_id":  "https://openalex.org/W4411325590"
+        "openalex_id":  "https://openalex.org/W4414877077"
     },
     {
         "title":  "Impact of glucagon oxidation on fibril formation",
@@ -1318,55 +1351,26 @@
         "openalex_id":  "https://openalex.org/W4410349631"
     },
     {
-        "title":  "13-Plex DeAla Isobaric Reagents for High-Throughput Proteome Quantification",
+        "title":  "Increased expression of ATase1/NAT8B or ATase2/NAT8 in the mouse results in an autistic-like phenotype with altered dendritic branching and spine formation",
         "year":  2025,
-        "date":  "2025-10-06",
-        "venue":  "Analytical Chemistry",
-        "doi":  "https://doi.org/10.1021/acs.analchem.5c03910",
-        "url":  "https://doi.org/10.1021/acs.analchem.5c03910",
+        "date":  "2025-09-24",
+        "venue":  "Molecular Psychiatry",
+        "doi":  "https://doi.org/10.1038/s41380-025-03228-1",
+        "url":  "https://doi.org/10.1038/s41380-025-03228-1",
         "authors":  [
-                        "Peng-Kai Liu",
-                        "Ting‐Jia Gu",
-                        "Shuling Xu",
-                        "Alexander Nassar",
-                        "Zicong Wang",
-                        "Hung-Yu Chiang",
-                        "Danqing Wang",
-                        "Lingjun Li"
-                    ],
-        "author_count":  8,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  1,
-        "by_year":  [
-                        {
-                            "year":  2025,
-                            "count":  1
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4414877077"
-    },
-    {
-        "title":  "Proteome-Wide Analysis and Surface Protein Isolation for Secretome Characterization Reveal Insights into the Biology of the Leaf-Cutter Ant Acromyrmex echinatior",
-        "year":  2025,
-        "date":  "2025-12-11",
-        "venue":  "Analytical Chemistry",
-        "doi":  "https://doi.org/10.1021/acs.analchem.5c05220",
-        "url":  "https://doi.org/10.1021/acs.analchem.5c05220",
-        "authors":  [
-                        "Penghsuan Huang",
-                        "Joseph A. Sardina",
+                        "K. Balagangadharan",
                         "Haiyan Lu",
-                        "Gaspar Bruner-Montero",
-                        "Cameron R. Currie",
-                        "Lingjun Li"
+                        "Angelique Steenhagen",
+                        "Qiping Dong",
+                        "Mitchell Gray",
+                        "Michael J. Rigby",
+                        "Andreas Endresen",
+                        "Qiang Chang",
+                        "Lingjun Li",
+                        "Luigi Puglielli"
                     ],
-        "author_count":  6,
-        "position":  "last",
+        "author_count":  10,
+        "position":  "middle",
         "is_co_first":  false,
         "leads":  false,
         "citations":  0,
@@ -1376,7 +1380,7 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
-        "openalex_id":  "https://openalex.org/W4417232957"
+        "openalex_id":  "https://openalex.org/W4414487526"
     },
     {
         "title":  "Tumor-Derived Polyamines Initiate Fat Wasting in Cancer Cachexia",
@@ -1420,95 +1424,18 @@
         "openalex_id":  "https://openalex.org/W4417117020"
     },
     {
-        "title":  "Isotopic N,N-Dimethyl Leucine-Based Mass Spectrometric Quantification of Metabolites Following Copper Exposure",
+        "title":  "Proteome-Wide Analysis and Surface Protein Isolation for Secretome Characterization Reveal Insights into the Biology of the Leaf-Cutter Ant Acromyrmex echinatior",
         "year":  2025,
-        "date":  "2025-09-01",
-        "venue":  "Biomolecules",
-        "doi":  "https://doi.org/10.3390/biom15091264",
-        "url":  "https://doi.org/10.3390/biom15091264",
+        "date":  "2025-12-11",
+        "venue":  "Analytical Chemistry",
+        "doi":  "https://doi.org/10.1021/acs.analchem.5c05220",
+        "url":  "https://doi.org/10.1021/acs.analchem.5c05220",
         "authors":  [
-                        "Olga Riusech",
-                        "Lingjun Li"
-                    ],
-        "author_count":  2,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  0,
-        "by_year":  [
-
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4413880111"
-    },
-    {
-        "title":  "Absolute quantification of amine metabolites in human cerebrospinal fluid via MS1-centric isotopic N,N-dimethyl leucine (iDiLeu) labeling",
-        "year":  2025,
-        "date":  "2025-01-24",
-        "venue":  "Analytical and Bioanalytical Chemistry",
-        "doi":  "https://doi.org/10.1007/s00216-025-05748-9",
-        "url":  "https://doi.org/10.1007/s00216-025-05748-9",
-        "authors":  [
-                        "Olga Riusech",
-                        "Ling Hao",
-                        "Lingjun Li"
-                    ],
-        "author_count":  3,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  0,
-        "by_year":  [
-
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4406801020"
-    },
-    {
-        "title":  "Feeding state-specific hormonal tuning of neural circuit modulation",
-        "year":  2025,
-        "date":  "2025-07-14",
-        "venue":  "Journal of Neurophysiology",
-        "doi":  "https://doi.org/10.1152/jn.00164.2025",
-        "url":  "https://doi.org/10.1152/jn.00164.2025",
-        "authors":  [
-                        "Logan J. Fickling",
-                        "Aaron P. Cook",
-                        "Wenxin Wu",
-                        "Angel Erbey Ibarra",
-                        "Lingjun Li",
-                        "Michael P. Nusbaum"
-                    ],
-        "author_count":  6,
-        "position":  "middle",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  0,
-        "by_year":  [
-
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4412397898"
-    },
-    {
-        "title":  "MSIght: A Modular Platform for Improved Confidence in Global, Untargeted Mass Spectrometry Imaging Annotation",
-        "year":  2025,
-        "date":  "2025-04-08",
-        "venue":  "Journal of Proteome Research",
-        "doi":  "https://doi.org/10.1021/acs.jproteome.4c01140",
-        "url":  "https://doi.org/10.1021/acs.jproteome.4c01140",
-        "authors":  [
-                        "Lauren Fields",
-                        "Hannah N. Miles",
-                        "Alexis Adrián",
-                        "Elliot Patrenets",
-                        "William A. Ricke",
+                        "Penghsuan Huang",
+                        "Joseph A. Sardina",
+                        "Haiyan Lu",
+                        "Gaspar Bruner-Montero",
+                        "Cameron R. Currie",
                         "Lingjun Li"
                     ],
         "author_count":  6,
@@ -1522,7 +1449,7 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
-        "openalex_id":  "https://openalex.org/W4409244905"
+        "openalex_id":  "https://openalex.org/W4417232957"
     },
     {
         "title":  "Deciphering the three-dimensional biomolecular distribution in the Alzheimer\u0027s disease brain: A multiomic approach integrating immunohistochemistry with MALDI MS imaging",
@@ -1557,26 +1484,22 @@
         "openalex_id":  "https://openalex.org/W4415764726"
     },
     {
-        "title":  "Increased expression of ATase1/NAT8B or ATase2/NAT8 in the mouse results in an autistic-like phenotype with altered dendritic branching and spine formation",
+        "title":  "MSIght: A Modular Platform for Improved Confidence in Global, Untargeted Mass Spectrometry Imaging Annotation",
         "year":  2025,
-        "date":  "2025-09-24",
-        "venue":  "Molecular Psychiatry",
-        "doi":  "https://doi.org/10.1038/s41380-025-03228-1",
-        "url":  "https://doi.org/10.1038/s41380-025-03228-1",
+        "date":  "2025-04-08",
+        "venue":  "Journal of Proteome Research",
+        "doi":  "https://doi.org/10.1021/acs.jproteome.4c01140",
+        "url":  "https://doi.org/10.1021/acs.jproteome.4c01140",
         "authors":  [
-                        "K. Balagangadharan",
-                        "Haiyan Lu",
-                        "Angelique Steenhagen",
-                        "Qiping Dong",
-                        "Mitchell Gray",
-                        "Michael J. Rigby",
-                        "Andreas Endresen",
-                        "Qiang Chang",
-                        "Lingjun Li",
-                        "Luigi Puglielli"
+                        "Lauren Fields",
+                        "Hannah N. Miles",
+                        "Alexis Adrián",
+                        "Elliot Patrenets",
+                        "William A. Ricke",
+                        "Lingjun Li"
                     ],
-        "author_count":  10,
-        "position":  "middle",
+        "author_count":  6,
+        "position":  "last",
         "is_co_first":  false,
         "leads":  false,
         "citations":  0,
@@ -1586,7 +1509,32 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
-        "openalex_id":  "https://openalex.org/W4414487526"
+        "openalex_id":  "https://openalex.org/W4409244905"
+    },
+    {
+        "title":  "Absolute quantification of amine metabolites in human cerebrospinal fluid via MS1-centric isotopic N,N-dimethyl leucine (iDiLeu) labeling",
+        "year":  2025,
+        "date":  "2025-01-24",
+        "venue":  "Analytical and Bioanalytical Chemistry",
+        "doi":  "https://doi.org/10.1007/s00216-025-05748-9",
+        "url":  "https://doi.org/10.1007/s00216-025-05748-9",
+        "authors":  [
+                        "Olga Riusech",
+                        "Ling Hao",
+                        "Lingjun Li"
+                    ],
+        "author_count":  3,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  0,
+        "by_year":  [
+
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4406801020"
     },
     {
         "title":  "EndoGenius: Enabling comprehensive identification and quantitation of endogenous peptides",
@@ -1614,6 +1562,58 @@
         "open_access":  true,
         "type":  "preprint",
         "openalex_id":  "https://openalex.org/W4411265711"
+    },
+    {
+        "title":  "Isotopic N,N-Dimethyl Leucine-Based Mass Spectrometric Quantification of Metabolites Following Copper Exposure",
+        "year":  2025,
+        "date":  "2025-09-01",
+        "venue":  "Biomolecules",
+        "doi":  "https://doi.org/10.3390/biom15091264",
+        "url":  "https://doi.org/10.3390/biom15091264",
+        "authors":  [
+                        "Olga Riusech",
+                        "Lingjun Li"
+                    ],
+        "author_count":  2,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  0,
+        "by_year":  [
+
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4413880111"
+    },
+    {
+        "title":  "Feeding state-specific hormonal tuning of neural circuit modulation",
+        "year":  2025,
+        "date":  "2025-07-14",
+        "venue":  "Journal of Neurophysiology",
+        "doi":  "https://doi.org/10.1152/jn.00164.2025",
+        "url":  "https://doi.org/10.1152/jn.00164.2025",
+        "authors":  [
+                        "Logan J. Fickling",
+                        "Aaron P. Cook",
+                        "Wenxin Wu",
+                        "Angel Erbey Ibarra",
+                        "Lingjun Li",
+                        "Michael P. Nusbaum"
+                    ],
+        "author_count":  6,
+        "position":  "middle",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  0,
+        "by_year":  [
+
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4412397898"
     },
     {
         "title":  "Mass spectrometry imaging for spatially resolved multi-omics molecular mapping",
@@ -1985,6 +1985,82 @@
         "openalex_id":  "https://openalex.org/W4391882891"
     },
     {
+        "title":  "Neuropeptidomics of the American Lobster Homarus americanus",
+        "year":  2024,
+        "date":  "2024-04-22",
+        "venue":  "Journal of Proteome Research",
+        "doi":  "https://doi.org/10.1021/acs.jproteome.3c00925",
+        "url":  "https://doi.org/10.1021/acs.jproteome.3c00925",
+        "authors":  [
+                        "Gaoyuan Lu",
+                        "Vu Ngoc Huong Tran",
+                        "Wenxin Wu",
+                        "M Ma",
+                        "Lingjun Li"
+                    ],
+        "author_count":  5,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  12,
+        "by_year":  [
+                        {
+                            "year":  2024,
+                            "count":  1
+                        },
+                        {
+                            "year":  2025,
+                            "count":  6
+                        },
+                        {
+                            "year":  2026,
+                            "count":  5
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4395004543"
+    },
+    {
+        "title":  "A crustacean neuropeptide spectral library for data‐independent acquisition (DIA) mass spectrometry applications",
+        "year":  2024,
+        "date":  "2024-01-03",
+        "venue":  "PROTEOMICS",
+        "doi":  "https://doi.org/10.1002/pmic.202300285",
+        "url":  "https://doi.org/10.1002/pmic.202300285",
+        "authors":  [
+                        "Lauren Fields",
+                        "M Ma",
+                        "Kellen DeLaney",
+                        "Ashley Phetsanthad",
+                        "Lingjun Li"
+                    ],
+        "author_count":  5,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  12,
+        "by_year":  [
+                        {
+                            "year":  2024,
+                            "count":  2
+                        },
+                        {
+                            "year":  2025,
+                            "count":  6
+                        },
+                        {
+                            "year":  2026,
+                            "count":  4
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4390561397"
+    },
+    {
         "title":  "EndoGenius: Optimized Neuropeptide Identification from Mass Spectrometry Datasets",
         "year":  2024,
         "date":  "2024-03-01",
@@ -2026,44 +2102,6 @@
         "openalex_id":  "https://openalex.org/W4392359170"
     },
     {
-        "title":  "A crustacean neuropeptide spectral library for data‐independent acquisition (DIA) mass spectrometry applications",
-        "year":  2024,
-        "date":  "2024-01-03",
-        "venue":  "PROTEOMICS",
-        "doi":  "https://doi.org/10.1002/pmic.202300285",
-        "url":  "https://doi.org/10.1002/pmic.202300285",
-        "authors":  [
-                        "Lauren Fields",
-                        "M Ma",
-                        "Kellen DeLaney",
-                        "Ashley Phetsanthad",
-                        "Lingjun Li"
-                    ],
-        "author_count":  5,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  12,
-        "by_year":  [
-                        {
-                            "year":  2024,
-                            "count":  2
-                        },
-                        {
-                            "year":  2025,
-                            "count":  6
-                        },
-                        {
-                            "year":  2026,
-                            "count":  4
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4390561397"
-    },
-    {
         "title":  "Probing Protein Structural Changes in Alzheimer’s Disease via Quantitative Cross-linking Mass Spectrometry",
         "year":  2024,
         "date":  "2024-05-01",
@@ -2100,44 +2138,6 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4396547495"
-    },
-    {
-        "title":  "Neuropeptidomics of the American Lobster Homarus americanus",
-        "year":  2024,
-        "date":  "2024-04-22",
-        "venue":  "Journal of Proteome Research",
-        "doi":  "https://doi.org/10.1021/acs.jproteome.3c00925",
-        "url":  "https://doi.org/10.1021/acs.jproteome.3c00925",
-        "authors":  [
-                        "Gaoyuan Lu",
-                        "Vu Ngoc Huong Tran",
-                        "Wenxin Wu",
-                        "M Ma",
-                        "Lingjun Li"
-                    ],
-        "author_count":  5,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  12,
-        "by_year":  [
-                        {
-                            "year":  2024,
-                            "count":  1
-                        },
-                        {
-                            "year":  2025,
-                            "count":  6
-                        },
-                        {
-                            "year":  2026,
-                            "count":  5
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4395004543"
     },
     {
         "title":  "OGA mutant aberrantly hydrolyzes O-GlcNAc modification from PDLIM7 to modulate p53 and cytoskeleton in promoting cancer cell malignancy",
@@ -2318,6 +2318,46 @@
         "openalex_id":  "https://openalex.org/W4401026903"
     },
     {
+        "title":  "Mass Spectrometry-Based Precise Identification of Citrullinated Histones via Limited Digestion and Biotin Derivative Tag Enrichment",
+        "year":  2024,
+        "date":  "2024-01-29",
+        "venue":  "Analytical Chemistry",
+        "doi":  "https://doi.org/10.1021/acs.analchem.3c02646",
+        "url":  "https://doi.org/10.1021/acs.analchem.3c02646",
+        "authors":  [
+                        "Bin Wang",
+                        "Zihui Li",
+                        "Yatao Shi",
+                        "Zexin Zhu",
+                        "Lauren Fields",
+                        "Miriam A. Shelef",
+                        "Lingjun Li"
+                    ],
+        "author_count":  7,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  6,
+        "by_year":  [
+                        {
+                            "year":  2024,
+                            "count":  2
+                        },
+                        {
+                            "year":  2025,
+                            "count":  1
+                        },
+                        {
+                            "year":  2026,
+                            "count":  3
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4391304276"
+    },
+    {
         "title":  "NEAT1 repression by MED12 creates chemosensitivity in p53 wild‐type breast cancer cells",
         "year":  2024,
         "date":  "2024-02-21",
@@ -2397,46 +2437,6 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4405949397"
-    },
-    {
-        "title":  "Mass Spectrometry-Based Precise Identification of Citrullinated Histones via Limited Digestion and Biotin Derivative Tag Enrichment",
-        "year":  2024,
-        "date":  "2024-01-29",
-        "venue":  "Analytical Chemistry",
-        "doi":  "https://doi.org/10.1021/acs.analchem.3c02646",
-        "url":  "https://doi.org/10.1021/acs.analchem.3c02646",
-        "authors":  [
-                        "Bin Wang",
-                        "Zihui Li",
-                        "Yatao Shi",
-                        "Zexin Zhu",
-                        "Lauren Fields",
-                        "Miriam A. Shelef",
-                        "Lingjun Li"
-                    ],
-        "author_count":  7,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  6,
-        "by_year":  [
-                        {
-                            "year":  2024,
-                            "count":  2
-                        },
-                        {
-                            "year":  2025,
-                            "count":  1
-                        },
-                        {
-                            "year":  2026,
-                            "count":  3
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4391304276"
     },
     {
         "title":  "The longevity factor spermidine is part of a highly heritable complex erythrocyte phenotype associated with longevity",
@@ -2550,6 +2550,35 @@
         "openalex_id":  "https://openalex.org/W4402929991"
     },
     {
+        "title":  "Rapid Characterization of Phospholipids from Biological Matrix Enabled by Indium Tin Oxide (ITO) Coated Slide Assisted Enrichment MALDI Mass Spectrometry",
+        "year":  2024,
+        "date":  "2024-02-28",
+        "venue":  "Analysis \u0026 Sensing",
+        "doi":  "https://doi.org/10.1002/anse.202300097",
+        "url":  "https://doi.org/10.1002/anse.202300097",
+        "authors":  [
+                        "Penghsuan Huang",
+                        "Hua Zhang",
+                        "Yuan Liu",
+                        "Lingjun Li"
+                    ],
+        "author_count":  4,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  3,
+        "by_year":  [
+                        {
+                            "year":  2025,
+                            "count":  3
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4392229293"
+    },
+    {
         "title":  "11-Plex DiLeu Isobaric Labeling Enables Quantitative Assessment of Brain Region Protein Association Networks Impacted by the Gut Microbiome",
         "year":  2024,
         "date":  "2024-02-19",
@@ -2622,64 +2651,6 @@
         "openalex_id":  "https://openalex.org/W4393285660"
     },
     {
-        "title":  "Rapid Characterization of Phospholipids from Biological Matrix Enabled by Indium Tin Oxide (ITO) Coated Slide Assisted Enrichment MALDI Mass Spectrometry",
-        "year":  2024,
-        "date":  "2024-02-28",
-        "venue":  "Analysis \u0026 Sensing",
-        "doi":  "https://doi.org/10.1002/anse.202300097",
-        "url":  "https://doi.org/10.1002/anse.202300097",
-        "authors":  [
-                        "Penghsuan Huang",
-                        "Hua Zhang",
-                        "Yuan Liu",
-                        "Lingjun Li"
-                    ],
-        "author_count":  4,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  3,
-        "by_year":  [
-                        {
-                            "year":  2025,
-                            "count":  3
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4392229293"
-    },
-    {
-        "title":  "12-Plex Isobaric Multiplex Labeling Reagents for Carbonyl-Containing Compound (SUGAR) Tag-Enabled High-Throughput Quantitative Glycomics",
-        "year":  2024,
-        "date":  "2024-01-01",
-        "venue":  "Methods in molecular biology",
-        "doi":  "https://doi.org/10.1007/978-1-0716-3922-1_11",
-        "url":  "https://doi.org/10.1007/978-1-0716-3922-1_11",
-        "authors":  [
-                        "Miyang Li",
-                        "Feng Yu",
-                        "M Ma",
-                        "Lingjun Li"
-                    ],
-        "author_count":  4,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  1,
-        "by_year":  [
-                        {
-                            "year":  2025,
-                            "count":  1
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "book-chapter",
-        "openalex_id":  "https://openalex.org/W4400980271"
-    },
-    {
         "title":  "sn-Position-Resolved Quantification of Aminophospholipids by Isotopic N,N-Dimethyl Leucine Labeling and High-Resolution Ion Mobility Mass Spectrometry",
         "year":  2024,
         "date":  "2024-12-04",
@@ -2714,6 +2685,35 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4404993602"
+    },
+    {
+        "title":  "12-Plex Isobaric Multiplex Labeling Reagents for Carbonyl-Containing Compound (SUGAR) Tag-Enabled High-Throughput Quantitative Glycomics",
+        "year":  2024,
+        "date":  "2024-01-01",
+        "venue":  "Methods in molecular biology",
+        "doi":  "https://doi.org/10.1007/978-1-0716-3922-1_11",
+        "url":  "https://doi.org/10.1007/978-1-0716-3922-1_11",
+        "authors":  [
+                        "Miyang Li",
+                        "Feng Yu",
+                        "M Ma",
+                        "Lingjun Li"
+                    ],
+        "author_count":  4,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  1,
+        "by_year":  [
+                        {
+                            "year":  2025,
+                            "count":  1
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "book-chapter",
+        "openalex_id":  "https://openalex.org/W4400980271"
     },
     {
         "title":  "Development of Potent and Selective RIPK1 Degraders with In Vivo Efficacy for Cancer Treatment",
@@ -2753,6 +2753,31 @@
         "openalex_id":  "https://openalex.org/W4405104580"
     },
     {
+        "title":  "Profiling Human Cerebrospinal Fluid (CSF) Endogenous Peptidome in Alzheimer’s Disease",
+        "year":  2024,
+        "date":  "2024-01-01",
+        "venue":  "Methods in molecular biology",
+        "doi":  "https://doi.org/10.1007/978-1-0716-3646-6_24",
+        "url":  "https://doi.org/10.1007/978-1-0716-3646-6_24",
+        "authors":  [
+                        "Danqing Wang",
+                        "Zhengwei Chen",
+                        "Lingjun Li"
+                    ],
+        "author_count":  3,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  0,
+        "by_year":  [
+
+                    ],
+        "is_preprint":  false,
+        "open_access":  false,
+        "type":  "book-chapter",
+        "openalex_id":  "https://openalex.org/W4393285711"
+    },
+    {
         "title":  "Quantitative Endogenous Polyamine Analysis via Capillary Electrophoresis/Mass Spectrometry: Characterization and Practical Considerations",
         "year":  2024,
         "date":  "2024-12-06",
@@ -2777,31 +2802,6 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4405111493"
-    },
-    {
-        "title":  "Profiling Human Cerebrospinal Fluid (CSF) Endogenous Peptidome in Alzheimer’s Disease",
-        "year":  2024,
-        "date":  "2024-01-01",
-        "venue":  "Methods in molecular biology",
-        "doi":  "https://doi.org/10.1007/978-1-0716-3646-6_24",
-        "url":  "https://doi.org/10.1007/978-1-0716-3646-6_24",
-        "authors":  [
-                        "Danqing Wang",
-                        "Zhengwei Chen",
-                        "Lingjun Li"
-                    ],
-        "author_count":  3,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  0,
-        "by_year":  [
-
-                    ],
-        "is_preprint":  false,
-        "open_access":  false,
-        "type":  "book-chapter",
-        "openalex_id":  "https://openalex.org/W4393285711"
     },
     {
         "title":  "The subcommissural organ regulates brain development via secreted peptides",
@@ -3219,45 +3219,6 @@
         "openalex_id":  "https://openalex.org/W4387440098"
     },
     {
-        "title":  "High-Throughput Quantitative Glycomics Enabled by 12-plex Isobaric Multiplex Labeling Reagents for Carbonyl-Containing Compound (SUGAR) Tags",
-        "year":  2023,
-        "date":  "2023-01-26",
-        "venue":  "Journal of Proteome Research",
-        "doi":  "https://doi.org/10.1021/acs.jproteome.2c00773",
-        "url":  "https://doi.org/10.1021/acs.jproteome.2c00773",
-        "authors":  [
-                        "Miyang Li",
-                        "Feng Yu",
-                        "M Ma",
-                        "Arvinder Kapur",
-                        "Manish S. Patankar",
-                        "Lingjun Li"
-                    ],
-        "author_count":  6,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  15,
-        "by_year":  [
-                        {
-                            "year":  2023,
-                            "count":  3
-                        },
-                        {
-                            "year":  2024,
-                            "count":  7
-                        },
-                        {
-                            "year":  2025,
-                            "count":  5
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4318068894"
-    },
-    {
         "title":  "Definitive Screening Designs to Optimize Library-Free DIA-MS Identification and Quantification of Neuropeptides",
         "year":  2023,
         "date":  "2023-03-15",
@@ -3297,6 +3258,45 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4324326953"
+    },
+    {
+        "title":  "High-Throughput Quantitative Glycomics Enabled by 12-plex Isobaric Multiplex Labeling Reagents for Carbonyl-Containing Compound (SUGAR) Tags",
+        "year":  2023,
+        "date":  "2023-01-26",
+        "venue":  "Journal of Proteome Research",
+        "doi":  "https://doi.org/10.1021/acs.jproteome.2c00773",
+        "url":  "https://doi.org/10.1021/acs.jproteome.2c00773",
+        "authors":  [
+                        "Miyang Li",
+                        "Feng Yu",
+                        "M Ma",
+                        "Arvinder Kapur",
+                        "Manish S. Patankar",
+                        "Lingjun Li"
+                    ],
+        "author_count":  6,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  15,
+        "by_year":  [
+                        {
+                            "year":  2023,
+                            "count":  3
+                        },
+                        {
+                            "year":  2024,
+                            "count":  7
+                        },
+                        {
+                            "year":  2025,
+                            "count":  5
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4318068894"
     },
     {
         "title":  "Structural Proteomic Profiling of Cerebrospinal Fluids to Reveal Novel Conformational Biomarkers for Alzheimer’s Disease",
@@ -3539,7 +3539,7 @@
         "position":  "last",
         "is_co_first":  false,
         "leads":  false,
-        "citations":  10,
+        "citations":  11,
         "by_year":  [
                         {
                             "year":  2023,
@@ -3552,6 +3552,10 @@
                         {
                             "year":  2025,
                             "count":  4
+                        },
+                        {
+                            "year":  2026,
+                            "count":  1
                         }
                     ],
         "is_preprint":  false,
@@ -3725,6 +3729,46 @@
         "openalex_id":  "https://openalex.org/W4319656688"
     },
     {
+        "title":  "Toxicoproteomics of Mono(2-ethylhexyl) phthalate and Perfluorooctanesulfonic Acid in Models of Prostatic Diseases",
+        "year":  2023,
+        "date":  "2023-02-07",
+        "venue":  "Chemical Research in Toxicology",
+        "doi":  "https://doi.org/10.1021/acs.chemrestox.2c00328",
+        "url":  "https://doi.org/10.1021/acs.chemrestox.2c00328",
+        "authors":  [
+                        "Samuel Thomas",
+                        "William A. Ricke",
+                        "Lingjun Li"
+                    ],
+        "author_count":  3,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  8,
+        "by_year":  [
+                        {
+                            "year":  2023,
+                            "count":  2
+                        },
+                        {
+                            "year":  2024,
+                            "count":  3
+                        },
+                        {
+                            "year":  2025,
+                            "count":  1
+                        },
+                        {
+                            "year":  2026,
+                            "count":  2
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4319333212"
+    },
+    {
         "title":  "On-Tissue Spatial Proteomics Integrating MALDI-MS Imaging with Shotgun Proteomics Reveals Soy Consumption-Induced Protein Changes in a Fragile X Syndrome Mouse Model",
         "year":  2023,
         "date":  "2023-12-18",
@@ -3772,46 +3816,6 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4389890946"
-    },
-    {
-        "title":  "Toxicoproteomics of Mono(2-ethylhexyl) phthalate and Perfluorooctanesulfonic Acid in Models of Prostatic Diseases",
-        "year":  2023,
-        "date":  "2023-02-07",
-        "venue":  "Chemical Research in Toxicology",
-        "doi":  "https://doi.org/10.1021/acs.chemrestox.2c00328",
-        "url":  "https://doi.org/10.1021/acs.chemrestox.2c00328",
-        "authors":  [
-                        "Samuel Thomas",
-                        "William A. Ricke",
-                        "Lingjun Li"
-                    ],
-        "author_count":  3,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  8,
-        "by_year":  [
-                        {
-                            "year":  2023,
-                            "count":  2
-                        },
-                        {
-                            "year":  2024,
-                            "count":  3
-                        },
-                        {
-                            "year":  2025,
-                            "count":  1
-                        },
-                        {
-                            "year":  2026,
-                            "count":  2
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4319333212"
     },
     {
         "title":  "Quantification of Serum Metabolites in Early Colorectal Adenomas Using Isobaric Labeling Mass Spectrometry",
@@ -3940,35 +3944,6 @@
         "openalex_id":  "https://openalex.org/W4389164156"
     },
     {
-        "title":  "Inclusion of Porous Graphitic Carbon Chromatography Yields Greater Protein Identification and Compartment and Process Coverage and Enables More Reflective Protein-Level Label-Free Quantitation",
-        "year":  2023,
-        "date":  "2023-10-10",
-        "venue":  "Journal of Proteome Research",
-        "doi":  "https://doi.org/10.1021/acs.jproteome.3c00373",
-        "url":  "https://doi.org/10.1021/acs.jproteome.3c00373",
-        "authors":  [
-                        "Daniel G. Delafield",
-                        "Hannah N. Miles",
-                        "William A. Ricke",
-                        "Lingjun Li"
-                    ],
-        "author_count":  4,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  4,
-        "by_year":  [
-                        {
-                            "year":  2024,
-                            "count":  4
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4387473265"
-    },
-    {
         "title":  "Cancer-derived mutation in the OGA stalk domain promotes cell malignancy through dysregulating PDLIM7 and p53",
         "year":  2023,
         "date":  "2023-03-20",
@@ -4006,6 +3981,35 @@
         "open_access":  true,
         "type":  "preprint",
         "openalex_id":  "https://openalex.org/W4327935673"
+    },
+    {
+        "title":  "Inclusion of Porous Graphitic Carbon Chromatography Yields Greater Protein Identification and Compartment and Process Coverage and Enables More Reflective Protein-Level Label-Free Quantitation",
+        "year":  2023,
+        "date":  "2023-10-10",
+        "venue":  "Journal of Proteome Research",
+        "doi":  "https://doi.org/10.1021/acs.jproteome.3c00373",
+        "url":  "https://doi.org/10.1021/acs.jproteome.3c00373",
+        "authors":  [
+                        "Daniel G. Delafield",
+                        "Hannah N. Miles",
+                        "William A. Ricke",
+                        "Lingjun Li"
+                    ],
+        "author_count":  4,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  4,
+        "by_year":  [
+                        {
+                            "year":  2024,
+                            "count":  4
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4387473265"
     },
     {
         "title":  "Development of novel isobaric tags enables accurate and sensitive multiplexed proteomics using complementary ions",
@@ -4071,6 +4075,57 @@
         "openalex_id":  "https://openalex.org/W4387326189"
     },
     {
+        "title":  "Meeting Report on the 2nd Chinese American Society for Mass Spectrometry Conference: Advancing Biological and Pharmaceutical Mass Spectrometry",
+        "year":  2023,
+        "date":  "2023-04-25",
+        "venue":  "Molecular \u0026 Cellular Proteomics",
+        "doi":  "https://doi.org/10.1016/j.mcpro.2023.100559",
+        "url":  "https://doi.org/10.1016/j.mcpro.2023.100559",
+        "authors":  [
+                        "Yue Chen",
+                        "Ying Ge",
+                        "Xianlin Han",
+                        "Hao Ling",
+                        "Tao Huan",
+                        "Liang Li",
+                        "Lingjun Li",
+                        "Wenkui Li",
+                        "Xiaorong Liang",
+                        "Yanping Lin",
+                        "Xiaowen Liu",
+                        "Yansheng Liu",
+                        "Shuguang Ma",
+                        "Junmin Peng",
+                        "Wilson Z. Shou",
+                        "Liangliang Sun",
+                        "Wenqing Tao",
+                        "Yu Tian",
+                        "Y. Karen Wang",
+                        "Yinsheng Wang",
+                        "Ronghu Wu",
+                        "Si Wu",
+                        "Jianguo Xia",
+                        "Zhibo Yang",
+                        "Hui Zhang",
+                        "Hui Zhang",
+                        "Shou‐Xun Zhao",
+                        "Naidong Weng",
+                        "Lan Huang"
+                    ],
+        "author_count":  29,
+        "position":  "middle",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  0,
+        "by_year":  [
+
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4366978051"
+    },
+    {
         "title":  "Meeting Report on the 3rd Chinese American Society for Mass Spectrometry Conference—Advancing Biological and Pharmaceutical Mass Spectrometry",
         "year":  2023,
         "date":  "2023-12-10",
@@ -4132,57 +4187,6 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4389521000"
-    },
-    {
-        "title":  "Meeting Report on the 2nd Chinese American Society for Mass Spectrometry Conference: Advancing Biological and Pharmaceutical Mass Spectrometry",
-        "year":  2023,
-        "date":  "2023-04-25",
-        "venue":  "Molecular \u0026 Cellular Proteomics",
-        "doi":  "https://doi.org/10.1016/j.mcpro.2023.100559",
-        "url":  "https://doi.org/10.1016/j.mcpro.2023.100559",
-        "authors":  [
-                        "Yue Chen",
-                        "Ying Ge",
-                        "Xianlin Han",
-                        "Hao Ling",
-                        "Tao Huan",
-                        "Liang Li",
-                        "Lingjun Li",
-                        "Wenkui Li",
-                        "Xiaorong Liang",
-                        "Yanping Lin",
-                        "Xiaowen Liu",
-                        "Yansheng Liu",
-                        "Shuguang Ma",
-                        "Junmin Peng",
-                        "Wilson Z. Shou",
-                        "Liangliang Sun",
-                        "Wenqing Tao",
-                        "Yu Tian",
-                        "Y. Karen Wang",
-                        "Yinsheng Wang",
-                        "Ronghu Wu",
-                        "Si Wu",
-                        "Jianguo Xia",
-                        "Zhibo Yang",
-                        "Hui Zhang",
-                        "Hui Zhang",
-                        "Shou‐Xun Zhao",
-                        "Naidong Weng",
-                        "Lan Huang"
-                    ],
-        "author_count":  29,
-        "position":  "middle",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  0,
-        "by_year":  [
-
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4366978051"
     },
     {
         "title":  "Recent advances in isobaric labeling and applications in quantitative proteomics",
@@ -4597,57 +4601,6 @@
         "openalex_id":  "https://openalex.org/W4224444055"
     },
     {
-        "title":  "Native Ion Mobility–Mass Spectrometry-Enabled Fast Structural Interrogation of Labile Protein Surface Modifications at the Intact Protein Level",
-        "year":  2022,
-        "date":  "2022-01-20",
-        "venue":  "Analytical Chemistry",
-        "doi":  "https://doi.org/10.1021/acs.analchem.1c04503",
-        "url":  "https://doi.org/10.1021/acs.analchem.1c04503",
-        "authors":  [
-                        "Gongyu Li",
-                        "Ashley Phetsanthad",
-                        "M Ma",
-                        "Qinying Yu",
-                        "Ashita Nair",
-                        "Zhen Zheng",
-                        "Fengfei Ma",
-                        "Kellen DeLaney",
-                        "Seungpyo Hong",
-                        "Lingjun Li"
-                    ],
-        "author_count":  10,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  15,
-        "by_year":  [
-                        {
-                            "year":  2022,
-                            "count":  3
-                        },
-                        {
-                            "year":  2023,
-                            "count":  3
-                        },
-                        {
-                            "year":  2024,
-                            "count":  5
-                        },
-                        {
-                            "year":  2025,
-                            "count":  2
-                        },
-                        {
-                            "year":  2026,
-                            "count":  2
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4205362239"
-    },
-    {
         "title":  "Enabling Global Analysis of Protein Citrullination via Biotin Thiol Tag-Assisted Mass Spectrometry",
         "year":  2022,
         "date":  "2022-12-13",
@@ -4698,6 +4651,57 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4311288744"
+    },
+    {
+        "title":  "Native Ion Mobility–Mass Spectrometry-Enabled Fast Structural Interrogation of Labile Protein Surface Modifications at the Intact Protein Level",
+        "year":  2022,
+        "date":  "2022-01-20",
+        "venue":  "Analytical Chemistry",
+        "doi":  "https://doi.org/10.1021/acs.analchem.1c04503",
+        "url":  "https://doi.org/10.1021/acs.analchem.1c04503",
+        "authors":  [
+                        "Gongyu Li",
+                        "Ashley Phetsanthad",
+                        "M Ma",
+                        "Qinying Yu",
+                        "Ashita Nair",
+                        "Zhen Zheng",
+                        "Fengfei Ma",
+                        "Kellen DeLaney",
+                        "Seungpyo Hong",
+                        "Lingjun Li"
+                    ],
+        "author_count":  10,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  15,
+        "by_year":  [
+                        {
+                            "year":  2022,
+                            "count":  3
+                        },
+                        {
+                            "year":  2023,
+                            "count":  3
+                        },
+                        {
+                            "year":  2024,
+                            "count":  5
+                        },
+                        {
+                            "year":  2025,
+                            "count":  2
+                        },
+                        {
+                            "year":  2026,
+                            "count":  2
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4205362239"
     },
     {
         "title":  "The transcriptional elongation factor CTR9 demarcates PRC2-mediated H3K27me3 domains by altering PRC2 subtype equilibrium",
@@ -4827,6 +4831,46 @@
         "openalex_id":  "https://openalex.org/W4289170433"
     },
     {
+        "title":  "Enrichment and fragmentation approaches for enhanced detection and characterization of endogenous glycosylated neuropeptides",
+        "year":  2022,
+        "date":  "2022-07-30",
+        "venue":  "PROTEOMICS",
+        "doi":  "https://doi.org/10.1002/pmic.202100375",
+        "url":  "https://doi.org/10.1002/pmic.202100375",
+        "authors":  [
+                        "Ashley Phetsanthad",
+                        "Caroline Roycroft",
+                        "Lingjun Li"
+                    ],
+        "author_count":  3,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  11,
+        "by_year":  [
+                        {
+                            "year":  2023,
+                            "count":  3
+                        },
+                        {
+                            "year":  2024,
+                            "count":  3
+                        },
+                        {
+                            "year":  2025,
+                            "count":  3
+                        },
+                        {
+                            "year":  2026,
+                            "count":  2
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4288758070"
+    },
+    {
         "title":  "Diptoindonesin G is a middle domain HSP90 modulator for cancer treatment",
         "year":  2022,
         "date":  "2022-11-14",
@@ -4879,46 +4923,6 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4309021765"
-    },
-    {
-        "title":  "Enrichment and fragmentation approaches for enhanced detection and characterization of endogenous glycosylated neuropeptides",
-        "year":  2022,
-        "date":  "2022-07-30",
-        "venue":  "PROTEOMICS",
-        "doi":  "https://doi.org/10.1002/pmic.202100375",
-        "url":  "https://doi.org/10.1002/pmic.202100375",
-        "authors":  [
-                        "Ashley Phetsanthad",
-                        "Caroline Roycroft",
-                        "Lingjun Li"
-                    ],
-        "author_count":  3,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  11,
-        "by_year":  [
-                        {
-                            "year":  2023,
-                            "count":  3
-                        },
-                        {
-                            "year":  2024,
-                            "count":  3
-                        },
-                        {
-                            "year":  2025,
-                            "count":  3
-                        },
-                        {
-                            "year":  2026,
-                            "count":  2
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4288758070"
     },
     {
         "title":  "12-Plex DiLeu Isobaric Labeling Enabled High-Throughput Investigation of Citrullination Alterations in the DNA Damage Response",
@@ -5044,6 +5048,39 @@
         "openalex_id":  "https://openalex.org/W4312077278"
     },
     {
+        "title":  "Higher Temperature Porous Graphitic Carbon Separations Differentially Impact Distinct Glycopeptide Classes",
+        "year":  2022,
+        "date":  "2022-11-30",
+        "venue":  "Journal of the American Society for Mass Spectrometry",
+        "doi":  "https://doi.org/10.1021/jasms.2c00249",
+        "url":  "https://doi.org/10.1021/jasms.2c00249",
+        "authors":  [
+                        "Daniel G. Delafield",
+                        "Hannah N. Miles",
+                        "William A. Ricke",
+                        "Lingjun Li"
+                    ],
+        "author_count":  4,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  7,
+        "by_year":  [
+                        {
+                            "year":  2023,
+                            "count":  3
+                        },
+                        {
+                            "year":  2024,
+                            "count":  4
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4310442478"
+    },
+    {
         "title":  "Multiplexed quantitative neuropeptidomics via DiLeu isobaric tagging",
         "year":  2022,
         "date":  "2022-01-01",
@@ -5079,37 +5116,40 @@
         "openalex_id":  "https://openalex.org/W4211093434"
     },
     {
-        "title":  "Higher Temperature Porous Graphitic Carbon Separations Differentially Impact Distinct Glycopeptide Classes",
+        "title":  "A Spin-Tip Enrichment Strategy for Simultaneous Analysis of N-Glycopeptides and Phosphopeptides from Human Pancreatic Tissues",
         "year":  2022,
-        "date":  "2022-11-30",
-        "venue":  "Journal of the American Society for Mass Spectrometry",
-        "doi":  "https://doi.org/10.1021/jasms.2c00249",
-        "url":  "https://doi.org/10.1021/jasms.2c00249",
+        "date":  "2022-05-04",
+        "venue":  "Journal of Visualized Experiments",
+        "doi":  "https://doi.org/10.3791/63735",
+        "url":  "https://doi.org/10.3791/63735",
         "authors":  [
-                        "Daniel G. Delafield",
-                        "Hannah N. Miles",
-                        "William A. Ricke",
+                        "Dylan Nicholas Tabang",
+                        "Danqing Wang",
                         "Lingjun Li"
                     ],
-        "author_count":  4,
+        "author_count":  3,
         "position":  "last",
         "is_co_first":  false,
         "leads":  false,
-        "citations":  7,
+        "citations":  3,
         "by_year":  [
                         {
                             "year":  2023,
-                            "count":  3
+                            "count":  1
                         },
                         {
                             "year":  2024,
-                            "count":  4
+                            "count":  1
+                        },
+                        {
+                            "year":  2025,
+                            "count":  1
                         }
                     ],
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
-        "openalex_id":  "https://openalex.org/W4310442478"
+        "openalex_id":  "https://openalex.org/W4229005392"
     },
     {
         "title":  "Ectopic CH60 mediates HAPLN1-induced cell survival signaling in multiple myeloma",
@@ -5153,40 +5193,39 @@
         "openalex_id":  "https://openalex.org/W4311315022"
     },
     {
-        "title":  "A Spin-Tip Enrichment Strategy for Simultaneous Analysis of N-Glycopeptides and Phosphopeptides from Human Pancreatic Tissues",
+        "title":  "Isotopic N,N-dimethyl leucine tags for absolute quantification of clusterin and apolipoprotein E in Alzheimer\u0027s disease",
         "year":  2022,
-        "date":  "2022-05-04",
-        "venue":  "Journal of Visualized Experiments",
-        "doi":  "https://doi.org/10.3791/63735",
-        "url":  "https://doi.org/10.3791/63735",
+        "date":  "2022-02-03",
+        "venue":  "Journal of Proteomics",
+        "doi":  "https://doi.org/10.1016/j.jprot.2022.104507",
+        "url":  "https://doi.org/10.1016/j.jprot.2022.104507",
         "authors":  [
-                        "Dylan Nicholas Tabang",
-                        "Danqing Wang",
+                        "Yuan Liu",
+                        "Hua Zhang",
+                        "Xiaofang Zhong",
+                        "Zihui Li",
+                        "Henrik Zetterberg",
                         "Lingjun Li"
                     ],
-        "author_count":  3,
+        "author_count":  6,
         "position":  "last",
         "is_co_first":  false,
         "leads":  false,
         "citations":  3,
         "by_year":  [
                         {
+                            "year":  2022,
+                            "count":  1
+                        },
+                        {
                             "year":  2023,
-                            "count":  1
-                        },
-                        {
-                            "year":  2024,
-                            "count":  1
-                        },
-                        {
-                            "year":  2025,
-                            "count":  1
+                            "count":  2
                         }
                     ],
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
-        "openalex_id":  "https://openalex.org/W4229005392"
+        "openalex_id":  "https://openalex.org/W4210288191"
     },
     {
         "title":  "Complementary proteome and glycoproteome access revealed through comparative analysis of reversed phase and porous graphitic carbon chromatography",
@@ -5227,41 +5266,6 @@
         "openalex_id":  "https://openalex.org/W4210844279"
     },
     {
-        "title":  "Isotopic N,N-dimethyl leucine tags for absolute quantification of clusterin and apolipoprotein E in Alzheimer\u0027s disease",
-        "year":  2022,
-        "date":  "2022-02-03",
-        "venue":  "Journal of Proteomics",
-        "doi":  "https://doi.org/10.1016/j.jprot.2022.104507",
-        "url":  "https://doi.org/10.1016/j.jprot.2022.104507",
-        "authors":  [
-                        "Yuan Liu",
-                        "Hua Zhang",
-                        "Xiaofang Zhong",
-                        "Zihui Li",
-                        "Henrik Zetterberg",
-                        "Lingjun Li"
-                    ],
-        "author_count":  6,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  3,
-        "by_year":  [
-                        {
-                            "year":  2022,
-                            "count":  1
-                        },
-                        {
-                            "year":  2023,
-                            "count":  2
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4210288191"
-    },
-    {
         "title":  "Multi-Faceted Mass Spectrometric Investigation of Neuropeptides in Callinectes sapidus",
         "year":  2022,
         "date":  "2022-05-31",
@@ -5292,34 +5296,6 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4283221437"
-    },
-    {
-        "title":  "Multi-Faceted Mass Spectrometric Investigation of Neuropeptides in Callinectes sapidus",
-        "year":  2022,
-        "date":  "2022-05-31",
-        "venue":  "Journal of Visualized Experiments",
-        "doi":  "https://doi.org/10.3791/63322-v",
-        "url":  "https://doi.org/10.3791/63322-v",
-        "authors":  [
-                        "Ashley Phetsanthad",
-                        "Nhu Q. Vu",
-                        "Lingjun Li"
-                    ],
-        "author_count":  3,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  1,
-        "by_year":  [
-                        {
-                            "year":  2025,
-                            "count":  1
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  false,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4286826541"
     },
     {
         "title":  "Enabling global analysis of protein citrullination and homocitrullination via biotin thiol tag-assisted mass spectrometry",
@@ -5384,6 +5360,34 @@
         "open_access":  false,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4286826734"
+    },
+    {
+        "title":  "Multi-Faceted Mass Spectrometric Investigation of Neuropeptides in Callinectes sapidus",
+        "year":  2022,
+        "date":  "2022-05-31",
+        "venue":  "Journal of Visualized Experiments",
+        "doi":  "https://doi.org/10.3791/63322-v",
+        "url":  "https://doi.org/10.3791/63322-v",
+        "authors":  [
+                        "Ashley Phetsanthad",
+                        "Nhu Q. Vu",
+                        "Lingjun Li"
+                    ],
+        "author_count":  3,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  1,
+        "by_year":  [
+                        {
+                            "year":  2025,
+                            "count":  1
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  false,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W4286826541"
     },
     {
         "title":  "Recent Progress in Protein Stereochemical Modifications Revealed by Ion Mobility-Mass Spectrometry",
@@ -6166,6 +6170,54 @@
         "openalex_id":  "https://openalex.org/W4206189971"
     },
     {
+        "title":  "Recent Advances in Mass Spectrometry-Based Glycomic and Glycoproteomic Studies of Pancreatic Diseases",
+        "year":  2021,
+        "date":  "2021-07-23",
+        "venue":  "Frontiers in Chemistry",
+        "doi":  "https://doi.org/10.3389/fchem.2021.707387",
+        "url":  "https://doi.org/10.3389/fchem.2021.707387",
+        "authors":  [
+                        "Dylan Nicholas Tabang",
+                        "Megan Ford",
+                        "Lingjun Li"
+                    ],
+        "author_count":  3,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  23,
+        "by_year":  [
+                        {
+                            "year":  2021,
+                            "count":  1
+                        },
+                        {
+                            "year":  2022,
+                            "count":  8
+                        },
+                        {
+                            "year":  2023,
+                            "count":  3
+                        },
+                        {
+                            "year":  2024,
+                            "count":  5
+                        },
+                        {
+                            "year":  2025,
+                            "count":  5
+                        },
+                        {
+                            "year":  2026,
+                            "count":  1
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W3185990200"
+    },
+    {
         "title":  "Erythrocyte sphingolipid species as biomarkers of Alzheimer\u0027s disease",
         "year":  2021,
         "date":  "2021-07-14",
@@ -6265,52 +6317,49 @@
         "openalex_id":  "https://openalex.org/W3167039358"
     },
     {
-        "title":  "Recent Advances in Mass Spectrometry-Based Glycomic and Glycoproteomic Studies of Pancreatic Diseases",
+        "title":  "Review of Recent Advances in Lipid Analysis of Biological Samples via Ambient Ionization Mass Spectrometry",
         "year":  2021,
-        "date":  "2021-07-23",
-        "venue":  "Frontiers in Chemistry",
-        "doi":  "https://doi.org/10.3389/fchem.2021.707387",
-        "url":  "https://doi.org/10.3389/fchem.2021.707387",
+        "date":  "2021-11-15",
+        "venue":  "Metabolites",
+        "doi":  "https://doi.org/10.3390/metabo11110781",
+        "url":  "https://doi.org/10.3390/metabo11110781",
         "authors":  [
-                        "Dylan Nicholas Tabang",
-                        "Megan Ford",
+                        "Haiyan Lu",
+                        "Hua Zhang",
+                        "Shuling Xu",
                         "Lingjun Li"
                     ],
-        "author_count":  3,
+        "author_count":  4,
         "position":  "last",
         "is_co_first":  false,
         "leads":  false,
-        "citations":  23,
+        "citations":  19,
         "by_year":  [
                         {
-                            "year":  2021,
-                            "count":  1
-                        },
-                        {
                             "year":  2022,
-                            "count":  8
+                            "count":  6
                         },
                         {
                             "year":  2023,
-                            "count":  3
+                            "count":  2
                         },
                         {
                             "year":  2024,
-                            "count":  5
+                            "count":  7
                         },
                         {
                             "year":  2025,
-                            "count":  5
+                            "count":  2
                         },
                         {
                             "year":  2026,
-                            "count":  1
+                            "count":  2
                         }
                     ],
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
-        "openalex_id":  "https://openalex.org/W3185990200"
+        "openalex_id":  "https://openalex.org/W3212189700"
     },
     {
         "title":  "Mass Spectrometric Profiling of Neuropeptides in Response to Copper Toxicity via Isobaric Tagging",
@@ -6358,96 +6407,6 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W3135082319"
-    },
-    {
-        "title":  "Review of Recent Advances in Lipid Analysis of Biological Samples via Ambient Ionization Mass Spectrometry",
-        "year":  2021,
-        "date":  "2021-11-15",
-        "venue":  "Metabolites",
-        "doi":  "https://doi.org/10.3390/metabo11110781",
-        "url":  "https://doi.org/10.3390/metabo11110781",
-        "authors":  [
-                        "Haiyan Lu",
-                        "Hua Zhang",
-                        "Shuling Xu",
-                        "Lingjun Li"
-                    ],
-        "author_count":  4,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  19,
-        "by_year":  [
-                        {
-                            "year":  2022,
-                            "count":  6
-                        },
-                        {
-                            "year":  2023,
-                            "count":  2
-                        },
-                        {
-                            "year":  2024,
-                            "count":  7
-                        },
-                        {
-                            "year":  2025,
-                            "count":  2
-                        },
-                        {
-                            "year":  2026,
-                            "count":  2
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W3212189700"
-    },
-    {
-        "title":  "Developing mass spectrometry for the quantitative analysis of neuropeptides",
-        "year":  2021,
-        "date":  "2021-07-03",
-        "venue":  "Expert Review of Proteomics",
-        "doi":  "https://doi.org/10.1080/14789450.2021.1967146",
-        "url":  "https://doi.org/10.1080/14789450.2021.1967146",
-        "authors":  [
-                        "Christopher S. Sauer",
-                        "Ashley Phetsanthad",
-                        "Olga Riusech",
-                        "Lingjun Li"
-                    ],
-        "author_count":  4,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  18,
-        "by_year":  [
-                        {
-                            "year":  2021,
-                            "count":  1
-                        },
-                        {
-                            "year":  2022,
-                            "count":  3
-                        },
-                        {
-                            "year":  2024,
-                            "count":  6
-                        },
-                        {
-                            "year":  2025,
-                            "count":  6
-                        },
-                        {
-                            "year":  2026,
-                            "count":  2
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W3192876423"
     },
     {
         "title":  "Mass spectrometry profiling and quantitation of changes in circulating hormones secreted over time in Cancer borealis hemolymph due to feeding behavior",
@@ -6500,27 +6459,27 @@
         "openalex_id":  "https://openalex.org/W3175461440"
     },
     {
-        "title":  "Complementary neuropeptide detection in crustacean brain by mass spectrometry imaging using formalin and alternative aqueous tissue washes",
+        "title":  "Developing mass spectrometry for the quantitative analysis of neuropeptides",
         "year":  2021,
-        "date":  "2021-01-05",
-        "venue":  "Analytical and Bioanalytical Chemistry",
-        "doi":  "https://doi.org/10.1007/s00216-020-03073-x",
-        "url":  "https://doi.org/10.1007/s00216-020-03073-x",
+        "date":  "2021-07-03",
+        "venue":  "Expert Review of Proteomics",
+        "doi":  "https://doi.org/10.1080/14789450.2021.1967146",
+        "url":  "https://doi.org/10.1080/14789450.2021.1967146",
         "authors":  [
-                        "Nhu Q. Vu",
-                        "Amanda R. Buchberger",
-                        "Jillian Johnson",
+                        "Christopher S. Sauer",
+                        "Ashley Phetsanthad",
+                        "Olga Riusech",
                         "Lingjun Li"
                     ],
         "author_count":  4,
         "position":  "last",
         "is_co_first":  false,
         "leads":  false,
-        "citations":  15,
+        "citations":  18,
         "by_year":  [
                         {
                             "year":  2021,
-                            "count":  2
+                            "count":  1
                         },
                         {
                             "year":  2022,
@@ -6528,11 +6487,11 @@
                         },
                         {
                             "year":  2024,
-                            "count":  3
+                            "count":  6
                         },
                         {
                             "year":  2025,
-                            "count":  5
+                            "count":  6
                         },
                         {
                             "year":  2026,
@@ -6542,7 +6501,7 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
-        "openalex_id":  "https://openalex.org/W3118738407"
+        "openalex_id":  "https://openalex.org/W3192876423"
     },
     {
         "title":  "Simultaneous enrichment and separation of neutral and sialyl glycopeptides of SARS-CoV-2 spike protein enabled by dual-functionalized Ti-IMAC material",
@@ -6590,6 +6549,51 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W3175182346"
+    },
+    {
+        "title":  "Complementary neuropeptide detection in crustacean brain by mass spectrometry imaging using formalin and alternative aqueous tissue washes",
+        "year":  2021,
+        "date":  "2021-01-05",
+        "venue":  "Analytical and Bioanalytical Chemistry",
+        "doi":  "https://doi.org/10.1007/s00216-020-03073-x",
+        "url":  "https://doi.org/10.1007/s00216-020-03073-x",
+        "authors":  [
+                        "Nhu Q. Vu",
+                        "Amanda R. Buchberger",
+                        "Jillian Johnson",
+                        "Lingjun Li"
+                    ],
+        "author_count":  4,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  15,
+        "by_year":  [
+                        {
+                            "year":  2021,
+                            "count":  2
+                        },
+                        {
+                            "year":  2022,
+                            "count":  3
+                        },
+                        {
+                            "year":  2024,
+                            "count":  3
+                        },
+                        {
+                            "year":  2025,
+                            "count":  5
+                        },
+                        {
+                            "year":  2026,
+                            "count":  2
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W3118738407"
     },
     {
         "title":  "A multi-omic investigation of male lower urinary tract symptoms: Potential role for JC virus",
@@ -6845,6 +6849,47 @@
         "openalex_id":  "https://openalex.org/W3178184626"
     },
     {
+        "title":  "CPP impairs contextual learning at concentrations below those that block pyramidal neuron NMDARs and LTP in the CA1 region of the hippocampus",
+        "year":  2021,
+        "date":  "2021-10-21",
+        "venue":  "Neuropharmacology",
+        "doi":  "https://doi.org/10.1016/j.neuropharm.2021.108846",
+        "url":  "https://doi.org/10.1016/j.neuropharm.2021.108846",
+        "authors":  [
+                        "Kurt Laha",
+                        "Mengwen Zhu",
+                        "Erin Gemperline",
+                        "Vinuta Rau",
+                        "Lingjun Li",
+                        "Michael S. Fanselow",
+                        "Richard Lennertz",
+                        "Robert A. Pearce"
+                    ],
+        "author_count":  8,
+        "position":  "middle",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  10,
+        "by_year":  [
+                        {
+                            "year":  2022,
+                            "count":  6
+                        },
+                        {
+                            "year":  2023,
+                            "count":  1
+                        },
+                        {
+                            "year":  2024,
+                            "count":  3
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W3206359015"
+    },
+    {
         "title":  "Exploring the Sexual Dimorphism of Crustacean Neuropeptide Expression Using Callinectes sapidus as a Model Organism",
         "year":  2021,
         "date":  "2021-04-19",
@@ -6896,45 +6941,51 @@
         "openalex_id":  "https://openalex.org/W3153635739"
     },
     {
-        "title":  "CPP impairs contextual learning at concentrations below those that block pyramidal neuron NMDARs and LTP in the CA1 region of the hippocampus",
+        "title":  "Discovery of anti-infective adipostatins through bioactivity-guided isolation and heterologous expression of a type III polyketide synthase",
         "year":  2021,
-        "date":  "2021-10-21",
-        "venue":  "Neuropharmacology",
-        "doi":  "https://doi.org/10.1016/j.neuropharm.2021.108846",
-        "url":  "https://doi.org/10.1016/j.neuropharm.2021.108846",
+        "date":  "2021-04-22",
+        "venue":  "Bioorganic Chemistry",
+        "doi":  "https://doi.org/10.1016/j.bioorg.2021.104925",
+        "url":  "https://doi.org/10.1016/j.bioorg.2021.104925",
         "authors":  [
-                        "Kurt Laha",
-                        "Mengwen Zhu",
-                        "Erin Gemperline",
-                        "Vinuta Rau",
+                        "Lukuan Hou",
+                        "Ying Li",
+                        "Qihao Wu",
+                        "Miyang Li",
+                        "Ethan A. Older",
+                        "Xiaoyu Tang",
+                        "Prakash Nagarkatti",
+                        "Mitzi Nagarkatti",
+                        "Yuan Liu",
                         "Lingjun Li",
-                        "Michael S. Fanselow",
-                        "Richard Lennertz",
-                        "Robert A. Pearce"
+                        "Daping Fan",
+                        "Tim S. Bugni",
+                        "Zhuo Shang",
+                        "Jie Li"
                     ],
-        "author_count":  8,
+        "author_count":  14,
         "position":  "middle",
         "is_co_first":  false,
         "leads":  false,
-        "citations":  10,
+        "citations":  7,
         "by_year":  [
                         {
                             "year":  2022,
-                            "count":  6
-                        },
-                        {
-                            "year":  2023,
-                            "count":  1
-                        },
-                        {
-                            "year":  2024,
                             "count":  3
+                        },
+                        {
+                            "year":  2025,
+                            "count":  3
+                        },
+                        {
+                            "year":  2026,
+                            "count":  1
                         }
                     ],
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
-        "openalex_id":  "https://openalex.org/W3206359015"
+        "openalex_id":  "https://openalex.org/W3153498378"
     },
     {
         "title":  "Analysis of pancreatic extracellular matrix protein post-translational modifications via electrostatic repulsion-hydrophilic interaction chromatography coupled with mass spectrometry",
@@ -7027,53 +7078,6 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W3164828858"
-    },
-    {
-        "title":  "Discovery of anti-infective adipostatins through bioactivity-guided isolation and heterologous expression of a type III polyketide synthase",
-        "year":  2021,
-        "date":  "2021-04-22",
-        "venue":  "Bioorganic Chemistry",
-        "doi":  "https://doi.org/10.1016/j.bioorg.2021.104925",
-        "url":  "https://doi.org/10.1016/j.bioorg.2021.104925",
-        "authors":  [
-                        "Lukuan Hou",
-                        "Ying Li",
-                        "Qihao Wu",
-                        "Miyang Li",
-                        "Ethan A. Older",
-                        "Xiaoyu Tang",
-                        "Prakash Nagarkatti",
-                        "Mitzi Nagarkatti",
-                        "Yuan Liu",
-                        "Lingjun Li",
-                        "Daping Fan",
-                        "Tim S. Bugni",
-                        "Zhuo Shang",
-                        "Jie Li"
-                    ],
-        "author_count":  14,
-        "position":  "middle",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  7,
-        "by_year":  [
-                        {
-                            "year":  2022,
-                            "count":  3
-                        },
-                        {
-                            "year":  2025,
-                            "count":  3
-                        },
-                        {
-                            "year":  2026,
-                            "count":  1
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W3153498378"
     },
     {
         "title":  "Targeted Top-Down Mass Spectrometry for the Characterization and Tissue-Specific Functional Discovery of Crustacean Hyperglycemic Hormones (CHH) and CHH Precursor-Related Peptides in Response to Low pH Stress",
@@ -7189,6 +7193,39 @@
         "openalex_id":  "https://openalex.org/W3197289645"
     },
     {
+        "title":  "Enabling global analysis of protein citrullination and homocitrullination via biotin thiol tag-assisted mass spectrometry",
+        "year":  2021,
+        "date":  "2021-02-17",
+        "venue":  "Research Square",
+        "doi":  "https://doi.org/10.21203/rs.3.rs-215281/v1",
+        "url":  "https://doi.org/10.21203/rs.3.rs-215281/v1",
+        "authors":  [
+                        "Lingjun Li",
+                        "Yatao Shi",
+                        "Zihui Li",
+                        "Bin Wang",
+                        "Xudong Shi",
+                        "Hui Ye",
+                        "Daniel G. Delafield",
+                        "Langlang Lv",
+                        "Zhengqing Ye",
+                        "Zhengwei Chen",
+                        "Fengfei Ma"
+                    ],
+        "author_count":  11,
+        "position":  "first",
+        "is_co_first":  false,
+        "leads":  true,
+        "citations":  0,
+        "by_year":  [
+
+                    ],
+        "is_preprint":  true,
+        "open_access":  true,
+        "type":  "preprint",
+        "openalex_id":  "https://openalex.org/W3134640489"
+    },
+    {
         "title":  "On-tissue spatial proteomics integrating MALDI-MS imaging with shotgun proteomics reveals soy consumption-induced biomarkers in a fragile X syndrome mouse model",
         "year":  2021,
         "date":  "2021-11-10",
@@ -7221,39 +7258,6 @@
         "open_access":  true,
         "type":  "preprint",
         "openalex_id":  "https://openalex.org/W3214667282"
-    },
-    {
-        "title":  "Enabling global analysis of protein citrullination and homocitrullination via biotin thiol tag-assisted mass spectrometry",
-        "year":  2021,
-        "date":  "2021-02-17",
-        "venue":  "Research Square",
-        "doi":  "https://doi.org/10.21203/rs.3.rs-215281/v1",
-        "url":  "https://doi.org/10.21203/rs.3.rs-215281/v1",
-        "authors":  [
-                        "Lingjun Li",
-                        "Yatao Shi",
-                        "Zihui Li",
-                        "Bin Wang",
-                        "Xudong Shi",
-                        "Hui Ye",
-                        "Daniel G. Delafield",
-                        "Langlang Lv",
-                        "Zhengqing Ye",
-                        "Zhengwei Chen",
-                        "Fengfei Ma"
-                    ],
-        "author_count":  11,
-        "position":  "first",
-        "is_co_first":  false,
-        "leads":  true,
-        "citations":  0,
-        "by_year":  [
-
-                    ],
-        "is_preprint":  true,
-        "open_access":  true,
-        "type":  "preprint",
-        "openalex_id":  "https://openalex.org/W3134640489"
     },
     {
         "title":  "Recent Advances in Analytical Approaches for Glycan and Glycopeptide Quantitation",
@@ -7692,50 +7696,6 @@
         "openalex_id":  "https://openalex.org/W3041908969"
     },
     {
-        "title":  "Neuropeptidomics: Improvements in Mass Spectrometry Imaging Analysis and Recent Advancements",
-        "year":  2020,
-        "date":  "2020-11-17",
-        "venue":  "Current Protein and Peptide Science",
-        "doi":  "https://doi.org/10.2174/1389203721666201116115708",
-        "url":  "https://doi.org/10.2174/1389203721666201116115708",
-        "authors":  [
-                        "Nhu Q. Vu",
-                        "Kellen DeLaney",
-                        "Lingjun Li"
-                    ],
-        "author_count":  3,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  24,
-        "by_year":  [
-                        {
-                            "year":  2021,
-                            "count":  5
-                        },
-                        {
-                            "year":  2022,
-                            "count":  5
-                        },
-                        {
-                            "year":  2023,
-                            "count":  3
-                        },
-                        {
-                            "year":  2024,
-                            "count":  5
-                        },
-                        {
-                            "year":  2025,
-                            "count":  6
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W3103400560"
-    },
-    {
         "title":  "ADVANCES IN HIGH‐RESOLUTION MALDI MASS SPECTROMETRY FOR NEUROBIOLOGY",
         "year":  2020,
         "date":  "2020-11-09",
@@ -7782,6 +7742,50 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W3100859636"
+    },
+    {
+        "title":  "Neuropeptidomics: Improvements in Mass Spectrometry Imaging Analysis and Recent Advancements",
+        "year":  2020,
+        "date":  "2020-11-17",
+        "venue":  "Current Protein and Peptide Science",
+        "doi":  "https://doi.org/10.2174/1389203721666201116115708",
+        "url":  "https://doi.org/10.2174/1389203721666201116115708",
+        "authors":  [
+                        "Nhu Q. Vu",
+                        "Kellen DeLaney",
+                        "Lingjun Li"
+                    ],
+        "author_count":  3,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  24,
+        "by_year":  [
+                        {
+                            "year":  2021,
+                            "count":  5
+                        },
+                        {
+                            "year":  2022,
+                            "count":  5
+                        },
+                        {
+                            "year":  2023,
+                            "count":  3
+                        },
+                        {
+                            "year":  2024,
+                            "count":  5
+                        },
+                        {
+                            "year":  2025,
+                            "count":  6
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W3103400560"
     },
     {
         "title":  "Isobaric Labeling Strategy Utilizing 4-Plex N,N-Dimethyl Leucine (DiLeu) Tags Reveals Proteomic Changes Induced by Chemotherapy in Cerebrospinal Fluid of Children with B-Cell Acute Lymphoblastic Leukemia",
@@ -8402,26 +8406,25 @@
         "openalex_id":  "https://openalex.org/W3048023272"
     },
     {
-        "title":  "The Spatiotemporal Dynamics of Low-abundance Bioactive Lipids in Arteries Undergoing Restenosis Observed and Identified at High Spatial Resolving Power with Multi-modal Mass Spectrometry Imaging",
+        "title":  "Mass spectral characterization of peptide transmitters/hormones in the nervous system and neuroendocrine organs of the American lobster Homarus americanus",
         "year":  2020,
-        "date":  "2020-07-30",
-        "venue":  "Microscopy and Microanalysis",
-        "doi":  "https://doi.org/10.1017/s1431927620021844",
-        "url":  "https://doi.org/10.1017/s1431927620021844",
+        "date":  "2020-11-02",
+        "venue":  "UNC Libraries",
+        "doi":  "https://doi.org/10.17615/rhr0-hz89",
+        "url":  "https://doi.org/10.17615/rhr0-hz89",
         "authors":  [
-                        "Gregory L. Fisher",
-                        "Yatao Shi",
-                        "Jillian Johnson",
-                        "Bowen Wang",
-                        "Bingming Chen",
-                        "Go Urabe",
-                        "Xudong Shi",
-                        "K. Craig Kent",
-                        "Lian‐Wang Guo",
-                        "Lingjun Li"
+                        "Michael F. Goy",
+                        "Eleanor K. Bors",
+                        "Andrew E. Christie",
+                        "Ruibing Chen",
+                        "Molly A. Kwiatkowski",
+                        "Mingming Ma",
+                        "Lingjun Li",
+                        "Christopher C. Goiney",
+                        "Gregory L. Sousa"
                     ],
-        "author_count":  10,
-        "position":  "last",
+        "author_count":  9,
+        "position":  "middle",
         "is_co_first":  false,
         "leads":  false,
         "citations":  0,
@@ -8431,7 +8434,7 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
-        "openalex_id":  "https://openalex.org/W3046592582"
+        "openalex_id":  "https://openalex.org/W4298022426"
     },
     {
         "title":  "Sialylation Fine-Tunes Glycoprotein Structural Microheterogeneity Associated with Alzheimer’s Disease as Captured by Native Ion Mobility-Mass Spectrometry",
@@ -8523,37 +8526,6 @@
         "openalex_id":  "https://openalex.org/W3108996210"
     },
     {
-        "title":  "Mass spectral characterization of peptide transmitters/hormones in the nervous system and neuroendocrine organs of the American lobster Homarus americanus",
-        "year":  2020,
-        "date":  "2020-11-02",
-        "venue":  "UNC Libraries",
-        "doi":  "https://doi.org/10.17615/rhr0-hz89",
-        "url":  "https://doi.org/10.17615/rhr0-hz89",
-        "authors":  [
-                        "Michael F. Goy",
-                        "Eleanor K. Bors",
-                        "Andrew E. Christie",
-                        "Ruibing Chen",
-                        "Molly A. Kwiatkowski",
-                        "Mingming Ma",
-                        "Lingjun Li",
-                        "Christopher C. Goiney",
-                        "Gregory L. Sousa"
-                    ],
-        "author_count":  9,
-        "position":  "middle",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  0,
-        "by_year":  [
-
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W4298022426"
-    },
-    {
         "title":  "Transcriptional elongation machinery controls vulnerability of breast cancer cells to PRC2 inhibitors",
         "year":  2020,
         "date":  "2020-01-08",
@@ -8581,6 +8553,38 @@
         "open_access":  true,
         "type":  "preprint",
         "openalex_id":  "https://openalex.org/W3000565041"
+    },
+    {
+        "title":  "The Spatiotemporal Dynamics of Low-abundance Bioactive Lipids in Arteries Undergoing Restenosis Observed and Identified at High Spatial Resolving Power with Multi-modal Mass Spectrometry Imaging",
+        "year":  2020,
+        "date":  "2020-07-30",
+        "venue":  "Microscopy and Microanalysis",
+        "doi":  "https://doi.org/10.1017/s1431927620021844",
+        "url":  "https://doi.org/10.1017/s1431927620021844",
+        "authors":  [
+                        "Gregory L. Fisher",
+                        "Yatao Shi",
+                        "Jillian Johnson",
+                        "Bowen Wang",
+                        "Bingming Chen",
+                        "Go Urabe",
+                        "Xudong Shi",
+                        "K. Craig Kent",
+                        "Lian‐Wang Guo",
+                        "Lingjun Li"
+                    ],
+        "author_count":  10,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  0,
+        "by_year":  [
+
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W3046592582"
     },
     {
         "title":  "Identification of Double Bond Position Isomers in Unsaturated Lipids by m-CPBA Epoxidation and Mass Spectrometry Fragmentation",
@@ -9501,6 +9505,56 @@
         "openalex_id":  "https://openalex.org/W2957513975"
     },
     {
+        "title":  "Multiplex Quantitative Glycomics Enabled by Periodate Oxidation and Triplex Mass Defect Isobaric Multiplex Reagents for Carbonyl-Containing Compound Tags",
+        "year":  2019,
+        "date":  "2019-08-13",
+        "venue":  "Analytical Chemistry",
+        "doi":  "https://doi.org/10.1021/acs.analchem.9b02736",
+        "url":  "https://doi.org/10.1021/acs.analchem.9b02736",
+        "authors":  [
+                        "Feng Yu",
+                        "Miyang Li",
+                        "Yuanyuan Lin",
+                        "Bingming Chen",
+                        "Lingjun Li"
+                    ],
+        "author_count":  5,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  28,
+        "by_year":  [
+                        {
+                            "year":  2020,
+                            "count":  3
+                        },
+                        {
+                            "year":  2021,
+                            "count":  7
+                        },
+                        {
+                            "year":  2022,
+                            "count":  4
+                        },
+                        {
+                            "year":  2023,
+                            "count":  7
+                        },
+                        {
+                            "year":  2024,
+                            "count":  2
+                        },
+                        {
+                            "year":  2025,
+                            "count":  5
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W2968307004"
+    },
+    {
         "title":  "Improved structural elucidation of peptide isomers and their receptors using advanced ion mobility-mass spectrometry",
         "year":  2019,
         "date":  "2019-06-04",
@@ -9555,56 +9609,6 @@
         "open_access":  false,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W2948399798"
-    },
-    {
-        "title":  "Multiplex Quantitative Glycomics Enabled by Periodate Oxidation and Triplex Mass Defect Isobaric Multiplex Reagents for Carbonyl-Containing Compound Tags",
-        "year":  2019,
-        "date":  "2019-08-13",
-        "venue":  "Analytical Chemistry",
-        "doi":  "https://doi.org/10.1021/acs.analchem.9b02736",
-        "url":  "https://doi.org/10.1021/acs.analchem.9b02736",
-        "authors":  [
-                        "Feng Yu",
-                        "Miyang Li",
-                        "Yuanyuan Lin",
-                        "Bingming Chen",
-                        "Lingjun Li"
-                    ],
-        "author_count":  5,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  28,
-        "by_year":  [
-                        {
-                            "year":  2020,
-                            "count":  3
-                        },
-                        {
-                            "year":  2021,
-                            "count":  7
-                        },
-                        {
-                            "year":  2022,
-                            "count":  4
-                        },
-                        {
-                            "year":  2023,
-                            "count":  7
-                        },
-                        {
-                            "year":  2024,
-                            "count":  2
-                        },
-                        {
-                            "year":  2025,
-                            "count":  5
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W2968307004"
     },
     {
         "title":  "Metandem: An online software tool for mass spectrometry-based isobaric labeling metabolomics",
@@ -11433,6 +11437,70 @@
         "openalex_id":  "https://openalex.org/W2893013086"
     },
     {
+        "title":  "Simultaneous identification of the anaphylactoid components from traditional Chinese medicine injections using rat basophilic leukemia 2H3 and laboratory of allergic disease 2 dual‐mixed/cell membrane chromatography model",
+        "year":  2018,
+        "date":  "2018-01-22",
+        "venue":  "Electrophoresis",
+        "doi":  "https://doi.org/10.1002/elps.201700457",
+        "url":  "https://doi.org/10.1002/elps.201700457",
+        "authors":  [
+                        "Shengli Han",
+                        "Yanni Lv",
+                        "Liyun Kong",
+                        "Yueming Sun",
+                        "Jia Fu",
+                        "Lingjun Li",
+                        "Langchong He"
+                    ],
+        "author_count":  7,
+        "position":  "middle",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  22,
+        "by_year":  [
+                        {
+                            "year":  2018,
+                            "count":  1
+                        },
+                        {
+                            "year":  2019,
+                            "count":  1
+                        },
+                        {
+                            "year":  2020,
+                            "count":  1
+                        },
+                        {
+                            "year":  2021,
+                            "count":  4
+                        },
+                        {
+                            "year":  2022,
+                            "count":  4
+                        },
+                        {
+                            "year":  2023,
+                            "count":  2
+                        },
+                        {
+                            "year":  2024,
+                            "count":  4
+                        },
+                        {
+                            "year":  2025,
+                            "count":  3
+                        },
+                        {
+                            "year":  2026,
+                            "count":  2
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  false,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W2791494153"
+    },
+    {
         "title":  "Quantitative Glycomic Analysis by Mass-Defect-Based Dimethyl Pyrimidinyl Ornithine (DiPyrO) Tags and High-Resolution Mass Spectrometry",
         "year":  2018,
         "date":  "2018-05-20",
@@ -11496,70 +11564,6 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W2803218429"
-    },
-    {
-        "title":  "Simultaneous identification of the anaphylactoid components from traditional Chinese medicine injections using rat basophilic leukemia 2H3 and laboratory of allergic disease 2 dual‐mixed/cell membrane chromatography model",
-        "year":  2018,
-        "date":  "2018-01-22",
-        "venue":  "Electrophoresis",
-        "doi":  "https://doi.org/10.1002/elps.201700457",
-        "url":  "https://doi.org/10.1002/elps.201700457",
-        "authors":  [
-                        "Shengli Han",
-                        "Yanni Lv",
-                        "Liyun Kong",
-                        "Yueming Sun",
-                        "Jia Fu",
-                        "Lingjun Li",
-                        "Langchong He"
-                    ],
-        "author_count":  7,
-        "position":  "middle",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  22,
-        "by_year":  [
-                        {
-                            "year":  2018,
-                            "count":  1
-                        },
-                        {
-                            "year":  2019,
-                            "count":  1
-                        },
-                        {
-                            "year":  2020,
-                            "count":  1
-                        },
-                        {
-                            "year":  2021,
-                            "count":  4
-                        },
-                        {
-                            "year":  2022,
-                            "count":  4
-                        },
-                        {
-                            "year":  2023,
-                            "count":  2
-                        },
-                        {
-                            "year":  2024,
-                            "count":  4
-                        },
-                        {
-                            "year":  2025,
-                            "count":  3
-                        },
-                        {
-                            "year":  2026,
-                            "count":  2
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  false,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W2791494153"
     },
     {
         "title":  "Identification, Quantitation, and Imaging of the Crustacean Peptidome",
@@ -13430,7 +13434,7 @@
         "position":  "last",
         "is_co_first":  false,
         "leads":  false,
-        "citations":  82,
+        "citations":  83,
         "by_year":  [
                         {
                             "year":  2016,
@@ -13474,7 +13478,7 @@
                         },
                         {
                             "year":  2026,
-                            "count":  1
+                            "count":  2
                         }
                     ],
         "is_preprint":  false,
@@ -14175,49 +14179,6 @@
         "openalex_id":  "https://openalex.org/W2299555923"
     },
     {
-        "title":  "Isotopic N,N-Dimethyl Leucine (iDiLeu) for Absolute Quantification of Peptides Using a Standard Curve Approach",
-        "year":  2016,
-        "date":  "2016-01-01",
-        "venue":  "Methods in molecular biology",
-        "doi":  "https://doi.org/10.1007/978-1-4939-3524-6_11",
-        "url":  "https://doi.org/10.1007/978-1-4939-3524-6_11",
-        "authors":  [
-                        "Tyler Greer",
-                        "Lingjun Li"
-                    ],
-        "author_count":  2,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  7,
-        "by_year":  [
-                        {
-                            "year":  2017,
-                            "count":  1
-                        },
-                        {
-                            "year":  2018,
-                            "count":  3
-                        },
-                        {
-                            "year":  2019,
-                            "count":  1
-                        },
-                        {
-                            "year":  2024,
-                            "count":  1
-                        },
-                        {
-                            "year":  2025,
-                            "count":  1
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  false,
-        "type":  "book-chapter",
-        "openalex_id":  "https://openalex.org/W2433651889"
-    },
-    {
         "title":  "Multiple gas-phase conformations of proline-containing peptides: is it always cis/trans isomerization?",
         "year":  2016,
         "date":  "2016-01-01",
@@ -14267,6 +14228,49 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W2471939286"
+    },
+    {
+        "title":  "Isotopic N,N-Dimethyl Leucine (iDiLeu) for Absolute Quantification of Peptides Using a Standard Curve Approach",
+        "year":  2016,
+        "date":  "2016-01-01",
+        "venue":  "Methods in molecular biology",
+        "doi":  "https://doi.org/10.1007/978-1-4939-3524-6_11",
+        "url":  "https://doi.org/10.1007/978-1-4939-3524-6_11",
+        "authors":  [
+                        "Tyler Greer",
+                        "Lingjun Li"
+                    ],
+        "author_count":  2,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  7,
+        "by_year":  [
+                        {
+                            "year":  2017,
+                            "count":  1
+                        },
+                        {
+                            "year":  2018,
+                            "count":  3
+                        },
+                        {
+                            "year":  2019,
+                            "count":  1
+                        },
+                        {
+                            "year":  2024,
+                            "count":  1
+                        },
+                        {
+                            "year":  2025,
+                            "count":  1
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  false,
+        "type":  "book-chapter",
+        "openalex_id":  "https://openalex.org/W2433651889"
     },
     {
         "title":  "Site-specific Localization of D-Amino Acids in Bioactive Peptides by Ion Mobility Spectrometry",
@@ -15158,6 +15162,43 @@
         "openalex_id":  "https://openalex.org/W1964688361"
     },
     {
+        "title":  "Biologically Active Peptides in Invertebrates: Discovery and Functional Studies",
+        "year":  2015,
+        "date":  "2015-10-01",
+        "venue":  "No venue listed",
+        "doi":  null,
+        "url":  "https://openalex.org/W2185047895",
+        "authors":  [
+                        "Qing Yu",
+                        "Zhidan Liang",
+                        "Chuanzi OuYang",
+                        "Lingjun Li"
+                    ],
+        "author_count":  4,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  4,
+        "by_year":  [
+                        {
+                            "year":  2017,
+                            "count":  2
+                        },
+                        {
+                            "year":  2022,
+                            "count":  1
+                        },
+                        {
+                            "year":  2023,
+                            "count":  1
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  false,
+        "type":  "book",
+        "openalex_id":  "https://openalex.org/W2185047895"
+    },
+    {
         "title":  "Biologically Active Peptides in Invertebrates",
         "year":  2015,
         "date":  "2015-09-30",
@@ -15197,43 +15238,6 @@
         "open_access":  false,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W4211054692"
-    },
-    {
-        "title":  "Biologically Active Peptides in Invertebrates: Discovery and Functional Studies",
-        "year":  2015,
-        "date":  "2015-10-01",
-        "venue":  "No venue listed",
-        "doi":  null,
-        "url":  "https://openalex.org/W2185047895",
-        "authors":  [
-                        "Qing Yu",
-                        "Zhidan Liang",
-                        "Chuanzi OuYang",
-                        "Lingjun Li"
-                    ],
-        "author_count":  4,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  4,
-        "by_year":  [
-                        {
-                            "year":  2017,
-                            "count":  2
-                        },
-                        {
-                            "year":  2022,
-                            "count":  1
-                        },
-                        {
-                            "year":  2023,
-                            "count":  1
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  false,
-        "type":  "book",
-        "openalex_id":  "https://openalex.org/W2185047895"
     },
     {
         "title":  "Optimization and Comparison of Multiple MALDI Matrix Application Methods for Small Molecule Mass Spectrometric Imaging",
@@ -18080,6 +18084,82 @@
         "openalex_id":  "https://openalex.org/W2094309702"
     },
     {
+        "title":  "High-definition De Novo Sequencing of Crustacean Hyperglycemic Hormone (CHH)-family Neuropeptides",
+        "year":  2012,
+        "date":  "2012-10-02",
+        "venue":  "Molecular \u0026 Cellular Proteomics",
+        "doi":  "https://doi.org/10.1074/mcp.m112.020537",
+        "url":  "https://doi.org/10.1074/mcp.m112.020537",
+        "authors":  [
+                        "Chenxi Jia",
+                        "Limei Hui",
+                        "Weifeng Cao",
+                        "Christopher B. Lietz",
+                        "Xiaoyue Jiang",
+                        "Ruibing Chen",
+                        "Adam D. Catherman",
+                        "Paul M. Thomas",
+                        "Ying Ge",
+                        "Neil L. Kelleher",
+                        "Lingjun Li"
+                    ],
+        "author_count":  11,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  36,
+        "by_year":  [
+                        {
+                            "year":  2013,
+                            "count":  8
+                        },
+                        {
+                            "year":  2014,
+                            "count":  5
+                        },
+                        {
+                            "year":  2015,
+                            "count":  3
+                        },
+                        {
+                            "year":  2016,
+                            "count":  3
+                        },
+                        {
+                            "year":  2018,
+                            "count":  2
+                        },
+                        {
+                            "year":  2019,
+                            "count":  2
+                        },
+                        {
+                            "year":  2020,
+                            "count":  3
+                        },
+                        {
+                            "year":  2021,
+                            "count":  3
+                        },
+                        {
+                            "year":  2022,
+                            "count":  2
+                        },
+                        {
+                            "year":  2024,
+                            "count":  1
+                        },
+                        {
+                            "year":  2025,
+                            "count":  4
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W1989457128"
+    },
+    {
         "title":  "Mass Spectrometric Detection of Neuropeptides Using Affinity-Enhanced Microdialysis with Antibody-Coated Magnetic Nanoparticles",
         "year":  2012,
         "date":  "2012-12-18",
@@ -18157,82 +18237,6 @@
         "open_access":  false,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W2002124212"
-    },
-    {
-        "title":  "High-definition De Novo Sequencing of Crustacean Hyperglycemic Hormone (CHH)-family Neuropeptides",
-        "year":  2012,
-        "date":  "2012-10-02",
-        "venue":  "Molecular \u0026 Cellular Proteomics",
-        "doi":  "https://doi.org/10.1074/mcp.m112.020537",
-        "url":  "https://doi.org/10.1074/mcp.m112.020537",
-        "authors":  [
-                        "Chenxi Jia",
-                        "Limei Hui",
-                        "Weifeng Cao",
-                        "Christopher B. Lietz",
-                        "Xiaoyue Jiang",
-                        "Ruibing Chen",
-                        "Adam D. Catherman",
-                        "Paul M. Thomas",
-                        "Ying Ge",
-                        "Neil L. Kelleher",
-                        "Lingjun Li"
-                    ],
-        "author_count":  11,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  36,
-        "by_year":  [
-                        {
-                            "year":  2013,
-                            "count":  8
-                        },
-                        {
-                            "year":  2014,
-                            "count":  5
-                        },
-                        {
-                            "year":  2015,
-                            "count":  3
-                        },
-                        {
-                            "year":  2016,
-                            "count":  3
-                        },
-                        {
-                            "year":  2018,
-                            "count":  2
-                        },
-                        {
-                            "year":  2019,
-                            "count":  2
-                        },
-                        {
-                            "year":  2020,
-                            "count":  3
-                        },
-                        {
-                            "year":  2021,
-                            "count":  3
-                        },
-                        {
-                            "year":  2022,
-                            "count":  2
-                        },
-                        {
-                            "year":  2024,
-                            "count":  1
-                        },
-                        {
-                            "year":  2025,
-                            "count":  4
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W1989457128"
     },
     {
         "title":  "Absolute Quantification of Prion Protein (90–231) Using Stable Isotope-Labeled Chymotryptic Peptide Standards in a LC-MRM AQUA Workflow",
@@ -18577,6 +18581,81 @@
         "openalex_id":  "https://openalex.org/W1992140605"
     },
     {
+        "title":  "Mass Spectral Charting of Neuropeptidomic Expression in the Stomatogastric Ganglion at Multiple Developmental Stages of the Lobster Homarus americanus",
+        "year":  2012,
+        "date":  "2012-03-03",
+        "venue":  "ACS Chemical Neuroscience",
+        "doi":  "https://doi.org/10.1021/cn200107v",
+        "url":  "https://doi.org/10.1021/cn200107v",
+        "authors":  [
+                        "Xiaoyue Jiang",
+                        "Ruibing Chen",
+                        "Junhua Wang",
+                        "Anita Metzler",
+                        "Michael F. Tlusty",
+                        "Lingjun Li"
+                    ],
+        "author_count":  6,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  22,
+        "by_year":  [
+                        {
+                            "year":  2012,
+                            "count":  1
+                        },
+                        {
+                            "year":  2013,
+                            "count":  2
+                        },
+                        {
+                            "year":  2014,
+                            "count":  1
+                        },
+                        {
+                            "year":  2015,
+                            "count":  6
+                        },
+                        {
+                            "year":  2016,
+                            "count":  1
+                        },
+                        {
+                            "year":  2018,
+                            "count":  2
+                        },
+                        {
+                            "year":  2019,
+                            "count":  2
+                        },
+                        {
+                            "year":  2020,
+                            "count":  1
+                        },
+                        {
+                            "year":  2021,
+                            "count":  1
+                        },
+                        {
+                            "year":  2023,
+                            "count":  1
+                        },
+                        {
+                            "year":  2024,
+                            "count":  2
+                        },
+                        {
+                            "year":  2025,
+                            "count":  2
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  false,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W2056595337"
+    },
+    {
         "title":  "Neuropeptide analysis with liquid chromatography‐capillary electrophoresis‐mass spectrometric imaging",
         "year":  2012,
         "date":  "2012-07-01",
@@ -18697,81 +18776,6 @@
         "open_access":  false,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W2069582697"
-    },
-    {
-        "title":  "Mass Spectral Charting of Neuropeptidomic Expression in the Stomatogastric Ganglion at Multiple Developmental Stages of the Lobster Homarus americanus",
-        "year":  2012,
-        "date":  "2012-03-03",
-        "venue":  "ACS Chemical Neuroscience",
-        "doi":  "https://doi.org/10.1021/cn200107v",
-        "url":  "https://doi.org/10.1021/cn200107v",
-        "authors":  [
-                        "Xiaoyue Jiang",
-                        "Ruibing Chen",
-                        "Junhua Wang",
-                        "Anita Metzler",
-                        "Michael F. Tlusty",
-                        "Lingjun Li"
-                    ],
-        "author_count":  6,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  22,
-        "by_year":  [
-                        {
-                            "year":  2012,
-                            "count":  1
-                        },
-                        {
-                            "year":  2013,
-                            "count":  2
-                        },
-                        {
-                            "year":  2014,
-                            "count":  1
-                        },
-                        {
-                            "year":  2015,
-                            "count":  6
-                        },
-                        {
-                            "year":  2016,
-                            "count":  1
-                        },
-                        {
-                            "year":  2018,
-                            "count":  2
-                        },
-                        {
-                            "year":  2019,
-                            "count":  2
-                        },
-                        {
-                            "year":  2020,
-                            "count":  1
-                        },
-                        {
-                            "year":  2021,
-                            "count":  1
-                        },
-                        {
-                            "year":  2023,
-                            "count":  1
-                        },
-                        {
-                            "year":  2024,
-                            "count":  2
-                        },
-                        {
-                            "year":  2025,
-                            "count":  2
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  false,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W2056595337"
     },
     {
         "title":  "Poly(glycidyl methacrylate‐divinylbenzene) based immobilized pH gradient capillary isoelectric focusing coupling with MALDI mass spectrometry for enhanced neuropeptide analysis",
@@ -19256,74 +19260,6 @@
         "openalex_id":  "https://openalex.org/W2002631841"
     },
     {
-        "title":  "Discovery and Functional Study of a Novel Crustacean Tachykinin Neuropeptide",
-        "year":  2011,
-        "date":  "2011-10-10",
-        "venue":  "ACS Chemical Neuroscience",
-        "doi":  "https://doi.org/10.1021/cn200042p",
-        "url":  "https://doi.org/10.1021/cn200042p",
-        "authors":  [
-                        "Limei Hui",
-                        "Yuzhuo Zhang",
-                        "Junhua Wang",
-                        "Aaron P. Cook",
-                        "Hui Ye",
-                        "Michael P. Nusbaum",
-                        "Lingjun Li"
-                    ],
-        "author_count":  7,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  27,
-        "by_year":  [
-                        {
-                            "year":  2012,
-                            "count":  3
-                        },
-                        {
-                            "year":  2013,
-                            "count":  5
-                        },
-                        {
-                            "year":  2014,
-                            "count":  4
-                        },
-                        {
-                            "year":  2015,
-                            "count":  6
-                        },
-                        {
-                            "year":  2017,
-                            "count":  2
-                        },
-                        {
-                            "year":  2018,
-                            "count":  1
-                        },
-                        {
-                            "year":  2019,
-                            "count":  1
-                        },
-                        {
-                            "year":  2021,
-                            "count":  1
-                        },
-                        {
-                            "year":  2022,
-                            "count":  1
-                        },
-                        {
-                            "year":  2025,
-                            "count":  3
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W2028255899"
-    },
-    {
         "title":  "Advancing Matrix-Assisted Laser Desorption/Ionization-Mass Spectrometric Imaging for Capillary Electrophoresis Analysis of Peptides",
         "year":  2011,
         "date":  "2011-03-21",
@@ -19393,6 +19329,74 @@
         "open_access":  true,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W2040722485"
+    },
+    {
+        "title":  "Discovery and Functional Study of a Novel Crustacean Tachykinin Neuropeptide",
+        "year":  2011,
+        "date":  "2011-10-10",
+        "venue":  "ACS Chemical Neuroscience",
+        "doi":  "https://doi.org/10.1021/cn200042p",
+        "url":  "https://doi.org/10.1021/cn200042p",
+        "authors":  [
+                        "Limei Hui",
+                        "Yuzhuo Zhang",
+                        "Junhua Wang",
+                        "Aaron P. Cook",
+                        "Hui Ye",
+                        "Michael P. Nusbaum",
+                        "Lingjun Li"
+                    ],
+        "author_count":  7,
+        "position":  "last",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  27,
+        "by_year":  [
+                        {
+                            "year":  2012,
+                            "count":  3
+                        },
+                        {
+                            "year":  2013,
+                            "count":  5
+                        },
+                        {
+                            "year":  2014,
+                            "count":  4
+                        },
+                        {
+                            "year":  2015,
+                            "count":  6
+                        },
+                        {
+                            "year":  2017,
+                            "count":  2
+                        },
+                        {
+                            "year":  2018,
+                            "count":  1
+                        },
+                        {
+                            "year":  2019,
+                            "count":  1
+                        },
+                        {
+                            "year":  2021,
+                            "count":  1
+                        },
+                        {
+                            "year":  2022,
+                            "count":  1
+                        },
+                        {
+                            "year":  2025,
+                            "count":  3
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "openalex_id":  "https://openalex.org/W2028255899"
     },
     {
         "title":  "From Pixel to Voxel: A Deeper View of Biological Tissue by 3D Mass Spectral Imaging",
@@ -19772,66 +19776,6 @@
         "open_access":  false,
         "type":  "article",
         "openalex_id":  "https://openalex.org/W1985327544"
-    },
-    {
-        "title":  "Characterization of Murine Brain Membrane Glycoproteins by Detergent Assisted Lectin Affinity Chromatography",
-        "year":  2010,
-        "date":  "2010-07-12",
-        "venue":  "Analytical Chemistry",
-        "doi":  "https://doi.org/10.1021/ac1004844",
-        "url":  "https://doi.org/10.1021/ac1004844",
-        "authors":  [
-                        "Xin Wei",
-                        "Charles L. Dulberger",
-                        "Lingjun Li"
-                    ],
-        "author_count":  3,
-        "position":  "last",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  23,
-        "by_year":  [
-                        {
-                            "year":  2012,
-                            "count":  6
-                        },
-                        {
-                            "year":  2013,
-                            "count":  1
-                        },
-                        {
-                            "year":  2014,
-                            "count":  2
-                        },
-                        {
-                            "year":  2015,
-                            "count":  5
-                        },
-                        {
-                            "year":  2016,
-                            "count":  2
-                        },
-                        {
-                            "year":  2017,
-                            "count":  2
-                        },
-                        {
-                            "year":  2018,
-                            "count":  1
-                        },
-                        {
-                            "year":  2019,
-                            "count":  1
-                        },
-                        {
-                            "year":  2021,
-                            "count":  2
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "openalex_id":  "https://openalex.org/W2053039440"
     },
     {
         "title":  "Characterization of the adult zebrafish cardiac proteome using online pH gradient strong cation exchange‐RP 2D LC coupled with ESI MS/MS",

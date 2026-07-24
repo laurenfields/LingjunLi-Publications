@@ -280,6 +280,9 @@ $summary = [pscustomobject]@{
     # Optional prose shown in the footer, for when "curated" is too blunt a summary of
     # how the list was actually arrived at.
     curation_note    = if ($cfg.PSObject.Properties.Name -contains 'curation_note') { $cfg.curation_note } else { $null }
+    # Optional visual theme (accent colour, fonts, header band, network palette). Passed
+    # through verbatim; Build-Site turns it into CSS and the page reads network_slots.
+    theme            = if ($cfg.PSObject.Properties.Name -contains 'theme') { $cfg.theme } else { $null }
     citation_growth  = @($growth)
     papers_by_year   = @($byYear)
 }

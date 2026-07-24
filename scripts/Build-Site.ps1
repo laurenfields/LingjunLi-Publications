@@ -60,12 +60,55 @@ function Protect-JsonForScriptTag([string] $json) {
     return $json -replace '</', '<\/'
 }
 
+# --- Optional visual theme ---------------------------------------------------
+# summary.theme (from config) becomes a <style> block appended after the main sheet,
+# so its custom-property and font overrides win. Empty when no theme is configured,
+# leaving the default look untouched.
+function New-ThemeStyle($t) {
+    if (-not $t) { return '' }
+    $css = New-Object System.Text.StringBuilder
+    [void]$css.AppendLine('<style id="brand-theme">')
+    # Light values on :root; dark values under both the media query and the toggle scope,
+    # matching how the base sheet declares its own dark overrides.
+    [void]$css.AppendLine(':root{')
+    if ($t.series_light)      { [void]$css.AppendLine("  --series: $($t.series_light);") }
+    if ($t.series_soft_light) { [void]$css.AppendLine("  --series-soft: $($t.series_soft_light);") }
+    if ($t.brand_deep_light)  { [void]$css.AppendLine("  --brand-deep: $($t.brand_deep_light);") }
+    [void]$css.AppendLine('}')
+    $darkVars = New-Object System.Text.StringBuilder
+    if ($t.series_dark)      { [void]$darkVars.AppendLine("  --series: $($t.series_dark);") }
+    if ($t.series_soft_dark) { [void]$darkVars.AppendLine("  --series-soft: $($t.series_soft_dark);") }
+    if ($t.brand_deep_dark)  { [void]$darkVars.AppendLine("  --brand-deep: $($t.brand_deep_dark);") }
+    $dv = $darkVars.ToString()
+    if ($dv.Trim()) {
+        [void]$css.AppendLine('@media (prefers-color-scheme: dark){ :root:where(:not([data-theme="light"])){')
+        [void]$css.Append($dv); [void]$css.AppendLine('} }')
+        [void]$css.AppendLine(':root[data-theme="dark"]{'); [void]$css.Append($dv); [void]$css.AppendLine('}')
+    }
+    if ($t.body_font)    { [void]$css.AppendLine("body{ font-family: $($t.body_font); }") }
+    if ($t.heading_font) {
+        [void]$css.AppendLine("h1, h2.section, .card h2 { font-family: $($t.heading_font); font-weight: 600; letter-spacing: 0; }")
+    }
+    # The dark header band - the strongest brand cue. Text flips to light over the accent.
+    if ($t.header_band) {
+        [void]$css.AppendLine('.pagehead{ background: var(--brand-deep); }')
+        [void]$css.AppendLine('.pagehead-inner{ padding: 62px 24px 54px; }')
+        [void]$css.AppendLine('.pagehead h1{ color:#ffffff; }')
+        [void]$css.AppendLine('.pagehead .affil{ color:#e9e7f1; }')
+        [void]$css.AppendLine('.pagehead .tagline{ color:#bcb7cd; }')
+        [void]$css.AppendLine('.pagehead .orcid{ color:#d8d4e6; }')
+    }
+    [void]$css.Append('</style>')
+    return $css.ToString()
+}
+$themeStyle = New-ThemeStyle $summary.theme
+
 # Each placeholder must appear exactly once. Substitution is a plain global replace, so
 # a token that also occurs as a JS identifier or in prose would be silently overwritten
 # with the payload - which produced a 66 KB JSON blob inside a variable name once, and
 # broke every script on the page.
 $html = [System.IO.File]::ReadAllText($TemplatePath)
-foreach ($token in @('__PUBLICATIONS__', '__SUMMARY__', '__NETWORK__', '__TITLE__', '__DESCRIPTION__')) {
+foreach ($token in @('__PUBLICATIONS__', '__SUMMARY__', '__NETWORK__', '__THEME_STYLE__', '__TITLE__', '__DESCRIPTION__')) {
     $hits = ([regex]::Matches($html, [regex]::Escape($token))).Count
     if ($hits -ne 1) {
         throw "Template token $token appears $hits times; expected exactly 1. Rename the conflicting occurrence."
@@ -78,10 +121,11 @@ $desc  = "$($summary.total_papers) publications and $($summary.total_citations) 
 $html = $html.Replace('__PUBLICATIONS__', (Protect-JsonForScriptTag $pubsJson))
 $html = $html.Replace('__SUMMARY__',      (Protect-JsonForScriptTag $sumJson))
 $html = $html.Replace('__NETWORK__',      (Protect-JsonForScriptTag $netJson))
+$html = $html.Replace('__THEME_STYLE__',  $themeStyle)
 $html = $html.Replace('__TITLE__',        [System.Net.WebUtility]::HtmlEncode($title))
 $html = $html.Replace('__DESCRIPTION__',  [System.Net.WebUtility]::HtmlEncode($desc))
 
-foreach ($token in @('__PUBLICATIONS__', '__SUMMARY__', '__NETWORK__', '__TITLE__', '__DESCRIPTION__')) {
+foreach ($token in @('__PUBLICATIONS__', '__SUMMARY__', '__NETWORK__', '__THEME_STYLE__', '__TITLE__', '__DESCRIPTION__')) {
     if ($html.Contains($token)) { throw "Template token $token was not substituted." }
 }
 

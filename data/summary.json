@@ -3,96 +3,121 @@
     "orcid":  "0000-0003-0056-3869",
     "affiliation":  "University of Wisconsin–Madison",
     "tagline":  "Mass spectrometry, neuropeptides, and analytical chemistry",
-    "generated_utc":  "2026-07-22T18:12:29Z",
+    "generated_utc":  "2026-07-24T16:38:18Z",
     "current_year":  2026,
-    "total_papers":  475,
-    "total_citations":  17270,
+    "total_papers":  474,
+    "total_citations":  17250,
     "h_index":  67,
-    "i10_index":  343,
+    "i10_index":  342,
     "first_author":  12,
     "co_first_author":  0,
-    "last_author":  332,
+    "last_author":  331,
     "kpi_authorship":  "last",
     "preprints":  20,
-    "open_access":  340,
+    "open_access":  339,
     "excluded_count":  140,
     "curated":  true,
     "curation_note":  "This list was assembled automatically and cross-referenced against Lingjun Li\u0027s CV. OpenAlex merges several researchers named Lingjun Li under this ORCID, so 140 works returned for it were attributed to someone else and excluded; each exclusion is recorded with its reason. Six ambiguous cases were resolved by hand. Prof. Li has not personally reviewed this page, and shared first authorships are not shown because no bibliographic database records them.",
+    "theme":  {
+                  "series_light":  "#4a3aa7",
+                  "series_dark":  "#9085e9",
+                  "series_soft_light":  "rgba(74, 58, 167, 0.13)",
+                  "series_soft_dark":  "rgba(144, 133, 233, 0.20)",
+                  "brand_deep_light":  "#27223e",
+                  "brand_deep_dark":  "#171424",
+                  "heading_font":  "Georgia, \u0027Times New Roman\u0027, \u0027Book Antiqua\u0027, serif",
+                  "body_font":  "Arial, Helvetica, system-ui, sans-serif",
+                  "header_band":  true,
+                  "network_slots_light":  [
+                                              "#8b869e",
+                                              "#4a3aa7",
+                                              "#008300",
+                                              "#eb6834",
+                                              "#eda100"
+                                          ],
+                  "network_slots_dark":  [
+                                             "#8b869e",
+                                             "#9085e9",
+                                             "#008300",
+                                             "#d95926",
+                                             "#c98500"
+                                         ]
+              },
     "citation_growth":  [
                             {
                                 "year":  2012,
-                                "received":  458,
-                                "cumulative":  458
+                                "received":  452,
+                                "cumulative":  452
                             },
                             {
                                 "year":  2013,
-                                "received":  368,
-                                "cumulative":  826
+                                "received":  367,
+                                "cumulative":  819
                             },
                             {
                                 "year":  2014,
-                                "received":  572,
-                                "cumulative":  1398
+                                "received":  570,
+                                "cumulative":  1389
                             },
                             {
                                 "year":  2015,
-                                "received":  649,
-                                "cumulative":  2047
+                                "received":  644,
+                                "cumulative":  2033
                             },
                             {
                                 "year":  2016,
-                                "received":  470,
-                                "cumulative":  2517
+                                "received":  468,
+                                "cumulative":  2501
                             },
                             {
                                 "year":  2017,
-                                "received":  458,
-                                "cumulative":  2975
+                                "received":  456,
+                                "cumulative":  2957
                             },
                             {
                                 "year":  2018,
-                                "received":  837,
-                                "cumulative":  3812
+                                "received":  836,
+                                "cumulative":  3793
                             },
                             {
                                 "year":  2019,
-                                "received":  992,
-                                "cumulative":  4804
+                                "received":  991,
+                                "cumulative":  4784
                             },
                             {
                                 "year":  2020,
                                 "received":  1175,
-                                "cumulative":  5979
+                                "cumulative":  5959
                             },
                             {
                                 "year":  2021,
-                                "received":  1590,
-                                "cumulative":  7569
+                                "received":  1588,
+                                "cumulative":  7547
                             },
                             {
                                 "year":  2022,
                                 "received":  1371,
-                                "cumulative":  8940
+                                "cumulative":  8918
                             },
                             {
                                 "year":  2023,
                                 "received":  1373,
-                                "cumulative":  10313
+                                "cumulative":  10291
                             },
                             {
                                 "year":  2024,
                                 "received":  1628,
-                                "cumulative":  11941
+                                "cumulative":  11919
                             },
                             {
                                 "year":  2025,
                                 "received":  1914,
-                                "cumulative":  13855
+                                "cumulative":  13833
                             },
                             {
                                 "year":  2026,
-                                "received":  1006,
-                                "cumulative":  14861
+                                "received":  1009,
+                                "cumulative":  14842
                             }
                         ],
     "papers_by_year":  [
@@ -168,8 +193,8 @@
                            },
                            {
                                "year":  2010,
-                               "papers":  6,
-                               "citations":  327
+                               "papers":  5,
+                               "citations":  304
                            },
                            {
                                "year":  2011,
@@ -199,7 +224,7 @@
                            {
                                "year":  2016,
                                "papers":  16,
-                               "citations":  450
+                               "citations":  451
                            },
                            {
                                "year":  2017,
@@ -234,7 +259,7 @@
                            {
                                "year":  2023,
                                "papers":  31,
-                               "citations":  642
+                               "citations":  643
                            },
                            {
                                "year":  2024,
@@ -244,7 +269,7 @@
                            {
                                "year":  2025,
                                "papers":  33,
-                               "citations":  160
+                               "citations":  161
                            },
                            {
                                "year":  2026,
