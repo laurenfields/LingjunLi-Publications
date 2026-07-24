@@ -39,6 +39,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Protein Degradation and Inhibitors",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W7126044546"
     },
     {
@@ -72,6 +75,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W7134925877"
     },
     {
@@ -111,6 +117,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Carbohydrate Chemistry and Synthesis",
+        "subfield":  "Organic Chemistry",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W7118186491"
     },
     {
@@ -142,6 +151,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W7117997399"
     },
     {
@@ -173,6 +185,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W7128506705"
     },
     {
@@ -201,6 +216,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W7138918752"
     },
     {
@@ -234,6 +252,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Clusterin in disease pathology",
+        "subfield":  "Oncology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W7118003702"
     },
     {
@@ -270,6 +291,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Carbohydrate Chemistry and Synthesis",
+        "subfield":  "Organic Chemistry",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W7118203475"
     },
     {
@@ -300,6 +324,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Protein purification and stability",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W7151423960"
     },
     {
@@ -328,6 +355,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W7164369298"
     },
     {
@@ -359,6 +389,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Pancreatic function and diabetes",
+        "subfield":  "Surgery",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W7161985605"
     },
     {
@@ -386,6 +419,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "book-chapter",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W7168013848"
     },
     {
@@ -416,6 +452,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W7165140389"
     },
     {
@@ -444,6 +483,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Antimicrobial Peptides and Activities",
+        "subfield":  "Microbiology",
+        "field":  "Immunology and Microbiology",
         "openalex_id":  "https://openalex.org/W7160260080"
     },
     {
@@ -474,6 +516,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Estrogen and related hormone effects",
+        "subfield":  "Genetics",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W7160093323"
     },
     {
@@ -499,6 +544,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Click Chemistry and Applications",
+        "subfield":  "Organic Chemistry",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W7161761517"
     },
     {
@@ -529,6 +577,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Antimicrobial Peptides and Activities",
+        "subfield":  "Microbiology",
+        "field":  "Immunology and Microbiology",
         "openalex_id":  "https://openalex.org/W7160499998"
     },
     {
@@ -567,6 +618,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4409681913"
     },
     {
@@ -600,6 +654,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4410076085"
     },
     {
@@ -634,6 +691,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Chemical Synthesis and Analysis",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4406334328"
     },
     {
@@ -668,6 +728,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W4409668465"
     },
     {
@@ -701,6 +764,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4410845564"
     },
     {
@@ -739,6 +805,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Pancreatic and Hepatic Oncology Research",
+        "subfield":  "Oncology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4409290622"
     },
     {
@@ -780,6 +849,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Protein Degradation and Inhibitors",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4412464727"
     },
     {
@@ -812,6 +884,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Biotin and Related Studies",
+        "subfield":  "Cell Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4411665865"
     },
     {
@@ -845,6 +920,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4413112222"
     },
     {
@@ -888,6 +966,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Cancer-related gene regulation",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4410855808"
     },
     {
@@ -921,6 +1002,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4415717216"
     },
     {
@@ -952,6 +1036,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W4412835683"
     },
     {
@@ -982,6 +1069,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Cancer Cells and Metastasis",
+        "subfield":  "Oncology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4409039246"
     },
     {
@@ -1016,6 +1106,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4408007777"
     },
     {
@@ -1053,6 +1146,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4408108656"
     },
     {
@@ -1086,6 +1182,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4411251057"
     },
     {
@@ -1120,6 +1219,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4413108727"
     },
     {
@@ -1153,6 +1255,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Peptidase Inhibition and Analysis",
+        "subfield":  "Oncology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4414090099"
     },
     {
@@ -1184,6 +1289,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Protein Degradation and Inhibitors",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4411325590"
     },
     {
@@ -1213,6 +1321,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4416723660"
     },
     {
@@ -1247,6 +1358,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Osteoarthritis Treatment and Mechanisms",
+        "subfield":  "Rheumatology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4415659242"
     },
     {
@@ -1283,6 +1397,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Analytical Chemistry and Chromatography",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4411744649"
     },
     {
@@ -1316,6 +1433,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4414877077"
     },
     {
@@ -1348,6 +1468,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Alcohol Consumption and Health Effects",
+        "subfield":  "Pathology and Forensic Medicine",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4410349631"
     },
     {
@@ -1380,6 +1503,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Peptidase Inhibition and Analysis",
+        "subfield":  "Oncology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4414487526"
     },
     {
@@ -1421,6 +1547,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Polyamine Metabolism and Applications",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4417117020"
     },
     {
@@ -1449,6 +1578,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Insect and Arachnid Ecology and Behavior",
+        "subfield":  "Genetics",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4417232957"
     },
     {
@@ -1481,6 +1613,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4415764726"
     },
     {
@@ -1509,6 +1644,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4409244905"
     },
     {
@@ -1534,6 +1672,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4406801020"
     },
     {
@@ -1561,6 +1702,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4411265711"
     },
     {
@@ -1585,6 +1729,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Environmental Toxicology and Ecotoxicology",
+        "subfield":  "Health, Toxicology and Mutagenesis",
+        "field":  "Environmental Science",
         "openalex_id":  "https://openalex.org/W4413880111"
     },
     {
@@ -1613,6 +1760,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W4412397898"
     },
     {
@@ -1652,6 +1802,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4400733483"
     },
     {
@@ -1702,6 +1855,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolism, Diabetes, and Cancer",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4400831198"
     },
     {
@@ -1745,6 +1901,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Protein Degradation and Inhibitors",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4403233863"
     },
     {
@@ -1794,6 +1953,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Receptor Mechanisms and Signaling",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4391617016"
     },
     {
@@ -1830,6 +1992,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4394812400"
     },
     {
@@ -1871,6 +2036,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4400950396"
     },
     {
@@ -1909,6 +2077,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4402693124"
     },
     {
@@ -1941,6 +2112,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4404656901"
     },
     {
@@ -1982,6 +2156,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4391882891"
     },
     {
@@ -2020,6 +2197,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W4395004543"
     },
     {
@@ -2058,6 +2238,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4390561397"
     },
     {
@@ -2099,6 +2282,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4392359170"
     },
     {
@@ -2137,6 +2323,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Alzheimer\u0027s disease research and treatments",
+        "subfield":  "Physiology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4396547495"
     },
     {
@@ -2180,6 +2369,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4399367595"
     },
     {
@@ -2218,6 +2410,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Microfluidic and Capillary Electrophoresis Applications",
+        "subfield":  "Biomedical Engineering",
+        "field":  "Engineering",
         "openalex_id":  "https://openalex.org/W4399933327"
     },
     {
@@ -2283,6 +2478,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Epigenetics and DNA Methylation",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4396862367"
     },
     {
@@ -2315,6 +2513,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4401026903"
     },
     {
@@ -2355,6 +2556,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Signaling Pathways in Disease",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4391304276"
     },
     {
@@ -2400,6 +2604,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Epigenetics and DNA Methylation",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4392004158"
     },
     {
@@ -2436,6 +2643,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Receptor Mechanisms and Signaling",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4405949397"
     },
     {
@@ -2473,6 +2683,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Polyamine Metabolism and Applications",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4402333843"
     },
     {
@@ -2511,6 +2724,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Urinary Bladder and Prostate Research",
+        "subfield":  "Urology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4390744008"
     },
     {
@@ -2547,6 +2763,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Alzheimer\u0027s disease research and treatments",
+        "subfield":  "Physiology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4402929991"
     },
     {
@@ -2576,6 +2795,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4392229293"
     },
     {
@@ -2614,6 +2836,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Gut microbiota and health",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4391929453"
     },
     {
@@ -2648,6 +2873,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "book-chapter",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W4393285660"
     },
     {
@@ -2684,6 +2912,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4404993602"
     },
     {
@@ -2713,6 +2944,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "book-chapter",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4400980271"
     },
     {
@@ -2750,6 +2984,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Ubiquitin and proteasome pathways",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4405104580"
     },
     {
@@ -2775,6 +3012,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "book-chapter",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4393285711"
     },
     {
@@ -2801,6 +3041,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Polyamine Metabolism and Applications",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4405111493"
     },
     {
@@ -2855,6 +3098,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Protist diversity and phylogeny",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4393360109"
     },
     {
@@ -2900,6 +3146,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4361268339"
     },
     {
@@ -2948,6 +3197,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4386163297"
     },
     {
@@ -2988,6 +3240,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4323833063"
     },
     {
@@ -3044,6 +3299,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4381186164"
     },
     {
@@ -3090,6 +3348,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Cancer-related gene regulation",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4386699271"
     },
     {
@@ -3133,6 +3394,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4380291971"
     },
     {
@@ -3178,6 +3442,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4376872460"
     },
     {
@@ -3216,6 +3483,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4387440098"
     },
     {
@@ -3257,6 +3527,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4324326953"
     },
     {
@@ -3296,6 +3569,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4318068894"
     },
     {
@@ -3339,6 +3615,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Alzheimer\u0027s disease research and treatments",
+        "subfield":  "Physiology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4319301719"
     },
     {
@@ -3379,6 +3658,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4384664949"
     },
     {
@@ -3423,6 +3705,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4388827654"
     },
     {
@@ -3471,6 +3756,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4379967214"
     },
     {
@@ -3517,6 +3805,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Monoclonal and Polyclonal Antibodies Research",
+        "subfield":  "Radiology, Nuclear Medicine and Imaging",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4383874049"
     },
     {
@@ -3561,6 +3852,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Cancer-related gene regulation",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4384662136"
     },
     {
@@ -3605,6 +3899,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4315927746"
     },
     {
@@ -3644,6 +3941,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neuropeptides and Animal Physiology",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W4383186877"
     },
     {
@@ -3682,6 +3982,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4318021605"
     },
     {
@@ -3726,6 +4029,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Cancer-related gene regulation",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4319656688"
     },
     {
@@ -3766,6 +4072,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Per- and polyfluoroalkyl substances research",
+        "subfield":  "Environmental Chemistry",
+        "field":  "Environmental Science",
         "openalex_id":  "https://openalex.org/W4319333212"
     },
     {
@@ -3815,6 +4124,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Genetics and Neurodevelopmental Disorders",
+        "subfield":  "Genetics",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4389890946"
     },
     {
@@ -3860,6 +4172,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4362548677"
     },
     {
@@ -3901,6 +4216,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4378172205"
     },
     {
@@ -3941,6 +4259,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4389164156"
     },
     {
@@ -3980,6 +4301,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4327935673"
     },
     {
@@ -4009,6 +4333,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4387473265"
     },
     {
@@ -4041,6 +4368,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4385476712"
     },
     {
@@ -4072,6 +4402,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4387326189"
     },
     {
@@ -4123,6 +4456,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4366978051"
     },
     {
@@ -4186,6 +4522,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4389521000"
     },
     {
@@ -4231,6 +4570,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4281633350"
     },
     {
@@ -4276,6 +4618,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4292939486"
     },
     {
@@ -4322,6 +4667,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4290861716"
     },
     {
@@ -4368,6 +4716,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4229046827"
     },
     {
@@ -4423,6 +4774,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Genetics and Neurodevelopmental Disorders",
+        "subfield":  "Genetics",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4205496468"
     },
     {
@@ -4462,6 +4816,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4212839184"
     },
     {
@@ -4508,6 +4865,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Eicosanoids and Hypertension Pharmacology",
+        "subfield":  "Biochemistry",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4295437667"
     },
     {
@@ -4552,6 +4912,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4206926146"
     },
     {
@@ -4598,6 +4961,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4224444055"
     },
     {
@@ -4650,6 +5016,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Peptidase Inhibition and Analysis",
+        "subfield":  "Oncology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4311288744"
     },
     {
@@ -4701,6 +5070,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4205362239"
     },
     {
@@ -4746,6 +5118,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Genomics and Chromatin Dynamics",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4206612050"
     },
     {
@@ -4787,6 +5162,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4213102333"
     },
     {
@@ -4828,6 +5206,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4289170433"
     },
     {
@@ -4868,6 +5249,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4288758070"
     },
     {
@@ -4922,6 +5306,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Heat shock proteins research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4309021765"
     },
     {
@@ -4968,6 +5355,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Biotin and Related Studies",
+        "subfield":  "Cell Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4210279392"
     },
     {
@@ -5009,6 +5399,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4295423209"
     },
     {
@@ -5045,6 +5438,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Alzheimer\u0027s disease research and treatments",
+        "subfield":  "Physiology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4312077278"
     },
     {
@@ -5078,6 +5474,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4310442478"
     },
     {
@@ -5113,6 +5512,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "book-chapter",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4211093434"
     },
     {
@@ -5149,6 +5551,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4229005392"
     },
     {
@@ -5190,6 +5595,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Multiple Myeloma Research and Treatments",
+        "subfield":  "Hematology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4311315022"
     },
     {
@@ -5225,6 +5633,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Clusterin in disease pathology",
+        "subfield":  "Oncology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W4210288191"
     },
     {
@@ -5263,6 +5674,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4210844279"
     },
     {
@@ -5295,6 +5709,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W4283221437"
     },
     {
@@ -5331,6 +5748,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Oral microbiology and periodontitis research",
+        "subfield":  "Periodontics",
+        "field":  "Dentistry",
         "openalex_id":  "https://openalex.org/W4226088804"
     },
     {
@@ -5359,6 +5779,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4286826734"
     },
     {
@@ -5387,6 +5810,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W4286826541"
     },
     {
@@ -5413,6 +5839,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4403884587"
     },
     {
@@ -5469,6 +5898,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3155210079"
     },
     {
@@ -5521,6 +5953,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "SARS-CoV-2 detection and testing",
+        "subfield":  "Infectious Diseases",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W3198906216"
     },
     {
@@ -5580,6 +6015,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Cancer, Lipids, and Metabolism",
+        "subfield":  "Cancer Research",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3198827504"
     },
     {
@@ -5633,6 +6071,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced biosensing and bioanalysis techniques",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3170717656"
     },
     {
@@ -5688,6 +6129,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3158218832"
     },
     {
@@ -5747,6 +6191,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Pancreatic function and diabetes",
+        "subfield":  "Surgery",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W3131210231"
     },
     {
@@ -5798,6 +6245,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W3128485795"
     },
     {
@@ -5846,6 +6296,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3200497336"
     },
     {
@@ -5897,6 +6350,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Analytical Chemistry and Chromatography",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3165461462"
     },
     {
@@ -5951,6 +6407,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4200367381"
     },
     {
@@ -6011,6 +6470,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Genetics, Aging, and Longevity in Model Organisms",
+        "subfield":  "Aging",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3192943503"
     },
     {
@@ -6069,6 +6531,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Cellular transport and secretion",
+        "subfield":  "Cell Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3122477652"
     },
     {
@@ -6112,6 +6577,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Insect and Arachnid Ecology and Behavior",
+        "subfield":  "Genetics",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4200012525"
     },
     {
@@ -6167,6 +6635,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Genetics and Neurodevelopmental Disorders",
+        "subfield":  "Genetics",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4206189971"
     },
     {
@@ -6215,6 +6686,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3185990200"
     },
     {
@@ -6261,6 +6735,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Alzheimer\u0027s disease research and treatments",
+        "subfield":  "Physiology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W3177747013"
     },
     {
@@ -6314,6 +6791,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3167039358"
     },
     {
@@ -6359,6 +6839,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3212189700"
     },
     {
@@ -6406,6 +6889,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W3135082319"
     },
     {
@@ -6456,6 +6942,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W3175461440"
     },
     {
@@ -6501,6 +6990,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3192876423"
     },
     {
@@ -6548,6 +7040,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Monoclonal and Polyclonal Antibodies Research",
+        "subfield":  "Radiology, Nuclear Medicine and Imaging",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W3175182346"
     },
     {
@@ -6593,6 +7088,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W3118738407"
     },
     {
@@ -6648,6 +7146,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Polyomavirus and related diseases",
+        "subfield":  "Oncology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W3130661625"
     },
     {
@@ -6708,6 +7209,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Fungal Infections and Studies",
+        "subfield":  "Epidemiology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W3139077451"
     },
     {
@@ -6757,6 +7261,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Proteoglycans and glycosaminoglycans research",
+        "subfield":  "Cell Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3127582384"
     },
     {
@@ -6805,6 +7312,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3163302046"
     },
     {
@@ -6846,6 +7356,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3178184626"
     },
     {
@@ -6887,6 +7400,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neuroscience and Neuropharmacology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W3206359015"
     },
     {
@@ -6938,6 +7454,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W3153635739"
     },
     {
@@ -6985,6 +7504,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Microbial Natural Products and Biosynthesis",
+        "subfield":  "Pharmacology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W3153498378"
     },
     {
@@ -7026,6 +7548,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Pancreatic function and diabetes",
+        "subfield":  "Surgery",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W3184184636"
     },
     {
@@ -7077,6 +7602,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Voice and Speech Disorders",
+        "subfield":  "Physiology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W3164828858"
     },
     {
@@ -7121,6 +7649,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W3132240499"
     },
     {
@@ -7153,6 +7684,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "book-chapter",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4200009041"
     },
     {
@@ -7190,6 +7724,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3197289645"
     },
     {
@@ -7223,6 +7760,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Oral microbiology and periodontitis research",
+        "subfield":  "Periodontics",
+        "field":  "Dentistry",
         "openalex_id":  "https://openalex.org/W3134640489"
     },
     {
@@ -7257,6 +7797,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Genetics and Neurodevelopmental Disorders",
+        "subfield":  "Genetics",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3214667282"
     },
     {
@@ -7308,6 +7851,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3037630880"
     },
     {
@@ -7360,6 +7906,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neuroendocrine regulation and behavior",
+        "subfield":  "Social Psychology",
+        "field":  "Psychology",
         "openalex_id":  "https://openalex.org/W3009985867"
     },
     {
@@ -7417,6 +7966,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3081767089"
     },
     {
@@ -7469,6 +8021,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3025812695"
     },
     {
@@ -7525,6 +8080,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3025918457"
     },
     {
@@ -7579,6 +8137,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3012141085"
     },
     {
@@ -7638,6 +8199,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Pain Management and Treatment",
+        "subfield":  "Anesthesiology and Pain Medicine",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W3012185270"
     },
     {
@@ -7693,6 +8257,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Integrated Circuits and Semiconductor Failure Analysis",
+        "subfield":  "Electrical and Electronic Engineering",
+        "field":  "Engineering",
         "openalex_id":  "https://openalex.org/W3041908969"
     },
     {
@@ -7741,6 +8308,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3100859636"
     },
     {
@@ -7785,6 +8355,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3103400560"
     },
     {
@@ -7847,6 +8420,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mitochondrial Function and Pathology",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3024463739"
     },
     {
@@ -7898,6 +8474,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W3081234015"
     },
     {
@@ -7952,6 +8531,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neuroendocrine regulation and behavior",
+        "subfield":  "Social Psychology",
+        "field":  "Psychology",
         "openalex_id":  "https://openalex.org/W3085791334"
     },
     {
@@ -7999,6 +8581,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W3045877582"
     },
     {
@@ -8048,6 +8633,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3043133029"
     },
     {
@@ -8093,6 +8681,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Toxic Organic Pollutants Impact",
+        "subfield":  "Health, Toxicology and Mutagenesis",
+        "field":  "Environmental Science",
         "openalex_id":  "https://openalex.org/W3014078586"
     },
     {
@@ -8140,6 +8731,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3014892514"
     },
     {
@@ -8187,6 +8781,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Gut microbiota and health",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3043418425"
     },
     {
@@ -8239,6 +8836,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "book-chapter",
+        "topic":  "Phytoplasmas and Hemiptera pathogens",
+        "subfield":  "Plant Science",
+        "field":  "Agricultural and Biological Sciences",
         "openalex_id":  "https://openalex.org/W3030882244"
     },
     {
@@ -8282,6 +8882,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3041575828"
     },
     {
@@ -8328,6 +8931,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Urinary Bladder and Prostate Research",
+        "subfield":  "Urology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W3006757615"
     },
     {
@@ -8364,6 +8970,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mast cells and histamine",
+        "subfield":  "Immunology",
+        "field":  "Immunology and Microbiology",
         "openalex_id":  "https://openalex.org/W3009857083"
     },
     {
@@ -8403,6 +9012,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Genetics, Aging, and Longevity in Model Organisms",
+        "subfield":  "Aging",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3048023272"
     },
     {
@@ -8434,6 +9046,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W4298022426"
     },
     {
@@ -8466,6 +9081,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W4245675084"
     },
     {
@@ -8498,6 +9116,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3201506385"
     },
     {
@@ -8523,6 +9144,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3108996210"
     },
     {
@@ -8552,6 +9176,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Genomics and Chromatin Dynamics",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W3000565041"
     },
     {
@@ -8584,6 +9211,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3046592582"
     },
     {
@@ -8641,6 +9271,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2907911959"
     },
     {
@@ -8751,6 +9384,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2912347251"
     },
     {
@@ -8807,6 +9443,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Advanced oxidation water treatment",
+        "subfield":  "Water Science and Technology",
+        "field":  "Environmental Science",
         "openalex_id":  "https://openalex.org/W2964956302"
     },
     {
@@ -8859,6 +9498,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2986840503"
     },
     {
@@ -8923,6 +9565,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Endoplasmic Reticulum Stress and Disease",
+        "subfield":  "Cell Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2971616287"
     },
     {
@@ -8984,6 +9629,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2968628755"
     },
     {
@@ -9045,6 +9693,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2912581010"
     },
     {
@@ -9105,6 +9756,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Identification and Quantification in Food",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2976403346"
     },
     {
@@ -9161,6 +9815,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2909320430"
     },
     {
@@ -9220,6 +9877,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2925211228"
     },
     {
@@ -9273,6 +9933,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2982657972"
     },
     {
@@ -9337,6 +10000,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Click Chemistry and Applications",
+        "subfield":  "Organic Chemistry",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2980925493"
     },
     {
@@ -9393,6 +10059,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Pancreatic function and diabetes",
+        "subfield":  "Surgery",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W2952763800"
     },
     {
@@ -9451,6 +10120,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2998500331"
     },
     {
@@ -9502,6 +10174,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Analytical Chemistry and Chromatography",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2957513975"
     },
     {
@@ -9552,6 +10227,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2968307004"
     },
     {
@@ -9608,6 +10286,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2948399798"
     },
     {
@@ -9665,6 +10346,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2969909998"
     },
     {
@@ -9733,6 +10417,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2972477261"
     },
     {
@@ -9780,6 +10467,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2985870061"
     },
     {
@@ -9835,6 +10525,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2915262101"
     },
     {
@@ -9885,6 +10578,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Physiological and biochemical adaptations",
+        "subfield":  "Ecology",
+        "field":  "Environmental Science",
         "openalex_id":  "https://openalex.org/W2947344077"
     },
     {
@@ -9944,6 +10640,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2906726344"
     },
     {
@@ -10002,6 +10701,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2958550032"
     },
     {
@@ -10049,6 +10751,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2909426596"
     },
     {
@@ -10101,6 +10806,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Microbial Natural Products and Biosynthesis",
+        "subfield":  "Pharmacology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W2946278827"
     },
     {
@@ -10154,6 +10862,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2989991796"
     },
     {
@@ -10198,6 +10909,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2947715173"
     },
     {
@@ -10253,6 +10967,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2936139387"
     },
     {
@@ -10301,6 +11018,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "book-chapter",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2968183173"
     },
     {
@@ -10346,6 +11066,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Urinary Bladder and Prostate Research",
+        "subfield":  "Urology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W3030817397"
     },
     {
@@ -10397,6 +11120,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Cellular transport and secretion",
+        "subfield":  "Cell Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2991138780"
     },
     {
@@ -10425,6 +11151,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Cancer-related gene regulation",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2969259796"
     },
     {
@@ -10450,6 +11179,9 @@
         "is_preprint":  true,
         "open_access":  true,
         "type":  "preprint",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3118375653"
     },
     {
@@ -10519,6 +11251,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Tissue Engineering and Regenerative Medicine",
+        "subfield":  "Surgery",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W2839646944"
     },
     {
@@ -10575,6 +11310,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2897052519"
     },
     {
@@ -10636,6 +11374,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2808481523"
     },
     {
@@ -10704,6 +11445,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2896305731"
     },
     {
@@ -10769,6 +11513,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2887113077"
     },
     {
@@ -10831,6 +11578,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2792518984"
     },
     {
@@ -10894,6 +11644,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Receptor Mechanisms and Signaling",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2786467315"
     },
     {
@@ -10954,6 +11707,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Gut microbiota and health",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2899704524"
     },
     {
@@ -11011,6 +11767,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Microfluidic and Capillary Electrophoresis Applications",
+        "subfield":  "Biomedical Engineering",
+        "field":  "Engineering",
         "openalex_id":  "https://openalex.org/W2906511847"
     },
     {
@@ -11078,6 +11837,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "3D Printing in Biomedical Research",
+        "subfield":  "Biomedical Engineering",
+        "field":  "Engineering",
         "openalex_id":  "https://openalex.org/W2782169981"
     },
     {
@@ -11135,6 +11897,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2887337924"
     },
     {
@@ -11197,6 +11962,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2782007687"
     },
     {
@@ -11261,6 +12029,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2901165612"
     },
     {
@@ -11318,6 +12089,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Regulation of Appetite and Obesity",
+        "subfield":  "Endocrine and Autonomic Systems",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2792343619"
     },
     {
@@ -11377,6 +12151,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2787544143"
     },
     {
@@ -11434,6 +12211,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Origins and Evolution of Life",
+        "subfield":  "Astronomy and Astrophysics",
+        "field":  "Physics and Astronomy",
         "openalex_id":  "https://openalex.org/W2893013086"
     },
     {
@@ -11498,6 +12278,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Asthma and respiratory diseases",
+        "subfield":  "Physiology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W2791494153"
     },
     {
@@ -11563,6 +12346,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2803218429"
     },
     {
@@ -11619,6 +12405,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "book-chapter",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2788555212"
     },
     {
@@ -11678,6 +12467,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurogenesis and neuroplasticity mechanisms",
+        "subfield":  "Developmental Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2794794747"
     },
     {
@@ -11733,6 +12525,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2795885981"
     },
     {
@@ -11782,6 +12577,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2808916649"
     },
     {
@@ -11839,6 +12637,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2790600731"
     },
     {
@@ -11886,6 +12687,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Protein purification and stability",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2793191012"
     },
     {
@@ -11940,6 +12744,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2892964827"
     },
     {
@@ -11986,6 +12793,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2785086936"
     },
     {
@@ -12051,6 +12861,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2770676323"
     },
     {
@@ -12127,6 +12940,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Cancer-related gene regulation",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2766710101"
     },
     {
@@ -12201,6 +13017,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2736206659"
     },
     {
@@ -12275,6 +13094,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Cancer-related molecular mechanisms research",
+        "subfield":  "Cancer Research",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2735594703"
     },
     {
@@ -12348,6 +13170,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Microbial Natural Products and Biosynthesis",
+        "subfield":  "Pharmacology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W2768056310"
     },
     {
@@ -12418,6 +13243,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2763024842"
     },
     {
@@ -12478,6 +13306,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2766783676"
     },
     {
@@ -12549,6 +13380,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Cellular transport and secretion",
+        "subfield":  "Cell Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2624943597"
     },
     {
@@ -12619,6 +13453,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Pancreatic function and diabetes",
+        "subfield":  "Surgery",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W2738682266"
     },
     {
@@ -12678,6 +13515,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2753169979"
     },
     {
@@ -12743,6 +13583,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2766375531"
     },
     {
@@ -12805,6 +13648,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Cancer-related gene regulation",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2765625384"
     },
     {
@@ -12871,6 +13717,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Insect and Arachnid Ecology and Behavior",
+        "subfield":  "Genetics",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2626411708"
     },
     {
@@ -12941,6 +13790,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2595661769"
     },
     {
@@ -13001,6 +13853,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2769300889"
     },
     {
@@ -13077,6 +13932,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Kruppel-like factors research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2587439839"
     },
     {
@@ -13140,6 +13998,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2619124219"
     },
     {
@@ -13201,6 +14062,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Bone health and treatments",
+        "subfield":  "Oncology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W2765712976"
     },
     {
@@ -13253,6 +14117,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2745065893"
     },
     {
@@ -13302,6 +14169,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Origins and Evolution of Life",
+        "subfield":  "Astronomy and Astrophysics",
+        "field":  "Physics and Astronomy",
         "openalex_id":  "https://openalex.org/W2774001309"
     },
     {
@@ -13358,6 +14228,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2754156063"
     },
     {
@@ -13392,6 +14265,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neural dynamics and brain function",
+        "subfield":  "Cognitive Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2605426454"
     },
     {
@@ -13416,6 +14292,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "book-chapter",
+        "topic":  "Infrared Thermography in Medicine",
+        "subfield":  "Radiology, Nuclear Medicine and Imaging",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W2731758907"
     },
     {
@@ -13484,6 +14363,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2274053983"
     },
     {
@@ -13558,6 +14440,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Prion Diseases and Protein Misfolding",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2417932691"
     },
     {
@@ -13622,6 +14507,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2562701216"
     },
     {
@@ -13695,6 +14583,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Genetics and Neurodevelopmental Disorders",
+        "subfield":  "Genetics",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2410661399"
     },
     {
@@ -13763,6 +14654,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2549952127"
     },
     {
@@ -13831,6 +14725,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2488231459"
     },
     {
@@ -13899,6 +14796,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Antimicrobial Peptides and Activities",
+        "subfield":  "Microbiology",
+        "field":  "Immunology and Microbiology",
         "openalex_id":  "https://openalex.org/W2531115427"
     },
     {
@@ -13956,6 +14856,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2556156796"
     },
     {
@@ -14027,6 +14930,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2275695103"
     },
     {
@@ -14082,6 +14988,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "TGF-β signaling in diseases",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2502926915"
     },
     {
@@ -14133,6 +15042,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "book-chapter",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2439239759"
     },
     {
@@ -14176,6 +15088,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neuroscience and Neuropharmacology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2299555923"
     },
     {
@@ -14227,6 +15142,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2471939286"
     },
     {
@@ -14270,6 +15188,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "book-chapter",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2433651889"
     },
     {
@@ -14303,6 +15224,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "book-chapter",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2490670330"
     },
     {
@@ -14329,6 +15253,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2331015002"
     },
     {
@@ -14404,6 +15331,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Pluripotent Stem Cells Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2223493846"
     },
     {
@@ -14473,6 +15403,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2216480156"
     },
     {
@@ -14544,6 +15477,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W304117529"
     },
     {
@@ -14612,6 +15548,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1904374410"
     },
     {
@@ -14681,6 +15620,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2174553040"
     },
     {
@@ -14749,6 +15691,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1412537369"
     },
     {
@@ -14813,6 +15758,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1829969087"
     },
     {
@@ -14875,6 +15823,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2146654524"
     },
     {
@@ -14946,6 +15897,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Muscle metabolism and nutrition",
+        "subfield":  "Cell Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W1134199019"
     },
     {
@@ -15008,6 +15962,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2403753581"
     },
     {
@@ -15057,6 +16014,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2422228333"
     },
     {
@@ -15109,6 +16069,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Pharmacological Effects and Assays",
+        "subfield":  "Animal Science and Zoology",
+        "field":  "Agricultural and Biological Sciences",
         "openalex_id":  "https://openalex.org/W2318541013"
     },
     {
@@ -15159,6 +16122,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Cell Adhesion Molecules Research",
+        "subfield":  "Immunology and Allergy",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W1964688361"
     },
     {
@@ -15196,6 +16162,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "book",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2185047895"
     },
     {
@@ -15237,6 +16206,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W4211054692"
     },
     {
@@ -15309,6 +16281,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2328610864"
     },
     {
@@ -15389,6 +16364,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2335247296"
     },
     {
@@ -15463,6 +16441,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Metabolomics and Mass Spectrometry Studies",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2158767154"
     },
     {
@@ -15541,6 +16522,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Urinary Bladder and Prostate Research",
+        "subfield":  "Urology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W1941219655"
     },
     {
@@ -15611,6 +16595,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Legume Nitrogen Fixing Symbiosis",
+        "subfield":  "Plant Science",
+        "field":  "Agricultural and Biological Sciences",
         "openalex_id":  "https://openalex.org/W2084310133"
     },
     {
@@ -15683,6 +16670,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2102503075"
     },
     {
@@ -15759,6 +16749,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2013734101"
     },
     {
@@ -15827,6 +16820,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2079515858"
     },
     {
@@ -15895,6 +16891,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1595837951"
     },
     {
@@ -15975,6 +16974,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1976185324"
     },
     {
@@ -16048,6 +17050,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2071222103"
     },
     {
@@ -16117,6 +17122,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2320184538"
     },
     {
@@ -16195,6 +17203,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Acute Myeloid Leukemia Research",
+        "subfield":  "Hematology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W2137404448"
     },
     {
@@ -16267,6 +17278,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1972219555"
     },
     {
@@ -16339,6 +17353,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2068490101"
     },
     {
@@ -16398,6 +17415,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "book-chapter",
+        "topic":  "Glycosylation and Glycoproteins Research",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2416184993"
     },
     {
@@ -16454,6 +17474,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2055371953"
     },
     {
@@ -16511,6 +17534,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2170905545"
     },
     {
@@ -16562,6 +17588,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2011421378"
     },
     {
@@ -16615,6 +17644,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2070767632"
     },
     {
@@ -16668,6 +17700,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2007296254"
     },
     {
@@ -16710,6 +17745,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neuroscience and Neuropharmacology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2045912113"
     },
     {
@@ -16749,6 +17787,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "book-chapter",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2439562652"
     },
     {
@@ -16773,6 +17814,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Plant Disease Resistance and Genetics",
+        "subfield":  "Plant Science",
+        "field":  "Agricultural and Biological Sciences",
         "openalex_id":  "https://openalex.org/W4286853205"
     },
     {
@@ -16858,6 +17902,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Legume Nitrogen Fixing Symbiosis",
+        "subfield":  "Plant Science",
+        "field":  "Agricultural and Biological Sciences",
         "openalex_id":  "https://openalex.org/W2126144602"
     },
     {
@@ -16935,6 +17982,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2333867588"
     },
     {
@@ -17015,6 +18065,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2086974390"
     },
     {
@@ -17096,6 +18149,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1571645799"
     },
     {
@@ -17164,6 +18220,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W1989770230"
     },
     {
@@ -17238,6 +18297,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Ion channel regulation and function",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2133208024"
     },
     {
@@ -17304,6 +18366,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2315687228"
     },
     {
@@ -17371,6 +18436,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2095180875"
     },
     {
@@ -17433,6 +18501,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2142616739"
     },
     {
@@ -17501,6 +18572,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Immune Cell Function and Interaction",
+        "subfield":  "Immunology",
+        "field":  "Immunology and Microbiology",
         "openalex_id":  "https://openalex.org/W1963809321"
     },
     {
@@ -17568,6 +18642,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2323438261"
     },
     {
@@ -17624,6 +18701,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2013434790"
     },
     {
@@ -17682,6 +18762,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2046451933"
     },
     {
@@ -17729,6 +18812,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neuropeptides and Animal Physiology",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2317077899"
     },
     {
@@ -17773,6 +18859,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2052949005"
     },
     {
@@ -17819,6 +18908,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "book-chapter",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2410788778"
     },
     {
@@ -17847,6 +18939,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Acute Myeloid Leukemia Research",
+        "subfield":  "Hematology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W2555157870"
     },
     {
@@ -17928,6 +19023,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W1973757628"
     },
     {
@@ -18004,6 +19102,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2056893568"
     },
     {
@@ -18081,6 +19182,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2094309702"
     },
     {
@@ -18157,6 +19261,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W1989457128"
     },
     {
@@ -18236,6 +19343,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Pharmacological Effects and Assays",
+        "subfield":  "Animal Science and Zoology",
+        "field":  "Agricultural and Biological Sciences",
         "openalex_id":  "https://openalex.org/W2002124212"
     },
     {
@@ -18303,6 +19413,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Prion Diseases and Protein Misfolding",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2123885588"
     },
     {
@@ -18377,6 +19490,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2095155717"
     },
     {
@@ -18445,6 +19561,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2001261862"
     },
     {
@@ -18513,6 +19632,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1971236277"
     },
     {
@@ -18578,6 +19700,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "RNA regulation and disease",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W1992140605"
     },
     {
@@ -18653,6 +19778,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2056595337"
     },
     {
@@ -18709,6 +19837,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2143582958"
     },
     {
@@ -18775,6 +19906,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2069582697"
     },
     {
@@ -18824,6 +19958,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2010441841"
     },
     {
@@ -18877,6 +20014,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1919351059"
     },
     {
@@ -18928,6 +20068,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Prion Diseases and Protein Misfolding",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2157749200"
     },
     {
@@ -18956,6 +20099,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W3150792906"
     },
     {
@@ -19040,6 +20186,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2079559671"
     },
     {
@@ -19120,6 +20269,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2137853848"
     },
     {
@@ -19186,6 +20338,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Prion Diseases and Protein Misfolding",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2095128346"
     },
     {
@@ -19257,6 +20412,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2002631841"
     },
     {
@@ -19328,6 +20486,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2040722485"
     },
     {
@@ -19396,6 +20557,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2028255899"
     },
     {
@@ -19448,6 +20612,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1973389807"
     },
     {
@@ -19501,6 +20668,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2053713037"
     },
     {
@@ -19548,6 +20718,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2023043186"
     },
     {
@@ -19634,6 +20807,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2168434032"
     },
     {
@@ -19712,6 +20888,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1973056604"
     },
     {
@@ -19775,6 +20954,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1985327544"
     },
     {
@@ -19837,6 +21019,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2033596854"
     },
     {
@@ -19886,6 +21071,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "book-chapter",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2464201934"
     },
     {
@@ -19977,6 +21165,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2011533351"
     },
     {
@@ -20058,6 +21249,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2010803299"
     },
     {
@@ -20148,6 +21342,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2084292148"
     },
     {
@@ -20232,6 +21429,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neuroinflammation and Neurodegeneration Mechanisms",
+        "subfield":  "Neurology",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2083942569"
     },
     {
@@ -20309,6 +21509,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2023029465"
     },
     {
@@ -20387,6 +21590,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2061801471"
     },
     {
@@ -20471,6 +21677,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1972992502"
     },
     {
@@ -20555,6 +21764,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2014613207"
     },
     {
@@ -20633,6 +21845,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Regulation of Appetite and Obesity",
+        "subfield":  "Endocrine and Autonomic Systems",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W1985394121"
     },
     {
@@ -20722,6 +21937,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Antimicrobial Peptides and Activities",
+        "subfield":  "Microbiology",
+        "field":  "Immunology and Microbiology",
         "openalex_id":  "https://openalex.org/W2115396821"
     },
     {
@@ -20785,6 +22003,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1539981706"
     },
     {
@@ -20842,6 +22063,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2091370702"
     },
     {
@@ -20897,6 +22121,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Enzyme Structure and Function",
+        "subfield":  "Materials Chemistry",
+        "field":  "Materials Science",
         "openalex_id":  "https://openalex.org/W2075187485"
     },
     {
@@ -20961,6 +22188,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "book-chapter",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2138646832"
     },
     {
@@ -21012,6 +22242,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "book-chapter",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2416569999"
     },
     {
@@ -21066,6 +22299,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2157845748"
     },
     {
@@ -21094,6 +22330,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "book-chapter",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2397297887"
     },
     {
@@ -21130,6 +22369,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2616391048"
     },
     {
@@ -21205,6 +22447,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2115673413"
     },
     {
@@ -21290,6 +22535,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W1969960855"
     },
     {
@@ -21371,6 +22619,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2028645231"
     },
     {
@@ -21457,6 +22708,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2028438413"
     },
     {
@@ -21528,6 +22782,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Advanced Proteomics Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2163131666"
     },
     {
@@ -21614,6 +22871,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2016911556"
     },
     {
@@ -21690,6 +22950,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2048744060"
     },
     {
@@ -21747,6 +23010,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Microfluidic and Capillary Electrophoresis Applications",
+        "subfield":  "Biomedical Engineering",
+        "field":  "Engineering",
         "openalex_id":  "https://openalex.org/W2089018531"
     },
     {
@@ -21808,6 +23074,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2004583549"
     },
     {
@@ -21871,6 +23140,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1983910935"
     },
     {
@@ -21945,6 +23217,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Monoclonal and Polyclonal Antibodies Research",
+        "subfield":  "Radiology, Nuclear Medicine and Imaging",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W2034083624"
     },
     {
@@ -21991,6 +23266,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2033309959"
     },
     {
@@ -22069,6 +23347,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2082255319"
     },
     {
@@ -22149,6 +23430,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2052363451"
     },
     {
@@ -22222,6 +23506,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W1979071260"
     },
     {
@@ -22300,6 +23587,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2038203428"
     },
     {
@@ -22370,6 +23660,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Carbohydrate Chemistry and Synthesis",
+        "subfield":  "Organic Chemistry",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1987736714"
     },
     {
@@ -22444,6 +23737,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W1989241618"
     },
     {
@@ -22503,6 +23799,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Cellular transport and secretion",
+        "subfield":  "Cell Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2041238814"
     },
     {
@@ -22592,6 +23891,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Microbial Natural Products and Biosynthesis",
+        "subfield":  "Pharmacology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W2072256038"
     },
     {
@@ -22668,6 +23970,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1990203312"
     },
     {
@@ -22753,6 +24058,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2012343180"
     },
     {
@@ -22816,6 +24124,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W1520357143"
     },
     {
@@ -22891,6 +24202,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neuroscience and Neuropharmacology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2005746165"
     },
     {
@@ -22951,6 +24265,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2012925364"
     },
     {
@@ -23008,6 +24325,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Cellular transport and secretion",
+        "subfield":  "Cell Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2044883428"
     },
     {
@@ -23039,6 +24359,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2089581479"
     },
     {
@@ -23078,6 +24401,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2137645518"
     },
     {
@@ -23125,6 +24451,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1977032391"
     },
     {
@@ -23172,6 +24501,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2084096241"
     },
     {
@@ -23258,6 +24590,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "High Altitude and Hypoxia",
+        "subfield":  "Genetics",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2056877196"
     },
     {
@@ -23337,6 +24672,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1965819182"
     },
     {
@@ -23405,6 +24743,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2077834285"
     },
     {
@@ -23472,6 +24813,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Parasite Biology and Host Interactions",
+        "subfield":  "Ecology",
+        "field":  "Environmental Science",
         "openalex_id":  "https://openalex.org/W2038238260"
     },
     {
@@ -23531,6 +24875,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W1989845346"
     },
     {
@@ -23606,6 +24953,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2010162928"
     },
     {
@@ -23658,6 +25008,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W1968599646"
     },
     {
@@ -23697,6 +25050,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1964442011"
     },
     {
@@ -23741,6 +25097,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W1589929646"
     },
     {
@@ -23805,6 +25164,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2091533580"
     },
     {
@@ -23893,6 +25255,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W1535431354"
     },
     {
@@ -23965,6 +25330,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2022865996"
     },
     {
@@ -24021,6 +25389,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2016928702"
     },
     {
@@ -24104,6 +25475,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2039710099"
     },
     {
@@ -24183,6 +25557,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2078492636"
     },
     {
@@ -24243,6 +25620,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2007805022"
     },
     {
@@ -24328,6 +25708,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2075056982"
     },
     {
@@ -24392,6 +25775,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W2025331373"
     },
     {
@@ -24457,6 +25843,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Cephalopods and Marine Biology",
+        "subfield":  "Ecology, Evolution, Behavior and Systematics",
+        "field":  "Agricultural and Biological Sciences",
         "openalex_id":  "https://openalex.org/W2187950193"
     },
     {
@@ -24545,6 +25934,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W4293528096"
     },
     {
@@ -24606,6 +25998,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Mass Spectrometry Techniques and Applications",
+        "subfield":  "Spectroscopy",
+        "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W1982044520"
     },
     {
@@ -24670,6 +26065,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Enzyme Structure and Function",
+        "subfield":  "Materials Chemistry",
+        "field":  "Materials Science",
         "openalex_id":  "https://openalex.org/W2034498503"
     },
     {
@@ -24723,6 +26121,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Biochemical effects in animals",
+        "subfield":  "Physiology",
+        "field":  "Medicine",
         "openalex_id":  "https://openalex.org/W1898861864"
     },
     {
@@ -24764,6 +26165,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Protein Hydrolysis and Bioactive Peptides",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
         "openalex_id":  "https://openalex.org/W2059249124"
     },
     {
@@ -24821,6 +26225,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2188569556"
     },
     {
@@ -24895,6 +26302,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W1986872779"
     },
     {
@@ -24974,6 +26384,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Neurobiology and Insect Physiology Research",
+        "subfield":  "Cellular and Molecular Neuroscience",
+        "field":  "Neuroscience",
         "openalex_id":  "https://openalex.org/W2061672127"
     },
     {
@@ -25039,6 +26452,9 @@
         "is_preprint":  false,
         "open_access":  true,
         "type":  "article",
+        "topic":  "Toxic Organic Pollutants Impact",
+        "subfield":  "Health, Toxicology and Mutagenesis",
+        "field":  "Environmental Science",
         "openalex_id":  "https://openalex.org/W2084898979"
     },
     {
@@ -25098,6 +26514,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Toxic Organic Pollutants Impact",
+        "subfield":  "Health, Toxicology and Mutagenesis",
+        "field":  "Environmental Science",
         "openalex_id":  "https://openalex.org/W2058777755"
     },
     {
@@ -25137,6 +26556,9 @@
         "is_preprint":  false,
         "open_access":  false,
         "type":  "article",
+        "topic":  "Pesticide Exposure and Toxicity",
+        "subfield":  "Plant Science",
+        "field":  "Agricultural and Biological Sciences",
         "openalex_id":  "https://openalex.org/W2012653136"
     }
 ]

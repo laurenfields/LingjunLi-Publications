@@ -64,7 +64,7 @@ if (-not $Email) {
 
 $fields = @(
     'id','doi','title','publication_year','publication_date','cited_by_count',
-    'counts_by_year','authorships','primary_location','open_access','type'
+    'counts_by_year','authorships','primary_location','open_access','type','primary_topic'
 ) -join ','
 
 # OpenAlex caps per-page at 200; page through in case the list outgrows one page.
@@ -193,6 +193,17 @@ $pubs = foreach ($w in $kept) {
     $isCoFirst = $coFirst.ContainsKey($shortId)
     $position  = if ($me) { $me.author_position } else { $null }
 
+    # OpenAlex classifies each work into a topic hierarchy (topic -> subfield -> field).
+    # Subfield is the useful granularity for a filter: broader than the very specific
+    # topic, narrower than the ~a-dozen top-level fields. Null-safe (StrictMode).
+    $topic = $null; $subfield = $null; $field = $null
+    if ($w.PSObject.Properties.Name -contains 'primary_topic' -and $w.primary_topic) {
+        $pt = $w.primary_topic
+        if ($pt.PSObject.Properties.Name -contains 'display_name') { $topic = $pt.display_name }
+        if ($pt.PSObject.Properties.Name -contains 'subfield' -and $pt.subfield) { $subfield = $pt.subfield.display_name }
+        if ($pt.PSObject.Properties.Name -contains 'field' -and $pt.field) { $field = $pt.field.display_name }
+    }
+
     [pscustomobject]@{
         title       = $title
         year        = $w.publication_year
@@ -213,6 +224,9 @@ $pubs = foreach ($w in $kept) {
         open_access = [bool]($w.PSObject.Properties.Name -contains 'open_access' -and
                              $w.open_access -and $w.open_access.is_oa)
         type        = $w.type
+        topic       = $topic
+        subfield    = $subfield
+        field       = $field
         openalex_id = $w.id
     }
 }
@@ -283,6 +297,10 @@ $summary = [pscustomobject]@{
     # Optional visual theme (accent colour, fonts, header band, network palette). Passed
     # through verbatim; Build-Site turns it into CSS and the page reads network_slots.
     theme            = if ($cfg.PSObject.Properties.Name -contains 'theme') { $cfg.theme } else { $null }
+    # When false, the collaborator network is a single hue with no research-area grouping -
+    # for cases where co-authorship communities don't map cleanly onto labels (e.g. external
+    # collaborating labs get lumped with trainees). Defaults to true.
+    network_clusters = -not ($cfg.PSObject.Properties.Name -contains 'network_clusters' -and $cfg.network_clusters -eq $false)
     citation_growth  = @($growth)
     papers_by_year   = @($byYear)
 }

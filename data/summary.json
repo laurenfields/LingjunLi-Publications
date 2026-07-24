@@ -3,7 +3,7 @@
     "orcid":  "0000-0003-0056-3869",
     "affiliation":  "University of Wisconsin–Madison",
     "tagline":  "Mass spectrometry, neuropeptides, and analytical chemistry",
-    "generated_utc":  "2026-07-24T16:38:18Z",
+    "generated_utc":  "2026-07-24T18:37:18Z",
     "current_year":  2026,
     "total_papers":  474,
     "total_citations":  17250,
@@ -43,6 +43,7 @@
                                              "#c98500"
                                          ]
               },
+    "network_clusters":  false,
     "citation_growth":  [
                             {
                                 "year":  2012,

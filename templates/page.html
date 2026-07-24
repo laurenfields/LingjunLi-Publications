@@ -149,14 +149,22 @@
   .tip b { font-variant-numeric: tabular-nums; }
 
   /* ---- Publication list ---- */
-  .filterbar { display: flex; align-items: center; gap: 12px; margin: 0 0 8px; }
-  .filterbar input { flex: 1; min-width: 0; font: inherit; font-size: 14px;
+  .filterbar { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 0 0 8px; }
+  .filterbar input { flex: 1 1 220px; min-width: 0; font: inherit; font-size: 14px;
     padding: 9px 12px; border-radius: 8px; border: 1px solid var(--border);
     background: var(--surface-1); color: var(--text-primary); }
-  .filterbar input:focus { outline: 2px solid var(--series); outline-offset: -1px; }
+  .filterbar input:focus, .fselect:focus { outline: 2px solid var(--series); outline-offset: -1px; }
+  .fselect { font: inherit; font-size: 13px; padding: 8px 10px; border-radius: 8px;
+    border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary);
+    max-width: 100%; cursor: pointer; }
   .fcount { font-size: 12.5px; color: var(--muted); white-space: nowrap;
-    font-variant-numeric: tabular-nums; }
+    font-variant-numeric: tabular-nums; margin-left: auto; }
   .nomatch { color: var(--muted); font-size: 14px; padding: 24px 0; }
+  /* Each item carries its year inline, shown only in the flat (citation-sorted) view;
+     the year-grouped view uses the .yr headers instead. */
+  .pyear { display: none; color: var(--muted); }
+  #pubList.publist-flat .pyear { display: inline; }
+  #pubList.publist-flat .yr { display: none; }
 
   h2.section { font-size: 20px; margin: 0 0 4px; letter-spacing: -0.01em; }
   .section-sub { color: var(--muted); font-size: 14px; margin: 0 0 20px; }
@@ -252,6 +260,13 @@ __THEME_STYLE__
     <div id="filterBar" class="filterbar" hidden>
       <input type="search" id="pubFilter" placeholder="Filter by title, author, or journal…"
              autocomplete="off" aria-label="Filter publications">
+      <select id="pubTopic" class="fselect" aria-label="Filter by topic" hidden></select>
+      <select id="pubSort" class="fselect" aria-label="Sort publications">
+        <option value="year-desc">Newest first</option>
+        <option value="year-asc">Oldest first</option>
+        <option value="cite-desc">Most cited</option>
+        <option value="cite-asc">Least cited</option>
+      </select>
       <span id="filterCount" class="fcount"></span>
     </div>
     <div id="pubList"></div>
@@ -370,13 +385,20 @@ __THEME_STYLE__
         'stroke-dasharray': '4 3', 'stroke-linecap': 'round' }));
     }
 
+    // Thin the year labels so a long career (15+ years) doesn't cram the axis. Points
+    // still render every year; only labels are decimated, always keeping first and last.
+    var lblStep = Math.max(1, Math.ceil(G.length / 8));
     G.forEach(function (d, i) {
       var hollow = partial && i === lastIdx;
       svg.appendChild(el('circle', { cx: X(i), cy: Y(d.cumulative), r: 4.5,
         fill: hollow ? 'var(--surface-1)' : 'var(--series)',
         stroke: hollow ? 'var(--series)' : 'var(--surface-1)', 'stroke-width': 2 }));
-      svg.appendChild(el('text', { x: X(i), y: H - 10, class: 'tick', 'text-anchor': 'middle' },
-        d.year + (hollow ? '*' : '')));
+      var showLabel = (i === 0) || (i === lastIdx) ||
+                      (i % lblStep === 0 && (lastIdx - i) >= lblStep);
+      if (showLabel) {
+        svg.appendChild(el('text', { x: X(i), y: H - 10, class: 'tick', 'text-anchor': 'middle' },
+          d.year + (hollow ? '*' : '')));
+      }
     });
 
     // Direct-label the endpoint only - a number on every point is noise.
@@ -432,6 +454,8 @@ __THEME_STYLE__
     var Y = function (v) { return m.t + ih - (v / top) * ih; };
     var slot = iw / P.length;
     var bw = Math.min(slot - 8, 46);   // the 2px+ surface gap between adjacent bars
+    // Thin year labels for a long span (Li spans 30 years); bars still render for all.
+    var pStep = Math.max(1, Math.ceil(P.length / 10));
 
     for (var t = 0; t <= top; t++) {
       if (top > 6 && t % 2) continue;
@@ -459,9 +483,17 @@ __THEME_STYLE__
       g.addEventListener('mouseleave', hideTip);
       svg.appendChild(g);
 
-      svg.appendChild(el('text', { x: cx, y: Y(d.papers) - 6, class: 'dlabel',
-        'text-anchor': 'middle' }, d.papers));
-      svg.appendChild(el('text', { x: cx, y: H - 10, class: 'tick', 'text-anchor': 'middle' }, d.year));
+      var showX = (i === 0) || (i === P.length - 1) ||
+                  (i % pStep === 0 && (P.length - 1 - i) >= pStep);
+      // Count atop the bar only where a year shows, or on the peak - otherwise 30
+      // numbers collide into an unreadable smear.
+      if (showX || d.papers === max) {
+        svg.appendChild(el('text', { x: cx, y: Y(d.papers) - 6, class: 'dlabel',
+          'text-anchor': 'middle' }, d.papers));
+      }
+      if (showX) {
+        svg.appendChild(el('text', { x: cx, y: H - 10, class: 'tick', 'text-anchor': 'middle' }, d.year));
+      }
     });
 
     document.getElementById('pubsSub').textContent =
@@ -489,6 +521,10 @@ __THEME_STYLE__
     var W = 760, H = 560, CX = W / 2, CY = H / 2;
     var selfX = CX, selfY = CY, selfR = 21;
     svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+
+    // When clusters are off, every bubble is the single accent hue and there is no
+    // legend - co-authorship communities don't always map cleanly onto research areas.
+    var showClusters = S.network_clusters !== false;
 
     // Palette slots 1-4 plus a neutral for everything folded into "Other".
     var isDark = matchMedia('(prefers-color-scheme: dark)').matches &&
@@ -627,8 +663,10 @@ __THEME_STYLE__
 
     var nodeEls = nodes.map(function (n) {
       var g = el('g', { class: 'node' });
-      var c = el('circle', { r: n.r, fill: slotColor(n.slot), 'fill-opacity': 0.85,
-        stroke: 'var(--surface-1)', 'stroke-width': 2 });
+      // Single accent hue when clusters are off; the cluster's slot colour otherwise.
+      // 'var(--series)' auto-adapts to the theme's light/dark accent.
+      var c = el('circle', { r: n.r, fill: showClusters ? slotColor(n.slot) : 'var(--series)',
+        'fill-opacity': 0.85, stroke: 'var(--surface-1)', 'stroke-width': 2 });
       // The advisor appears on nearly every paper; a ring marks that without
       // letting the node's size swamp the rest of the layout.
       if (n.advisor) { c.setAttribute('stroke', 'var(--text-primary)'); c.setAttribute('stroke-width', 2.5); }
@@ -728,21 +766,24 @@ __THEME_STYLE__
     });
 
     // ---- Legend, caption, table ----
-    var legend = document.getElementById('netLegend');
-    NET.clusters.forEach(function (c) {
-      if (!c.color_slot) return;             // "Other" gets one combined entry below
-      var sp = document.createElement('span');
-      sp.innerHTML = '<i></i>' + c.name + ' (' + c.size + ')';
-      sp.querySelector('i').style.background = slotColor(c.color_slot);
-      legend.appendChild(sp);
-    });
-    var otherCount = NET.clusters.filter(function (c) { return !c.color_slot; })
-      .reduce(function (a, c) { return a + c.size; }, 0);
-    if (otherCount) {
-      var sp2 = document.createElement('span');
-      sp2.innerHTML = '<i></i>Other groups (' + otherCount + ')';
-      sp2.querySelector('i').style.background = SLOTS[0];
-      legend.appendChild(sp2);
+    // The legend only exists to decode cluster colours; with a single hue it is noise.
+    if (showClusters) {
+      var legend = document.getElementById('netLegend');
+      NET.clusters.forEach(function (c) {
+        if (!c.color_slot) return;           // "Other" gets one combined entry below
+        var sp = document.createElement('span');
+        sp.innerHTML = '<i></i>' + c.name + ' (' + c.size + ')';
+        sp.querySelector('i').style.background = slotColor(c.color_slot);
+        legend.appendChild(sp);
+      });
+      var otherCount = NET.clusters.filter(function (c) { return !c.color_slot; })
+        .reduce(function (a, c) { return a + c.size; }, 0);
+      if (otherCount) {
+        var sp2 = document.createElement('span');
+        sp2.innerHTML = '<i></i>Other groups (' + otherCount + ')';
+        sp2.querySelector('i').style.background = SLOTS[0];
+        legend.appendChild(sp2);
+      }
     }
 
     // State the cutoff when there is one - a graph that quietly omits 1,400 people
@@ -753,16 +794,23 @@ __THEME_STYLE__
       : NET.node_count + ' co-authors';
     document.getElementById('netSub').textContent =
       scope + ' across ' + S.total_papers +
-      ' papers · bubble size is papers shared · grouped by research area';
+      ' papers · bubble size is papers shared' +
+      (showClusters ? ' · grouped by research area' : ', position by who works with whom');
     document.getElementById('netDesc').textContent =
-      'Network of ' + NET.node_count + ' co-authors, grouped into research clusters, ' +
-      'with ' + NET.clusters[0].top + ' the most frequent collaborator.';
+      'Network of ' + NET.node_count + ' co-authors' +
+      (showClusters ? ', grouped into research clusters,' : ',') +
+      ' with ' + NET.clusters[0].top + ' the most frequent collaborator.';
 
-    var rows = '<tr><th>Collaborator</th><th>Papers</th><th>Citations</th><th>Group</th></tr>';
+    var groupCol = showClusters ? '<th>Group</th>' : '';
+    var rows = '<tr><th>Collaborator</th><th>Papers</th><th>Citations</th>' + groupCol + '</tr>';
     NET.nodes.forEach(function (n) {
-      var cl = NET.clusters.filter(function (c) { return c.key === n.cluster; })[0];
+      var groupCell = '';
+      if (showClusters) {
+        var cl = NET.clusters.filter(function (c) { return c.key === n.cluster; })[0];
+        groupCell = '<td>' + esc(cl ? cl.name : '—') + '</td>';
+      }
       rows += '<tr><td>' + esc(n.name) + '</td><td>' + n.papers + '</td><td>' +
-        n.citations + '</td><td>' + esc(cl ? cl.name : '—') + '</td></tr>';
+        n.citations + '</td>' + groupCell + '</tr>';
     });
     document.getElementById('netTable').innerHTML = rows;
   })();
@@ -788,31 +836,22 @@ __THEME_STYLE__
   }
 
   var list = document.getElementById('pubList');
-  var currentYear = null;
-  var yearGroups = [];          // { header, items[] } - so filtering can hide empty years
-  var entries = [];             // { el, haystack } for the filter
-  PUBS.forEach(function (p) {
-    if (p.year !== currentYear) {
-      currentYear = p.year;
-      var hy = document.createElement('div');
-      hy.className = 'yr';
-      hy.textContent = currentYear;
-      list.appendChild(hy);
-      yearGroups.push({ header: hy, items: [] });
-    }
-    var d = document.createElement('article');
-    d.className = 'pub';
-    var badges = '';
-    if (p.is_preprint) badges += '<span class="badge pre">Preprint</span>';
-    // Co-first is shown as its own badge - it is a first authorship, but flattening it
-    // into "First author" would overstate the sole-first papers.
-    if (p.is_co_first)            badges += '<span class="badge first">Co-first author</span>';
-    else if (p.position === 'first') badges += '<span class="badge first">First author</span>';
-    if (p.open_access && !p.is_preprint) badges += '<span class="badge oa">Open access</span>';
+
+  function badgesFor(p) {
+    var b = '';
+    if (p.is_preprint) b += '<span class="badge pre">Preprint</span>';
+    // Co-first is its own badge - a first authorship, but flattening it into
+    // "First author" would overstate the sole-first papers.
+    if (p.is_co_first)               b += '<span class="badge first">Co-first author</span>';
+    else if (p.position === 'first') b += '<span class="badge first">First author</span>';
+    if (p.open_access && !p.is_preprint) b += '<span class="badge oa">Open access</span>';
+    return b;
+  }
+  function itemHtml(p) {
     var titleHtml = p.url
       ? '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.title) + '</a>'
       : esc(p.title);
-    d.innerHTML =
+    return '<article class="pub">' +
       '<div class="cite' + (p.citations === 0 ? ' zero' : '') + '">' +
         '<span class="n">' + p.citations + '</span>' +
         '<span class="u">cite' + (p.citations === 1 ? '' : 's') + '</span>' +
@@ -820,56 +859,87 @@ __THEME_STYLE__
       '<div class="body">' +
         '<p class="t">' + titleHtml + '</p>' +
         '<p class="a">' + authorHtml(p.authors) + '</p>' +
-        '<p class="v">' + esc(p.venue) + badges + '</p>' +
-      '</div>';
-    list.appendChild(d);
-    var g = yearGroups[yearGroups.length - 1];
-    g.items.push(d);
-    entries.push({
-      el: d, group: g,
-      hay: (p.title + ' ' + p.authors.join(' ') + ' ' + p.venue + ' ' + p.year).toLowerCase()
-    });
+        '<p class="v"><span class="pyear">' + p.year + ' · </span>' +
+          esc(p.venue) + badgesFor(p) + '</p>' +
+      '</div></article>';
+  }
+
+  // Build the searchable/filterable model once. Topic uses OpenAlex subfield - broad
+  // enough to group meaningfully, narrow enough to discriminate.
+  var meta = PUBS.map(function (p) {
+    return {
+      p: p,
+      topic: p.subfield || null,
+      hay: (p.title + ' ' + p.authors.join(' ') + ' ' + p.venue + ' ' + p.year + ' ' +
+            (p.subfield || '') + ' ' + (p.topic || '')).toLowerCase()
+    };
   });
+
+  var sorters = {
+    'year-desc': function (a, b) { return b.p.year - a.p.year || b.p.citations - a.p.citations; },
+    'year-asc':  function (a, b) { return a.p.year - b.p.year || b.p.citations - a.p.citations; },
+    'cite-desc': function (a, b) { return b.p.citations - a.p.citations || b.p.year - a.p.year; },
+    'cite-asc':  function (a, b) { return a.p.citations - b.p.citations || b.p.year - a.p.year; }
+  };
+
+  var qInput  = document.getElementById('pubFilter');
+  var topicSel = document.getElementById('pubTopic');
+  var sortSel = document.getElementById('pubSort');
+  var count   = document.getElementById('filterCount');
+  var none    = document.getElementById('noMatch');
+
+  function render() {
+    var terms = qInput.value.toLowerCase().split(/\s+/).filter(Boolean);
+    var topic = topicSel.value || 'all';
+    var sortKey = sorters[sortSel.value] ? sortSel.value : 'year-desc';
+    var grouped = sortKey.indexOf('year') === 0;   // year sorts show year headers
+
+    var sel = meta.filter(function (m) {
+      if (topic !== 'all' && m.topic !== topic) return false;
+      return terms.every(function (t) { return m.hay.indexOf(t) !== -1; });
+    });
+    sel.sort(sorters[sortKey]);
+
+    var html = '', cy = null;
+    sel.forEach(function (m) {
+      if (grouped && m.p.year !== cy) { cy = m.p.year; html += '<div class="yr">' + cy + '</div>'; }
+      html += itemHtml(m.p);
+    });
+    list.className = grouped ? '' : 'publist-flat';
+    list.innerHTML = html;
+    none.hidden = sel.length !== 0;
+    count.textContent = sel.length === PUBS.length
+      ? PUBS.length + ' shown' : sel.length + ' of ' + PUBS.length;
+  }
 
   document.getElementById('listSub').textContent =
     S.total_papers + ' works · ' + S.preprints + ' preprints · ' +
-    S.open_access + ' open access · sorted newest first';
+    S.open_access + ' open access';
 
-  // ---- Filter (only worth showing once the list is too long to scan) ----
-  if (PUBS.length > 40) {
-    var bar = document.getElementById('filterBar');
-    var input = document.getElementById('pubFilter');
-    var count = document.getElementById('filterCount');
-    var none = document.getElementById('noMatch');
-    bar.hidden = false;
-    count.textContent = PUBS.length + ' shown';
+  // Controls appear once the list is long enough to be worth filtering/sorting.
+  if (PUBS.length > 12) {
+    document.getElementById('filterBar').hidden = false;
 
-    var applyFilter = function () {
-      // Every space-separated term must appear somewhere in the entry, so
-      // "li 2019 proteomics" narrows instead of widening.
-      var terms = input.value.toLowerCase().split(/\s+/).filter(Boolean);
-      var shown = 0;
-      entries.forEach(function (e) {
-        var ok = terms.every(function (t) { return e.hay.indexOf(t) !== -1; });
-        e.el.hidden = !ok;
-        if (ok) shown++;
-      });
-      yearGroups.forEach(function (g) {
-        g.header.hidden = !g.items.some(function (it) { return !it.hidden; });
-      });
-      count.textContent = shown === PUBS.length
-        ? PUBS.length + ' shown'
-        : shown + ' of ' + PUBS.length;
-      none.hidden = shown !== 0;
-    };
-
-    // Debounced: filtering 657 entries on every keystroke is visible jank.
-    var timer = null;
-    input.addEventListener('input', function () {
-      clearTimeout(timer);
-      timer = setTimeout(applyFilter, 90);
+    var topicCounts = {};
+    meta.forEach(function (m) { if (m.topic) topicCounts[m.topic] = (topicCounts[m.topic] || 0) + 1; });
+    var topics = Object.keys(topicCounts).sort(function (a, b) {
+      return topicCounts[b] - topicCounts[a] || a.localeCompare(b);
     });
+    if (topics.length > 1) {
+      topicSel.hidden = false;
+      topicSel.innerHTML = '<option value="all">All topics (' + PUBS.length + ')</option>' +
+        topics.map(function (t) {
+          return '<option value="' + esc(t) + '">' + esc(t) + ' (' + topicCounts[t] + ')</option>';
+        }).join('');
+    }
+
+    var deb = null;
+    qInput.addEventListener('input', function () { clearTimeout(deb); deb = setTimeout(render, 90); });
+    topicSel.addEventListener('change', render);
+    sortSel.addEventListener('change', render);
   }
+
+  render();   // also renders the small-list case where controls stay hidden
 
   // ---- Footer ----------------------------------------------------------
   var gen = new Date(S.generated_utc);
