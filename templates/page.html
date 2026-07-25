@@ -865,13 +865,18 @@ __THEME_STYLE__
   }
 
   // Build the searchable/filterable model once. Topic uses OpenAlex subfield - broad
-  // enough to group meaningfully, narrow enough to discriminate.
+  // enough to group meaningfully, narrow enough to discriminate. A config topic_labels
+  // map corrects OpenAlex's display names (it files mass spectrometry under "Spectroscopy").
+  var topicMap = S.topic_labels || {};
   var meta = PUBS.map(function (p) {
+    var raw = p.subfield || null;
+    var label = (raw && topicMap[raw]) ? topicMap[raw] : raw;
     return {
       p: p,
-      topic: p.subfield || null,
+      topic: label,
+      // Search matches the raw label, the renamed label, and the specific topic.
       hay: (p.title + ' ' + p.authors.join(' ') + ' ' + p.venue + ' ' + p.year + ' ' +
-            (p.subfield || '') + ' ' + (p.topic || '')).toLowerCase()
+            (raw || '') + ' ' + (label || '') + ' ' + (p.topic || '')).toLowerCase()
     };
   });
 

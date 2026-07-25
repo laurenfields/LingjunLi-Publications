@@ -13330,7 +13330,7 @@
         "position":  "middle",
         "is_co_first":  false,
         "leads":  false,
-        "citations":  60,
+        "citations":  61,
         "by_year":  [
                         {
                             "year":  2014,
@@ -13374,7 +13374,7 @@
                         },
                         {
                             "year":  2026,
-                            "count":  3
+                            "count":  4
                         }
                     ],
         "is_preprint":  false,

@@ -1,5 +1,5 @@
 {
-    "generated_utc":  "2026-07-24T18:37:19Z",
+    "generated_utc":  "2026-07-25T17:33:47Z",
     "center":  "Lingjun Li",
     "advisor":  null,
     "node_count":  116,
@@ -1285,7 +1285,7 @@
                       "id":  "Shan Jiang",
                       "name":  "Shan Jiang",
                       "papers":  5,
-                      "citations":  211,
+                      "citations":  212,
                       "first_year":  2013,
                       "last_year":  2017,
                       "cluster":  "Christopher B. Lietz",

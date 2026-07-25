@@ -301,6 +301,10 @@ $summary = [pscustomobject]@{
     # for cases where co-authorship communities don't map cleanly onto labels (e.g. external
     # collaborating labs get lumped with trainees). Defaults to true.
     network_clusters = -not ($cfg.PSObject.Properties.Name -contains 'network_clusters' -and $cfg.network_clusters -eq $false)
+    # Display renames for OpenAlex subfield labels, applied to the topic filter. OpenAlex
+    # files mass spectrometry under a subfield it calls "Spectroscopy", which misleads on a
+    # mass-spec lab's page. The raw data is kept faithful; only the display is corrected.
+    topic_labels     = if ($cfg.PSObject.Properties.Name -contains 'topic_labels') { $cfg.topic_labels } else { $null }
     citation_growth  = @($growth)
     papers_by_year   = @($byYear)
 }

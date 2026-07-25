@@ -41,6 +41,11 @@
   "_comment_network_clusters": "False: show the collaborator network as a single hue with no research-area grouping. Co-authorship communities lump her external collaborating labs (e.g. Eve Marder, Andrew Christie on crustacean-neuropeptide papers) together with her own trainees, so labelling the groups as 'labs' misrepresents them. Per-paper topics live in the publication-list filter instead, where OpenAlex classifies each work authoritatively.",
   "network_clusters": false,
 
+  "_comment_topic_labels": "OpenAlex files mass spectrometry under a subfield it labels 'Spectroscopy' (174 of her papers, almost all Mass Spectrometry Techniques or MS-based proteomics). Renamed for the topic filter so it isn't mistaken for optical spectroscopy. Display-only; the raw OpenAlex value is unchanged in the data.",
+  "topic_labels": {
+    "Spectroscopy": "Mass Spectrometry"
+  },
+
   "_comment_kpi": "She is a PI, so she is senior (last) author on her lab's papers rather than first author. Showing a first-author count would badly understate her. Set to 'first' for an early-career researcher.",
   "kpi_authorship": "last",
 
