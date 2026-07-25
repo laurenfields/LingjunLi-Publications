@@ -78,6 +78,7 @@
   /* ---- Header ---- */
   header { margin-bottom: 0; }
   h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.15; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .prole { color: var(--text-secondary); margin: 0 0 4px; font-size: 15.5px; }
   .affil { color: var(--text-secondary); margin: 0 0 4px; font-size: 17px; }
   .tagline { color: var(--muted); margin: 0 0 14px; font-size: 15px; }
   .orcid { font-size: 14px; color: var(--text-secondary); text-decoration: none;
@@ -202,6 +203,7 @@ __THEME_STYLE__
   <div class="pagehead-inner">
     <header>
       <h1 id="name"></h1>
+      <p class="prole" id="prole" hidden></p>
       <p class="affil" id="affil"></p>
       <p class="tagline" id="tagline"></p>
       <a class="orcid" id="orcidLink" href="#" target="_blank" rel="noopener">
@@ -315,6 +317,11 @@ __THEME_STYLE__
   document.getElementById('name').textContent = S.name;
   document.getElementById('affil').textContent = S.affiliation;
   document.getElementById('tagline').textContent = S.tagline;
+  if (S.role) {
+    var prole = document.getElementById('prole');
+    prole.textContent = S.role;
+    prole.hidden = false;
+  }
   document.getElementById('orcidText').textContent = 'ORCID ' + S.orcid;
   document.getElementById('orcidLink').href = 'https://orcid.org/' + S.orcid;
   document.title = S.name + ' — Publications';
@@ -727,14 +734,20 @@ __THEME_STYLE__
         linkEls[i].classList.toggle('faded', !on);
       });
     }
+    // First person for a personal page ("papers with you"); neutral for a page meant to
+    // be embedded on the subject's own site ("shared papers").
+    var personal = S.personal !== false;
     nodes.forEach(function (n) {
       n.el.addEventListener('mouseenter', function () { highlight(n); });
       n.el.addEventListener('mousemove', function (e) {
         var shared = Object.keys(nbrs[n.id]).length;
+        var sfx = n.papers === 1 ? '' : 's';
+        var papersLine = personal
+          ? '<b>' + n.papers + '</b> paper' + sfx + ' with you'
+          : '<b>' + n.papers + '</b> shared paper' + sfx;
         showTip(e,
           '<b>' + n.name + '</b>' + (n.advisor ? ' · advisor' : '') + '<br>' +
-          '<b>' + n.papers + '</b> paper' + (n.papers === 1 ? '' : 's') + ' with you · ' +
-          '<b>' + n.citations + '</b> citations<br>' +
+          papersLine + ' · <b>' + n.citations + '</b> citations<br>' +
           n.first_year + (n.last_year !== n.first_year ? '–' + n.last_year : '') +
           ' · connects to <b>' + shared + '</b> others');
       });

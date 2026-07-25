@@ -3,12 +3,14 @@
     "orcid":  "0000-0003-0056-3869",
     "affiliation":  "University of Wisconsin–Madison",
     "tagline":  "Mass spectrometry, neuropeptides, and analytical chemistry",
-    "generated_utc":  "2026-07-25T17:33:46Z",
+    "role":  "Vilas Distinguished Achievement Professor of Pharmaceutical Sciences and Chemistry",
+    "personal":  false,
+    "generated_utc":  "2026-07-25T17:40:24Z",
     "current_year":  2026,
     "total_papers":  474,
-    "total_citations":  17251,
+    "total_citations":  17260,
     "h_index":  67,
-    "i10_index":  342,
+    "i10_index":  343,
     "first_author":  12,
     "co_first_author":  0,
     "last_author":  331,
@@ -120,8 +122,8 @@
                             },
                             {
                                 "year":  2026,
-                                "received":  1010,
-                                "cumulative":  14843
+                                "received":  1019,
+                                "cumulative":  14852
                             }
                         ],
     "papers_by_year":  [
@@ -193,7 +195,7 @@
                            {
                                "year":  2009,
                                "papers":  18,
-                               "citations":  960
+                               "citations":  961
                            },
                            {
                                "year":  2010,
@@ -233,12 +235,12 @@
                            {
                                "year":  2017,
                                "papers":  23,
-                               "citations":  2491
+                               "citations":  2492
                            },
                            {
                                "year":  2018,
                                "papers":  26,
-                               "citations":  1172
+                               "citations":  1173
                            },
                            {
                                "year":  2019,
@@ -248,12 +250,12 @@
                            {
                                "year":  2020,
                                "papers":  29,
-                               "citations":  627
+                               "citations":  628
                            },
                            {
                                "year":  2021,
                                "papers":  38,
-                               "citations":  897
+                               "citations":  898
                            },
                            {
                                "year":  2022,
@@ -268,12 +270,12 @@
                            {
                                "year":  2024,
                                "papers":  32,
-                               "citations":  687
+                               "citations":  688
                            },
                            {
                                "year":  2025,
                                "papers":  33,
-                               "citations":  161
+                               "citations":  164
                            },
                            {
                                "year":  2026,

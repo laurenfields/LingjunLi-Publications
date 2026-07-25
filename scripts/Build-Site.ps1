@@ -94,6 +94,7 @@ function New-ThemeStyle($t) {
         [void]$css.AppendLine('.pagehead{ background: var(--brand-deep); }')
         [void]$css.AppendLine('.pagehead-inner{ padding: 62px 24px 54px; }')
         [void]$css.AppendLine('.pagehead h1{ color:#ffffff; }')
+        [void]$css.AppendLine('.pagehead .prole{ color:#e9e7f1; }')
         [void]$css.AppendLine('.pagehead .affil{ color:#e9e7f1; }')
         [void]$css.AppendLine('.pagehead .tagline{ color:#bcb7cd; }')
         [void]$css.AppendLine('.pagehead .orcid{ color:#d8d4e6; }')

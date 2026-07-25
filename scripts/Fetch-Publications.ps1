@@ -272,6 +272,11 @@ $summary = [pscustomobject]@{
     orcid            = $cfg.orcid
     affiliation      = $cfg.affiliation
     tagline          = $cfg.tagline
+    # Optional academic title/rank shown under the name (e.g. from a CV). Hidden if absent.
+    role             = if ($cfg.PSObject.Properties.Name -contains 'role') { $cfg.role } else { $null }
+    # False for a page meant to be embedded on someone else's site: the network tooltip
+    # then reads "N shared papers" rather than the first-person "N papers with you".
+    personal         = -not ($cfg.PSObject.Properties.Name -contains 'personal' -and $cfg.personal -eq $false)
     generated_utc    = (Get-Date).ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ')
     current_year     = (Get-Date).Year
     total_papers     = $pubs.Count
