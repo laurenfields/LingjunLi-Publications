@@ -33668,7 +33668,7 @@ h1, h2.section, .card h2 { font-family: Georgia, 'Times New Roman', 'Book Antiqu
   // broader figures; publications and authorship stay the OpenAlex page content.
   var scholarHeadline = !!(S.scholar && S.scholar.headline && S.scholar.citations);
   var kpis = [
-    { v: scholarHeadline ? '~' + Number(S.scholar.citations).toLocaleString() : S.total_citations,
+    { v: scholarHeadline ? Number(S.scholar.citations).toLocaleString() : S.total_citations,
       l: 'Citations', hero: true },
     { v: S.total_papers, l: 'Publications' },
     { v: (scholarHeadline && S.scholar.h_index) ? S.scholar.h_index : S.h_index, l: 'h-index' },
