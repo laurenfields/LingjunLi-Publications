@@ -10,6 +10,14 @@
   "_comment_personal": "False because this page is intended to be embedded on her own lab site. The network tooltip then reads 'N shared papers' instead of the first-person 'N papers with you'.",
   "personal": false,
 
+  "_comment_scholar": "Google Scholar figures, shown as a reference line under the KPIs. Scholar has no API and indexes more sources (preprints, books, proceedings), so it reports ~45% more citations than OpenAlex. Manually maintained - update when convenient (e.g. when her CV is refreshed). Remove this block to hide the line.",
+  "scholar": {
+    "url": "https://scholar.google.com/citations?user=H4Ec5VYAAAAJ",
+    "citations": 25000,
+    "h_index": 79,
+    "as_of": "July 2026"
+  },
+
   "_comment_curated": "The publication list was cross-referenced against her own CV (LLi_CV.pdf) by Crossref-CV.ps1, and the six works that could not be resolved automatically were decided by hand - see review-decisions.json. Lingjun Li has not personally reviewed the result, which the footer note says plainly.",
   "curated": true,
   "curation_note": "This list was assembled automatically and cross-referenced against Lingjun Li's CV. OpenAlex merges several researchers named Lingjun Li under this ORCID, so 140 works returned for it were attributed to someone else and excluded; each exclusion is recorded with its reason. Six ambiguous cases were resolved by hand. Prof. Li has not personally reviewed this page, and shared first authorships are not shown because no bibliographic database records them.",

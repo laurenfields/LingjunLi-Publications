@@ -4,11 +4,17 @@
     "affiliation":  "University of Wisconsin–Madison",
     "tagline":  "Mass spectrometry, neuropeptides, and analytical chemistry",
     "role":  "Vilas Distinguished Achievement Professor of Pharmaceutical Sciences and Chemistry",
+    "scholar":  {
+                    "url":  "https://scholar.google.com/citations?user=H4Ec5VYAAAAJ",
+                    "citations":  25000,
+                    "h_index":  79,
+                    "as_of":  "July 2026"
+                },
     "personal":  false,
-    "generated_utc":  "2026-07-25T17:40:24Z",
+    "generated_utc":  "2026-07-28T14:53:14Z",
     "current_year":  2026,
     "total_papers":  474,
-    "total_citations":  17260,
+    "total_citations":  17262,
     "h_index":  67,
     "i10_index":  343,
     "first_author":  12,
@@ -117,13 +123,13 @@
                             },
                             {
                                 "year":  2025,
-                                "received":  1914,
-                                "cumulative":  13833
+                                "received":  1913,
+                                "cumulative":  13832
                             },
                             {
                                 "year":  2026,
-                                "received":  1019,
-                                "cumulative":  14852
+                                "received":  1022,
+                                "cumulative":  14854
                             }
                         ],
     "papers_by_year":  [
@@ -235,7 +241,7 @@
                            {
                                "year":  2017,
                                "papers":  23,
-                               "citations":  2492
+                               "citations":  2493
                            },
                            {
                                "year":  2018,
@@ -265,7 +271,7 @@
                            {
                                "year":  2023,
                                "papers":  31,
-                               "citations":  643
+                               "citations":  644
                            },
                            {
                                "year":  2024,

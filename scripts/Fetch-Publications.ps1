@@ -274,6 +274,9 @@ $summary = [pscustomobject]@{
     tagline          = $cfg.tagline
     # Optional academic title/rank shown under the name (e.g. from a CV). Hidden if absent.
     role             = if ($cfg.PSObject.Properties.Name -contains 'role') { $cfg.role } else { $null }
+    # Optional Google Scholar figures, shown as a reference line under the KPIs. Manually
+    # maintained - Scholar has no API. Hidden if absent.
+    scholar          = if ($cfg.PSObject.Properties.Name -contains 'scholar') { $cfg.scholar } else { $null }
     # False for a page meant to be embedded on someone else's site: the network tooltip
     # then reads "N shared papers" rather than the first-person "N papers with you".
     personal         = -not ($cfg.PSObject.Properties.Name -contains 'personal' -and $cfg.personal -eq $false)
