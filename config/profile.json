@@ -13,7 +13,7 @@
   "_comment_scholar": "Google Scholar figures, shown as a reference line under the KPIs. Scholar has no API and indexes more sources (preprints, books, proceedings), so it reports ~45% more citations than OpenAlex. Manually maintained - update when convenient (e.g. when her CV is refreshed). Remove this block to hide the line.",
   "scholar": {
     "url": "https://scholar.google.com/citations?user=H4Ec5VYAAAAJ",
-    "citations": 25000,
+    "citations": 25182,
     "h_index": 79,
     "as_of": "July 2026"
   },
