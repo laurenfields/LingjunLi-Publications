@@ -6,15 +6,16 @@
     "role":  "Vilas Distinguished Achievement Professor of Pharmaceutical Sciences and Chemistry",
     "scholar":  {
                     "url":  "https://scholar.google.com/citations?user=H4Ec5VYAAAAJ",
-                    "citations":  25000,
+                    "citations":  25182,
                     "h_index":  79,
-                    "as_of":  "July 2026"
+                    "as_of":  "July 2026",
+                    "headline":  true
                 },
     "personal":  false,
-    "generated_utc":  "2026-07-28T14:53:14Z",
+    "generated_utc":  "2026-07-28T15:33:21Z",
     "current_year":  2026,
     "total_papers":  474,
-    "total_citations":  17262,
+    "total_citations":  17266,
     "h_index":  67,
     "i10_index":  343,
     "first_author":  12,
@@ -128,8 +129,8 @@
                             },
                             {
                                 "year":  2026,
-                                "received":  1022,
-                                "cumulative":  14854
+                                "received":  1026,
+                                "cumulative":  14858
                             }
                         ],
     "papers_by_year":  [
@@ -251,7 +252,7 @@
                            {
                                "year":  2019,
                                "papers":  34,
-                               "citations":  1151
+                               "citations":  1153
                            },
                            {
                                "year":  2020,
@@ -276,7 +277,7 @@
                            {
                                "year":  2024,
                                "papers":  32,
-                               "citations":  688
+                               "citations":  690
                            },
                            {
                                "year":  2025,

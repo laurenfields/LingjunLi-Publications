@@ -15,7 +15,8 @@
     "url": "https://scholar.google.com/citations?user=H4Ec5VYAAAAJ",
     "citations": 25182,
     "h_index": 79,
-    "as_of": "July 2026"
+    "as_of": "July 2026",
+    "headline": true
   },
 
   "_comment_curated": "The publication list was cross-referenced against her own CV (LLi_CV.pdf) by Crossref-CV.ps1, and the six works that could not be resolved automatically were decided by hand - see review-decisions.json. Lingjun Li has not personally reviewed the result, which the footer note says plainly.",

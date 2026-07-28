@@ -337,10 +337,14 @@ __THEME_STYLE__
   var authorKpi = (S.kpi_authorship === 'last')
     ? { v: S.last_author, l: 'Senior author' }
     : { v: S.first_author, l: 'First-author' };
+  // When a Scholar block asks to headline, the citation and h-index tiles show its
+  // broader figures; publications and authorship stay the OpenAlex page content.
+  var scholarHeadline = !!(S.scholar && S.scholar.headline && S.scholar.citations);
   var kpis = [
-    { v: S.total_citations, l: 'Citations', hero: true },
-    { v: S.total_papers,    l: 'Publications' },
-    { v: S.h_index,         l: 'h-index' },
+    { v: scholarHeadline ? '~' + Number(S.scholar.citations).toLocaleString() : S.total_citations,
+      l: 'Citations', hero: true },
+    { v: S.total_papers, l: 'Publications' },
+    { v: (scholarHeadline && S.scholar.h_index) ? S.scholar.h_index : S.h_index, l: 'h-index' },
     authorKpi
   ];
   var kroot = document.getElementById('kpis');
@@ -353,17 +357,26 @@ __THEME_STYLE__
     kroot.appendChild(d);
   });
 
-  // Google Scholar reference line - the KPIs above are OpenAlex, which counts fewer
-  // sources; this gives the fuller, manually-maintained Scholar figure with attribution.
+  // Google Scholar note. In headline mode it explains that the top figures are Scholar's
+  // while the page content is OpenAlex (peer-reviewed + preprints); otherwise it is a
+  // reference line giving the fuller Scholar figure alongside the OpenAlex headline.
   if (S.scholar && S.scholar.citations) {
     var sc = S.scholar;
+    var scholarLink = '<a href="' + esc(sc.url) + '" target="_blank" rel="noopener">Google Scholar</a>';
+    var asOf = sc.as_of ? ' (as of ' + esc(sc.as_of) + ')' : '';
     var sn = document.getElementById('scholarNote');
-    sn.innerHTML =
-      'On <a href="' + esc(sc.url) + '" target="_blank" rel="noopener">Google Scholar</a>, ' +
-      'which indexes more sources (preprints, books, proceedings), ' +
-      '<b>~' + Number(sc.citations).toLocaleString() + '</b> citations' +
-      (sc.h_index ? ' and an h-index of <b>' + sc.h_index + '</b>' : '') +
-      (sc.as_of ? ' (as of ' + esc(sc.as_of) + ')' : '') + '.';
+    if (scholarHeadline) {
+      sn.innerHTML =
+        'The citation count and h-index above are from ' + scholarLink + asOf + '. ' +
+        'The publications listed here — and the charts and network — cover peer-reviewed ' +
+        'articles and preprints only: <b>' + S.total_papers + '</b> works with <b>' +
+        Number(S.total_citations).toLocaleString() + '</b> of those citations, indexed by OpenAlex.';
+    } else {
+      sn.innerHTML =
+        'On ' + scholarLink + ', which indexes more sources (preprints, books, proceedings), ' +
+        '<b>~' + Number(sc.citations).toLocaleString() + '</b> citations' +
+        (sc.h_index ? ' and an h-index of <b>' + sc.h_index + '</b>' : '') + asOf + '.';
+    }
     sn.hidden = false;
     kroot.style.marginBottom = '14px';   // tuck the note under the cards
   }

@@ -1769,6 +1769,59 @@
         "openalex_id":  "https://openalex.org/W4412397898"
     },
     {
+        "title":  "Lysine l-lactylation is the dominant lactylation isomer induced by glycolysis",
+        "year":  2024,
+        "date":  "2024-07-19",
+        "venue":  "Nature Chemical Biology",
+        "doi":  "https://doi.org/10.1038/s41589-024-01680-8",
+        "url":  "https://doi.org/10.1038/s41589-024-01680-8",
+        "authors":  [
+                        "Di Zhang",
+                        "Jinjun Gao",
+                        "Zhijun Zhu",
+                        "Qian‐Ying Mao",
+                        "Zhiqiang Xu",
+                        "Pankaj Kumar Singh",
+                        "Cornelius Rimayi",
+                        "Carlos Moreno–Yruela",
+                        "Shuling Xu",
+                        "Gongyu Li",
+                        "Yi-Cheng Sin",
+                        "Yue Chen",
+                        "Christian A. Olsen",
+                        "Nathaniel W. Snyder",
+                        "Lunzhi Dai",
+                        "Lingjun Li",
+                        "Yingming Zhao"
+                    ],
+        "author_count":  17,
+        "position":  "middle",
+        "is_co_first":  false,
+        "leads":  false,
+        "citations":  150,
+        "by_year":  [
+                        {
+                            "year":  2024,
+                            "count":  7
+                        },
+                        {
+                            "year":  2025,
+                            "count":  76
+                        },
+                        {
+                            "year":  2026,
+                            "count":  67
+                        }
+                    ],
+        "is_preprint":  false,
+        "open_access":  true,
+        "type":  "article",
+        "topic":  "Metabolism, Diabetes, and Cancer",
+        "subfield":  "Molecular Biology",
+        "field":  "Biochemistry, Genetics and Molecular Biology",
+        "openalex_id":  "https://openalex.org/W4400831198"
+    },
+    {
         "title":  "Mass spectrometry imaging for spatially resolved multi-omics molecular mapping",
         "year":  2024,
         "date":  "2024-07-17",
@@ -1809,59 +1862,6 @@
         "subfield":  "Spectroscopy",
         "field":  "Chemistry",
         "openalex_id":  "https://openalex.org/W4400733483"
-    },
-    {
-        "title":  "Lysine l-lactylation is the dominant lactylation isomer induced by glycolysis",
-        "year":  2024,
-        "date":  "2024-07-19",
-        "venue":  "Nature Chemical Biology",
-        "doi":  "https://doi.org/10.1038/s41589-024-01680-8",
-        "url":  "https://doi.org/10.1038/s41589-024-01680-8",
-        "authors":  [
-                        "Di Zhang",
-                        "Jinjun Gao",
-                        "Zhijun Zhu",
-                        "Qian‐Ying Mao",
-                        "Zhiqiang Xu",
-                        "Pankaj Kumar Singh",
-                        "Cornelius Rimayi",
-                        "Carlos Moreno–Yruela",
-                        "Shuling Xu",
-                        "Gongyu Li",
-                        "Yi-Cheng Sin",
-                        "Yue Chen",
-                        "Christian A. Olsen",
-                        "Nathaniel W. Snyder",
-                        "Lunzhi Dai",
-                        "Lingjun Li",
-                        "Yingming Zhao"
-                    ],
-        "author_count":  17,
-        "position":  "middle",
-        "is_co_first":  false,
-        "leads":  false,
-        "citations":  149,
-        "by_year":  [
-                        {
-                            "year":  2024,
-                            "count":  7
-                        },
-                        {
-                            "year":  2025,
-                            "count":  76
-                        },
-                        {
-                            "year":  2026,
-                            "count":  66
-                        }
-                    ],
-        "is_preprint":  false,
-        "open_access":  true,
-        "type":  "article",
-        "topic":  "Metabolism, Diabetes, and Cancer",
-        "subfield":  "Molecular Biology",
-        "field":  "Biochemistry, Genetics and Molecular Biology",
-        "openalex_id":  "https://openalex.org/W4400831198"
     },
     {
         "title":  "Development of folate receptor targeting chimeras for cancer selective degradation of extracellular proteins",
@@ -1977,7 +1977,7 @@
         "position":  "last",
         "is_co_first":  false,
         "leads":  false,
-        "citations":  49,
+        "citations":  50,
         "by_year":  [
                         {
                             "year":  2024,
@@ -1989,7 +1989,7 @@
                         },
                         {
                             "year":  2026,
-                            "count":  14
+                            "count":  15
                         }
                     ],
         "is_preprint":  false,
@@ -9236,7 +9236,7 @@
         "position":  "last",
         "is_co_first":  false,
         "leads":  false,
-        "citations":  189,
+        "citations":  191,
         "by_year":  [
                         {
                             "year":  2019,
@@ -9268,7 +9268,7 @@
                         },
                         {
                             "year":  2026,
-                            "count":  17
+                            "count":  19
                         }
                     ],
         "is_preprint":  false,
